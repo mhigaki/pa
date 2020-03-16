@@ -14,9 +14,11 @@
     <!-- ====Enable Mobile Device Zoom==== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- ====Poppins ==== -->
-    <link href="../fonts.googleapis.com/css6079.css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <!-- ====Open Sans==== -->
-    <link href='../fonts.googleapis.com/css7c8b.css?family=Open+Sans:400,600,700,600italic,400italic,700italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <!-- ====Open ==== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,400italic,700italic,300,300italic" rel="stylesheet" type='text/css'>
+    <!-- ====Roboto Sans==== -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans" rel="stylesheet">
     <!-- ====Bootstrap css==== -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- ====Icofont==== -->
@@ -51,7 +53,7 @@
   <body id="body" class="homePage">
     <!-- ====START HEADER==== -->
     <header>
-      <div class="header_top_area" data-pgc="top-bar">
+      <div data-pg-collapsed class="header_top_area" data-pgc="top-bar">
         <div class="container">
           <div class="row">
             <div class="col-md-5 col-md-offset-7">
@@ -64,7 +66,7 @@
                   <li>
                     <a href="mailto:secretaria@paconsultoria.adv.br"> <i class="icofont icofont-envelope"></i> secretaria@paconsultoria.adv.br</a>
                   </li>
-                  <li>
+                  <li class="hide">
                     <a href="#"> <i class="icofont icofont-search-alt-2"></i> </a>
                   </li>
                 </ul>
@@ -73,12 +75,12 @@
           </div>
         </div>
       </div>
-      <div class="manu_area" data-pgc="main-menu">
+      <div class="hidden-xs manu_area" data-pg-collapsed data-pgc="main-menu">
         <div class="container">
           <div class="row">
             <div class="col-sm-2">
               <div class="logo">
-                <a href="index.html"> <img src="img/123.png" alt=""/> </a>
+                <a href="index.html"> <img src="img/logo-branco.png" alt="" width="138px"/> </a>
               </div>
             </div>
             <div class="col-sm-10">
@@ -92,31 +94,10 @@
                       <a href="about.html">a empresa</a>
                     </li>
                     <li>
-                      <a href="service.html">services</a>
-                    </li>
-                    <li>
                       <a href="portfolio.html">área de atuação</a>
-                      <ul class="sub_menu">
-                        <li>
-                          <a href="single_portfolio.html">single portfolio</a>
-                        </li>
-                      </ul>
                     </li>
                     <li>
                       <a href="blog_masonry.html">Blog</a>
-                      <ul class="sub_menu">
-                        <li>
-                          <a href="single_blog.html">single blog</a>
-                        </li>
-                        <li>
-                          <a href="blog_left_sidebar.html">
-                                                    Blog Left Sidebar </a>
-                        </li>
-                        <li>
-                          <a href="blog_right_sidebar.html">
-                                                    Blog right Sidebar </a>
-                        </li>
-                      </ul>
                     </li>
                     <li>
                       <a href="contact.html">contate-nos</a>
@@ -132,29 +113,10 @@
                       <a href="about.html">a empresa</a>
                     </li>
                     <li>
-                      <a href="service.html">services</a>
-                    </li>
-                    <li>
                       <a href="portfolio.html">área de atuação</a>
-                      <ul class="sub_menu">
-                        <li>
-                          <a href="single_portfolio.html">single portfolio</a>
-                        </li>
-                      </ul>
                     </li>
                     <li>
                       <a href="blog_masonry.html">Blog</a>
-                      <ul class="sub_menu">
-                        <li>
-                          <a href="single_blog.html">single blog</a>
-                        </li>
-                        <li>
-                          <a href="blog_left_sidebar.html">Blog Left Sidebar </a>
-                        </li>
-                        <li>
-                          <a href="blog_right_sidebar.html">Blog right Sidebar </a>
-                        </li>
-                      </ul>
                     </li>
                     <li>
                       <a href="contact.html">contate-nos</a>
@@ -169,7 +131,7 @@
     </header>
     <!-- ====HEADER END==== -->
     <!-- ====START HEADER PARALUX==== -->
-    <section class="header_paralux" data-pgc="header-paralux">
+    <section class="header_paralux" data-pg-collapsed data-pgc="header-paralux">
       <div class="header_content">
         <div class="container">
           <div class="row">
@@ -194,7 +156,7 @@
     </section>
     <!-- ====HEADER PARALUX END==== -->
     <!-- ====ABOUT US==== -->
-    <section class="about_area" id="scroll_about" data-pgc="scroll-about">
+    <section class="about_area" id="scroll_about" data-pg-collapsed data-pgc="scroll-about">
       <div class="info_area">
         <div class="container">
           <div class="row">
@@ -278,7 +240,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
     </section>
     <!-- ====HEADER PARALUX END==== -->
     <!-- ====START PROMOT==== -->
-    <section class="promot_area" data-pgc="promot-area">
+    <section class="promot_area" data-pg-collapsed data-pgc="promot-area">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-8">
@@ -297,7 +259,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
     </section>
     <!-- ====PROMOT AREA END==== -->
     <!-- ====OUR SERVICE STAR==== -->
-    <section class="our_service section-padding" data-pgc="our-service">
+    <section class="our_service section-padding" data-pg-collapsed data-pgc="our-service">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -337,7 +299,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
     </section>
     <!-- ====OUR SERVICE ENDR==== -->
     <!-- ====OUR PROJECT STAR==== -->
-    <section class="our_proect section-padding" data-pgc="our-project">
+    <section class="our_proect section-padding" data-pg-collapsed data-pgc="our-project">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -401,7 +363,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
     </section>
     <!-- ====OUR PROJECT END==== -->
     <!-- ====OUR TEAM STAR==== -->
-    <section class="our_team section-padding" data-pgc="our-team">
+    <section class="our_team section-padding" data-pg-collapsed data-pgc="our-team">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -541,41 +503,41 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingOne">
                   <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                           Suscipit lobortis nisl ut aliquip <span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span> </a> </h4>
+                    Suscipit lobortis nisl ut aliquip <span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span> </a> </h4>
                 </div>
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                   <p class="panel-body">
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingTwo">
                   <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-											Suscipit lobortis nisl ut aliquip <span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span> </a> </h4>
+                    Suscipit lobortis nisl ut aliquip <span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span> </a> </h4>
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                   <p class="panel-body">
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingThree">
                   <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-											Suscipit lobortis nisl ut aliquip <span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span> </a> </h4>
+                    Suscipit lobortis nisl ut aliquip <span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span> </a> </h4>
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                   <p class="panel-body">
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingfour">
                   <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-											Suscipit lobortis nisl ut aliquip <span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span> </a> </h4>
+                    Suscipit lobortis nisl ut aliquip <span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span> </a> </h4>
                 </div>
                 <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
                   <p class="panel-body">
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
                 </div>
               </div>
             </div>
@@ -590,21 +552,21 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
                 <img src="img/client_1.jpg" alt=""/>
                 <div class="clint_text">
                   <p>Duis autem vel eum iriure dolor in hendrerit in vulputate molestie consequat, vel illum dolore eu feugiat.</p>
-                  <h6><strong>Mr. Peterson</strong>  -  CEO, Avion</h6>
+                  <h6><strong>Mr. Peterson</strong> - CEO, Avion</h6>
                 </div>
               </div>
               <div class="client_says">
                 <img src="img/client_1.jpg" alt=""/>
                 <div class="clint_text">
                   <p>Duis autem vel eum iriure dolor in hendrerit in vulputate molestie consequat, vel illum dolore eu feugiat.</p>
-                  <h6><strong>Mr. Peterson</strong>  -  CEO, Avion</h6>
+                  <h6><strong>Mr. Peterson</strong> - CEO, Avion</h6>
                 </div>
               </div>
               <div class="client_says">
                 <img src="img/client_1.jpg" alt=""/>
                 <div class="clint_text">
                   <p>Duis autem vel eum iriure dolor in hendrerit in vulputate molestie consequat, vel illum dolore eu feugiat.</p>
-                  <h6><strong>Mr. Peterson</strong>  -  CEO, Avion</h6>
+                  <h6><strong>Mr. Peterson</strong> - CEO, Avion</h6>
                 </div>
               </div>
             </div>
@@ -614,7 +576,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
     </section>
     <!-- ====OUR TEAM END==== -->
     <!-- ====OUR CALL BACK==== -->
-    <section class="call_back section-padding" data-pgc="call-back">
+    <section class="call_back section-padding" data-pg-collapsed data-pgc="call-back">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -660,7 +622,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
     </section>
     <!-- ====OUR CAll END==== -->
     <!-- ====PROMOt2 START==== -->
-    <section class="promot_area2" data-pgc="proot-area2">
+    <section class="promot_area2" data-pg-collapsed data-pgc="proot-area2">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -674,7 +636,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
     </section>
     <!-- ====PROMOt2 START==== -->
     <!-- ====BLOG AREA START==== -->
-    <section class="blog_area section-padding" data-pgc="blog-area">
+    <section class="blog_area section-padding" data-pg-collapsed data-pgc="blog-area">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -825,23 +787,23 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
               <ul class="importent_link">
                 <li>
                   <a href="#">
-                                    Business Consulting  </a>
+                  Business Consulting </a>
                 </li>
                 <li>
                   <a href="#">
-                                    Taxes Planning </a>
+                  Taxes Planning </a>
                 </li>
                 <li>
                   <a href="#">
-                                    Investment Consulting  </a>
+                  Investment Consulting </a>
                 </li>
                 <li>
                   <a href="#">
-                                    Insurance consulting  </a>
+                  Insurance consulting </a>
                 </li>
                 <li>
                   <a href="#">
-                                    Retirement Planing </a>
+                  Retirement Planing </a>
                 </li>
               </ul>
             </div>
@@ -869,12 +831,12 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
                 <li>
                   <i class="icofont icofont-phone"></i>
                   <a href="#">
-                                    Taxes Planning </a>
+                  Taxes Planning </a>
                 </li>
                 <li>
                   <i class="icofont icofont-ui-message"></i>
                   <a href="#">
-                                    Investment Consulting  </a>
+                  Investment Consulting </a>
                 </li>
                 <li>
                   <i class="icofont icofont-clock-time"></i> Mon - Sat | 9am - 8pm
@@ -904,7 +866,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
     <!-- ====jQuery Latest version==== -->
     <script src="js/vendor/jquery-1.12.0.min.js"></script>
     <!-- ====Google Maps API==== -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <!-- ====Bootstrap JS==== -->
     <script src="js/bootstrap.min.js"></script>
     <!-- ====jQuery Counterup==== -->

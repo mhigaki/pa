@@ -49,7 +49,7 @@
   <body id="body" class="homePage">
     <!-- ====START HEADER==== -->
     <header data-pgc-section="Header">
-      <div class="header_top_area" data-pgc-define="top-bar" data-pgc-define-name="Top Bar">
+      <div data-pgc-define="top-bar" data-pgc-define-name="Top Bar" data-pg-collapsed class="header_top_area">
         <div class="container">
           <div class="row">
             <div class="col-md-5 col-md-offset-7">
@@ -62,7 +62,7 @@
                   <li>
                     <a href="mailto:secretaria@paconsultoria.adv.br"> <i class="icofont icofont-envelope"></i> secretaria@paconsultoria.adv.br</a>
                   </li>
-                  <li>
+                  <li class="hide">
                     <a href="#"> <i class="icofont icofont-search-alt-2"></i> </a>
                   </li>
                 </ul>
@@ -71,12 +71,12 @@
           </div>
         </div>
       </div>
-      <div class="manu_area" data-pgc-define="main-menu" data-pgc-define-name="Main Menu">
+      <div class="hidden-xs manu_area" data-pgc-define="main-menu" data-pgc-define-name="Main Menu">
         <div class="container">
           <div class="row">
             <div class="col-sm-2">
               <div class="logo">
-                <a href="index.html"> <img src="img/123.png" alt=""/> </a>
+                <a href="index.html"> <img src="img/logo-branco.png" alt="" width="138px"/> </a>
               </div>
             </div>
             <div class="col-sm-10">
@@ -90,31 +90,10 @@
                       <a href="about.html">a empresa</a>
                     </li>
                     <li>
-                      <a href="service.html">services</a>
-                    </li>
-                    <li>
                       <a href="portfolio.html">área de atuação</a>
-                      <ul class="sub_menu">
-                        <li>
-                          <a href="single_portfolio.html">single portfolio</a>
-                        </li>
-                      </ul>
                     </li>
                     <li>
                       <a href="blog_masonry.html">Blog</a>
-                      <ul class="sub_menu">
-                        <li>
-                          <a href="single_blog.html">single blog</a>
-                        </li>
-                        <li>
-                          <a href="blog_left_sidebar.html">
-                                                    Blog Left Sidebar </a>
-                        </li>
-                        <li>
-                          <a href="blog_right_sidebar.html">
-                                                    Blog right Sidebar </a>
-                        </li>
-                      </ul>
                     </li>
                     <li>
                       <a href="contact.html">contate-nos</a>
@@ -130,29 +109,10 @@
                       <a href="about.html">a empresa</a>
                     </li>
                     <li>
-                      <a href="service.html">services</a>
-                    </li>
-                    <li>
                       <a href="portfolio.html">área de atuação</a>
-                      <ul class="sub_menu">
-                        <li>
-                          <a href="single_portfolio.html">single portfolio</a>
-                        </li>
-                      </ul>
                     </li>
                     <li>
                       <a href="blog_masonry.html">Blog</a>
-                      <ul class="sub_menu">
-                        <li>
-                          <a href="single_blog.html">single blog</a>
-                        </li>
-                        <li>
-                          <a href="blog_left_sidebar.html">Blog Left Sidebar </a>
-                        </li>
-                        <li>
-                          <a href="blog_right_sidebar.html">Blog right Sidebar </a>
-                        </li>
-                      </ul>
                     </li>
                     <li>
                       <a href="contact.html">contate-nos</a>
@@ -165,7 +125,7 @@
         </div>
       </div>
     </header>
-    <section class="header_paralux" data-pgc-define="header-paralux" data-pgc-define-name="Header Paralux">
+    <section class="header_paralux" data-pgc-define="header-paralux" data-pgc-define-name="Header Paralux" data-pg-collapsed>
       <div class="header_content">
         <div class="container">
           <div class="row">
@@ -188,7 +148,7 @@
         </div>
       </div>
     </section>
-    <section class="about_area" id="scroll_about" data-pgc-define="scroll-about" data-pgc-define-name="About">
+    <section class="about_area" id="scroll_about" data-pgc-define="scroll-about" data-pgc-define-name="About" data-pg-collapsed>
       <div class="info_area">
         <div class="container">
           <div class="row">
@@ -270,7 +230,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
         </div>
       </div>
     </section>
-    <section class="promot_area" data-pgc-define="promot-area" data-pgc-define-name="Promotion Area">
+    <section class="promot_area" data-pgc-define="promot-area" data-pgc-define-name="Promotion Area" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-8">
@@ -287,7 +247,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
         </div>
       </div>
     </section>
-    <section class="our_service section-padding" data-pgc-define="our-service" data-pgc-define-name="Our Service">
+    <section class="our_service section-padding" data-pgc-define="our-service" data-pgc-define-name="Our Service" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -325,7 +285,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
         </div>
       </div>
     </section>
-    <section class="our_proect section-padding" data-pgc-define="our-project" data-pgc-define-name="Our Project">
+    <section class="our_proect section-padding" data-pgc-define="our-project" data-pgc-define-name="Our Project" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -387,7 +347,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
         </div>
       </div>
     </section>
-    <section class="our_team section-padding" data-pgc-define="our-team" data-pgc-define-name="Our Team">
+    <section class="our_team section-padding" data-pgc-define="our-team" data-pgc-define-name="Our Team" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -513,7 +473,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
         </div>
       </div>
     </section>
-    <section class="our_client section-padding" data-pgc-define="our-client" data-pgc-define-name="Our Client">
+    <section class="our_client section-padding" data-pgc-define="our-client" data-pgc-define-name="Our Client" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
@@ -596,7 +556,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
         </div>
       </div>
     </section>
-    <section class="call_back section-padding" data-pgc-define="call-back" data-pgc-define-name="Call Back">
+    <section class="call_back section-padding" data-pgc-define="call-back" data-pgc-define-name="Call Back" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -640,7 +600,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
         </div>
       </div>
     </section>
-    <section class="promot_area2" data-pgc-define="proot-area2" data-pgc-define-name="Promotion Area 2">
+    <section class="promot_area2" data-pgc-define="proot-area2" data-pgc-define-name="Promotion Area 2" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -652,7 +612,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
         </div>
       </div>
     </section>
-    <section class="blog_area section-padding" data-pgc-define="blog-area" data-pgc-define-name="Blog Area">
+    <section class="blog_area section-padding" data-pgc-define="blog-area" data-pgc-define-name="Blog Area" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -708,7 +668,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
         </div>
       </div>
     </section>
-    <div class="partner_area" data-pgc-define="partner-area" data-pgc-define-name="Partner">
+    <div class="partner_area" data-pgc-define="partner-area" data-pgc-define-name="Partner" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -753,7 +713,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
         </div>
       </div>
     </div>
-    <section id="footermap" class="map_area" data-pgc-define="map-area" data-pgc-define-name="Map">
+    <section id="footermap" class="map_area" data-pgc-define="map-area" data-pgc-define-name="Map" data-pg-collapsed>
       <div class="container-fluid">
         <div class="row">
           <div id="map"></div>
@@ -786,7 +746,7 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
     <!-- ====MAP AREA START==== -->
     <!-- ====MAP AREA END==== -->
     <!-- ====Footer AREA START==== -->
-    <footer class="footer_area" data-pgc-section="Footer">
+    <footer class="footer_area" data-pgc-section="Footer" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -900,34 +860,34 @@ Para nós o sucesso de nossos clientes é o nosso sucesso! Nossa Consultoria é 
       </div>
     </footer>
     <!-- ====jQuery Latest version==== -->
-    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.0.min.js" data-pg-collapsed></script>
     <!-- ====Google Maps API==== -->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js" data-pg-collapsed></script>
     <!-- ====Bootstrap JS==== -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js" data-pg-collapsed></script>
     <!-- ====jQuery Counterup==== -->
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js" data-pg-collapsed></script>
+    <script src="js/jquery.counterup.min.js" data-pg-collapsed></script>
     <!-- ====jQuery Meanmenu==== -->
-    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js" data-pg-collapsed></script>
     <!-- ====jQuery easing==== -->
-    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script src="js/jquery.easing.1.3.min.js" data-pg-collapsed></script>
     <!-- ====jQuery owl carousel==== -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.carousel.min.js" data-pg-collapsed></script>
     <!-- ====jQuery parallax==== -->
-    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js" data-pg-collapsed></script>
     <!-- ====jQuery Masonry==== -->
-    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js" data-pg-collapsed></script>
     <!-- ====jQuery Camera==== -->
-    <script src="js/camera.min.js"></script>
+    <script src="js/camera.min.js" data-pg-collapsed></script>
     <!-- ====jQuery VenoBox==== -->
-    <script src="js/venobox.min.js"></script>
+    <script src="js/venobox.min.js" data-pg-collapsed></script>
     <!--Opacity & Other IE fix for older browser-->
     <!--[if lte IE 8]>
             <script type="text/javascript" src="js/ie-opacity-polyfill.js"></script>
         <![endif]-->
     <!-- ====jQuery main script==== -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js" data-pg-collapsed></script>
   </body>
   <!-- Mirrored from consult.themeebit.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Dec 2019 19:02:43 GMT -->
 </html>

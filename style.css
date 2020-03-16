@@ -300,7 +300,7 @@ ul.top_contact > li:first-child a i {
 2.3 Menu Css
 ----------------------------------------------------------- */
 .logo {
-    margin: 27px 0;
+    margin: 4px 0;
 }
 
 .mainnmenu {
@@ -3182,7 +3182,7 @@ blockquote p {
     }
 
     .logo {
-        margin: 27px 0;
+        margin: 13px 0;
     }
 
     .home_2 .logo {
@@ -3422,7 +3422,7 @@ blockquote p {
 
     .mean-container .mean-bar::after {
         color: #fff;
-        content: "Menu";
+        content: "PA Consultoria";
         left: 20px;
         position: absolute;
         top: 15px;
