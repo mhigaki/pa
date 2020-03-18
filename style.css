@@ -1022,7 +1022,7 @@ figure.team_member > figcaption {
 }
 
 figure.team_member::after {
-    border-top: 3px solid #2272AC;
+    /* border-top: 3px solid #2272AC */
     content: "";
     height: 3px;
     left: 0;
@@ -1033,9 +1033,9 @@ figure.team_member::after {
 }
 
 figure.team_member::before {
-    border-bottom: 3px solid #2272AC;
-    border-left: 3px solid #2272AC;
-    border-right: 3px solid #2272AC;
+    /* border-bottom: 3px solid #2272AC */
+    /* border-left: 3px solid #2272AC */
+    /* border-right: 3px solid #2272AC */
     content: "";
     height: 96%;
     left: 0;
