@@ -1,7 +1,7 @@
 <?php
 
 $mail_host = "milton.higaki@gmail.com";
-$mail_title = "[ARKA Filmes] Contato pelo site";
+$mail_title = "[PA Consultoria] Contato pelo site";
 
 define("MAIL_HOST", $mail_host);
 define("MAIL_TITLE", $mail_title);

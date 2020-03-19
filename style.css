@@ -4,7 +4,6 @@
 /* ---------------------------------------------------------
 1. Base css
 ------------------------------------------------------------ */
-
 .whychoose > .container > .row,
 .our_team > .container > .row {
     margin: 0;
@@ -2854,7 +2853,7 @@ blockquote p {
 }
 
 .btn.t_button {
-    background: #ffcd3d;
+    background: #2272AC;
     color: #fff;
     height: 57px;
     text-align: center;
