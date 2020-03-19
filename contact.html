@@ -244,25 +244,34 @@
         <div class="row">
           <div class="col-sm-offset-2 col-sm-8">
             <div class="leave_comment">
-              <form action="php/form-process.php" id="contactForm" method="post">
+              <form id="contactForm" class="contact-form">
                 <div class="row">
                   <div class="col-md-4">
-                    <input type="text" name="name" placeholder="Nome" required="required"/>
+                    <input type="text" id="name" placeholder="Seu Nome" required data-error="Por favor informe seu nome" class="contactForm">
+                    <div class="help-block with-errors"></div>
                   </div>
                   <div class="col-md-4">
-                    <input type="email" name="email" placeholder="Email" required="required" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}"/>
+                    <input type="email" name="email" placeholder="Email" required="required" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" id="email" class="contactForm"/>
+                    <div class="help-block with-errors"></div>
                   </div>
                   <div class="col-md-4">
-                    <input type="text" name="phone" placeholder="Telefone" required="required"/>
+                    <input type="tel" name="phone" placeholder="Telefone" required="required" class="contactForm" id="phone"/>
+                    <div class="help-block with-errors"></div>
                   </div>
                   <div class="col-md-12">
-                    <textarea class="materialize-textarea" name="message" placeholder="Mensagem*" required="required"></textarea>
+                    <input type="text" placeholder="Assunto" id="msg_subject" class="contactForm">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                  <div class="col-md-12">
+                    <textarea class="contactForm materialize-textarea" name="message" placeholder="Mensagem*" required="required" id="message"></textarea>
+                    <div class="help-block with-errors"></div>
                   </div>
                   <div class="col-md-12 text-center">
-                    <button type="submit" class="btn t_button">
-                      ENVIAR
-</button>
+                    <button class="btn t_button" id="submit" type="button">
+                      <i class="fa fa-check"></i> ENVIAR
+                    </button>
                     <div id="msgSubmit" class="h3 text-center hidden"></div>
+                    <div class="clearfix"></div>
                   </div>
                 </div>
               </form>
@@ -376,7 +385,8 @@
     <!-- ====Google Maps API==== -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <!-- ====Contact Form==== -->
-    <script src="js/config-contact.js"></script>
+    <script type="text/javascript" src="js/form-validator.min.js"></script>
+    <script type="text/javascript" src="js/contact-form-script.js"></script>
     <!-- ====Bootstrap JS==== -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
