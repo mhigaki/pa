@@ -862,6 +862,7 @@ li.info:last-child::after {
     line-height: 21px;
     padding-left: 20px;
     position: relative;
+    text-align: justify;
 }
 
 .single_service > p::after {
@@ -2011,7 +2012,7 @@ ul.top_contact > li:first-child a,
 }
 
 .sling_ab_bg {
-    padding: 100px 0 100px 67px;
+    padding: 50px 0 100px 67px;
 }
 
 .sling_ab_service {
@@ -2319,6 +2320,7 @@ h4.s_heading {
     color: #8e8e8e;
     line-height: 24px;
     margin-top: 22px;
+    padding-bottom: 22px;
 }
 
 ul.pro_des {
