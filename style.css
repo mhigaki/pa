@@ -694,7 +694,7 @@ a.th_bt:hover {
     height: 92px;
     background: #ffd76a;
     top: -26px;
-    right: 36px;
+    right: 16px;
 }
 
 .info {
@@ -1987,13 +1987,27 @@ ul.top_contact > li:first-child a,
 }
 
 .ab_bg {
-    background: rgba(0, 0, 0, 0) url("img/about_service_bg.jpg") no-repeat scroll right center / cover;
+    background: rgba(0, 0, 0, 0) url("img/patricia_batata.png") no-repeat scroll left center / cover;
     content: "";
     height: 100%;
-    left: 0;
     position: absolute;
     top: 0;
     width: 50%;
+    background-attachment: scroll;
+    background-size: cover;
+    right: 0;
+}
+
+.ab_bg1 {
+    background: rgba(0, 0, 0, 0) url("img/ale_tesci.png") no-repeat scroll right center / cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100%;
+    left: 0;
 }
 
 .sling_ab_bg {
@@ -2567,7 +2581,7 @@ ul.post_social li {
     color: #959595;
     font-size: 13px;
     height: 45px;
-    background: #f7f7f7;
+    background: #fff;
 }
 
 .search-form .search-button {

@@ -58,12 +58,12 @@
           <div class="row ">
             <div class="col-sm-3">
               <div class=" logo">
-                <a href="index-2.html"> <img src="img/logo.png" alt=""/> </a>
+                <a href="index.html"> <img src="img/logo-azul.png" alt="Logo PA Consultoria"/> </a>
               </div>
             </div>
             <div class="col-sm-9">
-              <div class="header_top" data-pgc="single_header_top_bar">
-                <ul class="top_contact">
+              <div class="header_top" data-pg-collapsed data-pgc="single_header_top_bar">
+                <ul class="top_contact" data-pg-collapsed>
                   <li>
                     <i class="icofont icofont-phone"></i>
                     <a href="tel:551124002835">(11) 2400-2835</a>
@@ -88,16 +88,16 @@
                   </li>
                 </ul>
               </div>
-              <div class="mainnmenu" data-pgc="single_header_main_menu">
-                <nav>
+              <div class="mainnmenu" data-pg-collapsed data-pgc="single_header_main_menu">
+                <nav data-pg-collapsed>
                   <ul class="menu">
                     <li>
                       <a href="index.html">Inicio</a>
                     </li>
-                    <li>
+                    <li data-pg-collapsed>
                       <a href="about.html">a empresa</a>
                     </li>
-                    <li class="active">
+                    <li data-pg-collapsed class="active">
                       <a href="#">área de atuação</a>
                       <ul class="sub_menu">
                         <li>
@@ -215,7 +215,7 @@
                     <p>(11) 2400-2835</p>
                   </div>
                 </li>
-                <li class="info">
+                <li class="hide info" data-pg-hidden>
                   <div class="info_icon">
                     <i class="icofont icofont-ui-message"></i>
                   </div>
@@ -242,38 +242,41 @@
     <div class="message_area section-padding">
       <div class="container">
         <div class="row">
-          <div class="col-sm-offset-2 col-sm-8">
+          <div class="text-center text-primary">
+            <h1>Formulário de Contato</h1>
+          </div>
+          <div class="col-sm-10 col-sm-offset-1">
             <div class="leave_comment">
-              <form id="contactForm" class="contact-form" action="php/form-process.php">
-                <div class="row">
-                  <div class="col-md-4">
-                    <input type="text" id="name" placeholder="Seu Nome" required data-error="Por favor informe seu nome" class="contactForm">
+              <form role="form" id="contactForm" data-toggle="validator" action="assets/php/form-process.php" method="post" class="contact-form" data-error="Preencha com seu nome">
+                <div class="form-group">
+                  <div class="col-md-4 controls">
+                    <input type="text" id="name" class="form-control" placeholder="Seu Nome" required data-error="Preencha com seu nome">
                     <div class="help-block with-errors"></div>
-                  </div>
-                  <div class="col-md-4">
-                    <input type="email" name="email" placeholder="Email" required="required" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" id="email" class="contactForm"/>
-                    <div class="help-block with-errors"></div>
-                  </div>
-                  <div class="col-md-4">
-                    <input type="tel" name="phone" placeholder="Telefone" required="required" class="contactForm" id="phone"/>
-                    <div class="help-block with-errors"></div>
-                  </div>
-                  <div class="col-md-12">
-                    <input type="text" placeholder="Assunto" id="msg_subject" class="contactForm">
-                    <div class="help-block with-errors"></div>
-                  </div>
-                  <div class="col-md-12">
-                    <textarea class="contactForm materialize-textarea" name="message" placeholder="Mensagem*" required="required" id="message"></textarea>
-                    <div class="help-block with-errors"></div>
-                  </div>
-                  <div class="col-md-12 text-center">
-                    <button class="btn t_button" id="submit" type="button">
-                      <i class="fa fa-check"></i> ENVIAR
-                    </button>
-                    <div id="msgSubmit" class="h3 text-center hidden"></div>
-                    <div class="clearfix"></div>
                   </div>
                 </div>
+                <div class="form-group">
+                  <div class="col-md-4 controls">
+                    <input type="email" class="email form-control" id="msg_subject" placeholder="Email" required data-error="Preencha com o seu e-mail">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-md-4 controls">
+                    <input type="tel" id="msg_subject" class="form-control" placeholder="Seu Telefone" required data-error="Preencha com o numero de telefone">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="controls">
+                    <textarea id="message" rows="7" placeholder="Mensagem" class="form-control" required data-error="Preencha com sua mensagem"></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <button class="btn t_button" id="submit" type="button">
+                  <i class="fa fa-check"></i>Envie Sua Mensagem
+                </button>
+                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                <div class="clearfix"></div>
               </form>
             </div>
           </div>
