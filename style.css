@@ -1595,7 +1595,7 @@ ul.importent_link li a {
 
 .footer_widget > p {
     color: #e2e2e2;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 300;
     line-height: 21px;
     margin-bottom: 27px;
@@ -1635,7 +1635,7 @@ ul.ft_conta li {
 }
 
 ul.ft_conta li i {
-    margin-right: 10px;
+    margin-right: 5px;
     color: #2272AC;
     font-size: 18px;
 }
