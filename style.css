@@ -447,7 +447,8 @@ nav {
     background-size: cover;
     margin-top: -122px;
     height: 100vh;
-    position: relative;
+
+    /* position: relative */
 }
 
 .header_content {
@@ -2012,7 +2013,7 @@ ul.top_contact > li:first-child a,
 }
 
 .sling_ab_bg {
-    padding: 50px 0 100px 67px;
+    padding: 50px 0 50px 67px;
 }
 
 .sling_ab_service {
