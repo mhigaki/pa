@@ -189,7 +189,7 @@ textarea {
 
 p {
   line-height: 25px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -447,7 +447,7 @@ nav {
   background-size: cover;
   margin-top: -122px;
   height: 100vh;
-  position: relative
+  position: relative;
 }
 
 .header_content {
@@ -1387,7 +1387,7 @@ h4.date_time time {
   font-size: 13px;
   font-weight: 300;
   margin: 0 auto;
-  width: 43%;
+  width: 63%;
 }
 
 .pro2_text h3 span {
@@ -2320,6 +2320,7 @@ h4.s_heading {
   color: #8e8e8e;
   line-height: 24px;
   padding-bottom: 22px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 ul.pro_des {
@@ -2341,9 +2342,9 @@ ul.pro_des>li {
 ul.pro_des p,
 .det_bottom {
   color: #1b1b1b;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 700;
-  margin-bottom: 9px;
+  margin-bottom: 30px;
   text-transform: uppercase;
 }
 
