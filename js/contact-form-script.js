@@ -47,7 +47,7 @@ function formError() {
 
 function submitMSG(valid, msg) {
   if (valid) {
-    var msgClasses = "h3 text-center tada animated text-warning";
+    var msgClasses = "h3 text-center tada animated text-primary";
   } else {
     var msgClasses = "h3 text-center text-danger";
   }
