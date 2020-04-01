@@ -658,7 +658,7 @@ a.th_bt:hover {
 
 .homePage .about_area::after,
 .home_2 .about_area::after {
-    background-image: url("img/about_bg.png");
+    background-image: url('img/about_bg1.png');
     background-position: right bottom;
     background-repeat: no-repeat;
     content: "";
@@ -2685,6 +2685,7 @@ h6.post-title {
     margin-bottom: 5px;
     margin-right: 2.5px;
     padding: 10px;
+    font-size: 10px;
 }
 
 /* pagination */
