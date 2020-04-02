@@ -2227,7 +2227,6 @@ ul.top_contact>li:first-child a,
 
 .single_service_page .client_says {
     display: inline-block;
-    width: 50%;
     background-color: #fbfbfb;
     vertical-align: top;
     padding: 20px;
@@ -3784,7 +3783,6 @@ blockquote p {
 }
 
 /* Breadcrumb Boletins */
-
 .breadcrumb_boletim h1 {
     color: white;
     font-family: 'Poppins', sans-serif;
