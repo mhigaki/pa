@@ -1851,11 +1851,6 @@ ul.top_contact>li:first-child a,
 }
 
 .breadcrumb_boletim {
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-
-    /* padding: 70px 0 */
     background: #2272AC;
 }
 
@@ -3786,4 +3781,14 @@ blockquote p {
 @media (max-width:459px) {
     .ab_client > p {
     }
+}
+
+.breadcrumb_boletim h1 {
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    line-height: 80px;
 }

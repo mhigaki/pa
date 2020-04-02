@@ -52,7 +52,7 @@
   </head>
   <body id="body" class="single_service_page inner_page">
     <!-- ====START HEADER==== -->
-    <header>
+    <header data-pg-collapsed>
       <div class="manu_area hidden-xs">
         <div class="container">
           <div class="row">
@@ -88,7 +88,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="mainnmenu">
+              <div class="mainnmenu" data-pgc="single_header_main_menu">
                 <nav>
                   <ul class="menu">
                     <li>
@@ -98,12 +98,15 @@
                       <a href="#">empresa</a>
                       <ul class="sub_menu">
                         <li>
-                          <a href="empresa.html">quem somos</a>
+                          <a href="quem-somos.html">quem somos</a>
+                        </li>
+                        <li>
+                          <a href="colaboradores.html">colaboradores</a>
                         </li>
                       </ul>
                     </li>
-                    <li>
-                      <a href="#">área de atuação</a>
+                    <li class="active">
+                      <a href="area-de-atuacao.html">área de atuação</a>
                       <ul class="sub_menu">
                         <li>
                           <a href="direito-criminal.html">Direito Criminal</a>
@@ -125,17 +128,6 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="active">
-                      <a href="#">boletins</a>
-                      <ul class="sub_menu">
-                        <li>
-                          <a href="agosto_2019.html">Agosto 2019</a>
-                        </li>
-                        <li>
-                          <a href="setembro_2019.html">Setembro 2019</a>
-                        </li>
-                      </ul>
-                    </li>
                     <li>
                       <a href="blog.html">Blog</a>
                     </li>
@@ -153,12 +145,15 @@
                       <a href="#">empresa</a>
                       <ul class="sub_menu">
                         <li>
-                          <a href="empresa.html">quem somos</a>
+                          <a href="quem-somos.html">quem somos</a>
+                        </li>
+                        <li>
+                          <a href="colaboradores.html">colaboradores</a>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="#">área de atuação</a>
+                      <a href="area-de-atuacao.html">área de atuação</a>
                       <ul class="sub_menu">
                         <li>
                           <a href="direito-criminal.html">Direito Criminal</a>
@@ -196,14 +191,14 @@
     </header>
     <!-- ====HEADER END==== -->
     <!-- ====START BREADCRUMB AREA==== -->
-    <div class="breadcrumb_boletim">
+    <div class="breadcrumb_boletim" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-12 col-xs-12" style="padding-top: auto; padding-bottom: auto; margin-top: 15px;">
             <p style="color: white; font-weight: 600; font-size: 24px; text-align: left; padding-top: 30px; padding-bottom: 30px; font-family: 'Poppins', sans-serif;">2019<br>AGOSTO</p>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12">
-            <h1 class="text-center" style="font-weight: 500; color: white; margin-top: 30px; margin-bottom: 30px; font-family: 'Poppins', sans-serif; font-size: 42px; line-height: 80px;">BOLETIM INFORMATIVO</h1>
+            <h1 class="text-center">BOLETIM INFORMATIVO</h1>
           </div>
           <div class="col-md-3 col-sm-12 col-xs-12">
             <p style="color: white; font-size: 24px; font-weight: 600; font-family: 'Poppins', sans-serif; padding-top: 30px; padding-bottom: 30px;" class="text-right">Publicação <br>oficial da<br>PA Consultoria</p>
@@ -213,11 +208,11 @@
     </div>
     <!-- ====END BREADCRUMB AREA==== -->
     <!-- ====START SERVICE AREA==== -->
-    <div style="background-position: center top; height: 300px; background-size: cover; background-attachment: fixed; top: 0; background-repeat: no-repeat; background-image: url('https://images.unsplash.com/photo-1519494140681-8b17d830a3e9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');">
+    <div style="background-position: center top; height: 300px; background-size: cover; background-attachment: fixed; top: 0; background-repeat: no-repeat; background-image: url('https://images.unsplash.com/photo-1519494140681-8b17d830a3e9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');" data-pg-collapsed>
 </div>
     <!-- ====END SERVICE AREA==== -->
     <!-- ====START SERVICE CONTENT AREA==== -->
-    <div class="section-padding">
+    <div class="section-padding" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-xs-12">
@@ -274,7 +269,7 @@ Por esta razão, diante da negativa de seu plano em cobrir as despesas sobre o q
     </div>
     <!-- ====END SERVICE CONTENT AREA==== -->
     <!-- ====START FOOTER AREA==== -->
-    <footer class="footer_area" data-pgc="footer_area" data-pgc-no-update>
+    <footer class="footer_area" data-pgc="footer_area" data-pgc-no-update data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
@@ -373,33 +368,33 @@ Por esta razão, diante da negativa de seu plano em cobrir as despesas sobre o q
     </footer>
     <!-- ====END FOOTER AREA==== -->
     <!-- ====jQuery Latest version==== -->
-    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.0.min.js" data-pg-collapsed></script>
     <!-- ====Google Maps API==== -->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js" data-pg-collapsed></script>
     <!-- ====Bootstrap JS==== -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js" data-pg-collapsed></script>
     <!-- ====jQuery Counterup==== -->
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js" data-pg-collapsed></script>
+    <script src="js/jquery.counterup.min.js" data-pg-collapsed></script>
     <!-- ====jQuery Meanmenu==== -->
-    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js" data-pg-collapsed></script>
     <!-- ====jQuery easing==== -->
-    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script src="js/jquery.easing.1.3.min.js" data-pg-collapsed></script>
     <!-- ====jQuery owl carousel==== -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.carousel.min.js" data-pg-collapsed></script>
     <!-- ====jQuery parallax==== -->
-    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js" data-pg-collapsed></script>
     <!-- ====jQuery Masonry==== -->
-    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js" data-pg-collapsed></script>
     <!-- ====jQuery Camera==== -->
-    <script src="js/camera.min.js"></script>
+    <script src="js/camera.min.js" data-pg-collapsed></script>
     <!-- ====jQuery VenoBox==== -->
-    <script src="js/venobox.min.js"></script>
+    <script src="js/venobox.min.js" data-pg-collapsed></script>
     <!--Opacity & Other IE fix for older browser-->
     <!--[if lte IE 8]>
             <script type="text/javascript" src="js/ie-opacity-polyfill.js"></script>
         <![endif]-->
     <!-- ====jQuery main script==== -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js" data-pg-collapsed></script>
   </body>
 </html>
