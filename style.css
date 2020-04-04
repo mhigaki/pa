@@ -2619,6 +2619,10 @@ ul.post_social li {
     margin-bottom: 40px;
 }
 
+.sidebar-downloads {
+    margin-bottom: 40px;
+}
+
 .news_thumb {
     border: 1px solid #2272AC;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
@@ -2634,7 +2638,7 @@ h6.post-title {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 1px;
-    padding-top: 27px;
+    padding-top: 10px;
 }
 
 .post-right>p {
@@ -3787,6 +3791,7 @@ blockquote p {
     color: white;
     font-family: 'Poppins', sans-serif;
     line-height: 80px;
+    margin-top: 10px;
 }
 
 .breadcrumb_boletim h3.text-left.text-uppercase {
@@ -3794,12 +3799,16 @@ blockquote p {
     font-weight: 300;
     text-align: left;
     font-family: 'Poppins', sans-serif;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .breadcrumb_boletim h3.text-right.text-uppercase {
     color: white;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.sidebar-about {
+    background-color: #2272AC;
 }
