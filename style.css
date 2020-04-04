@@ -2702,7 +2702,7 @@ h6.post-title {
 
 .pagination>li a {
     border: medium none;
-    color: #ffcd3d;
+    color: white;
     font-size: 22px;
     margin-left: 0;
     position: relative;
@@ -2711,7 +2711,7 @@ h6.post-title {
 
 .pagination>li:first-child>a:after,
 .pagination>li:last-child>a:after {
-    background: #021b27;
+    background: #2272AC;
     content: "";
     height: 16px;
     position: absolute;
