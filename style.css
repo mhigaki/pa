@@ -4457,3 +4457,28 @@ blockquote p {
   background-repeat: no-repeat;
 
 }
+
+.breadcrumb_boletim h3.right {
+  text-align: right;
+
+}
+
+.breadcrumb_boletim h3.left {
+  text-align: left;
+
+}
+
+.section_title.bol {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.service_content_detail p.bol {
+  margin-bottom: 30px;
+  columns: 2;
+  column-gap: 50px;
+  column-rule: 1px solid #dddddd;
+  text-align: justify;
+
+}
