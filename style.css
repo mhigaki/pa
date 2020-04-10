@@ -1169,14 +1169,14 @@ figure.team_member>figcaption {
   position: absolute;
   top: 5%;
   width: 100%;
-  padding: 40px 22px 30px 60px;
+  padding: 30px 15px 30px 55px;
   -webkit-transform: scale(0);
   transform: scale(0);
 
 }
 
 figure.team_member::after {
-  border-top: 3px solid #2272AC;
+  border-top: 1px solid #2272AC;
   content: "";
   height: 3px;
   left: 0;
@@ -1203,9 +1203,9 @@ figure.team_member::before {
 .team_member p {
   color: #ededed;
   font-size: 12px;
-  line-height: 22px;
-  text-align: justify;
+  line-height: 18px;
   font-weight: 300;
+  text-align: justify;
 
 }
 
