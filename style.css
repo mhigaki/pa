@@ -1,15 +1,7 @@
-/* ============================================
-0.Preloader
-=============================================== */
+/* ==  0.Preloader == */
 /* ---------------------------------------------------------
 1. Base css
------------------------------------------------------------- */
-.whychoose>.container>.row,
-.our_team>.container>.row {
-  margin: 0;
-
-}
-
+--------------------------------------------------------- */
 .floatleft {
   float: left;
 
@@ -1770,7 +1762,7 @@ footer.footer_area {
 }
 
 footer.footer_area::after {
-  background: rgba(2, 27, 39, 0.97) none repeat scroll 0 0;
+  background: rgba(2, 27, 39, 0.93) none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: 0;
@@ -2393,7 +2385,7 @@ ul.top_contact>li:first-child a,
 16. Service page Area
 ----------------------------------------------------------- */
 .servicepage_heading {
-  border: 1px solid #2272AC;
+  border: 1px solid rgba(34, 114, 172, 0.48);
   margin-top: 20px;
   padding: 17px 20px 8px;
 
