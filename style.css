@@ -3458,7 +3458,7 @@ blockquote p {
 }
 
 .error_tex {
-  padding-left: 100px;
+  text-align: center;
 
 }
 
@@ -3474,7 +3474,7 @@ blockquote p {
   width: 168px;
   height: 62px;
   background: #1b1b1b;
-  display: block;
+  display: inline-block;
   text-align: center;
   font-size: 14px;
   line-height: 62px;

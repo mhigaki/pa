@@ -64,7 +64,7 @@
   </head>
   <body id="body" class="404_page inner_page">
     <!-- ====START HEADER==== -->
-    <header>
+    <header data-pg-collapsed>
       <div class="manu_area hidden-xs">
         <div class="container ">
           <div class="row ">
@@ -100,7 +100,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="mainnmenu" data-pgc="single_header_main_menu">
+              <div class="mainnmenu" data-pgc="single_header_main_menu" data-pgc-no-update>
                 <nav>
                   <ul class="menu">
                     <li>
@@ -120,7 +120,7 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="active">
+                    <li>
                       <a href="area-de-atuacao.html">área de atuação</a>
                       <ul class="sub_menu">
                         <li>
@@ -209,7 +209,7 @@
     </header>
     <!-- ====HEADER END==== -->
     <!-- ====START BREADCRUMB AREA==== -->
-    <div class="breadcrumb_area" style="background-image:url('https://images.unsplash.com/photo-1581263518256-ba4a28ed5517?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');" data-pgc-save-partial="partials/breadcrumb-404.html" data-pgc-save-partial-operation="save_load">
+    <div class="breadcrumb_area" data-pg-collapsed style="background-image: url('https://images.unsplash.com/photo-1581263518256-ba4a28ed5517?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');" data-pgc-save-partial="partials/breadcrumb-404.html" data-pgc-save-partial-operation="save_load">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12">
@@ -227,16 +227,16 @@
     </div>
     <!-- ====END BREADCRUMB AREA==== -->
     <!-- ====END SERVICE AREA==== -->
-    <section class="error_page section-padding" data-pgc-save-partial="partials/section-404-area.html">
+    <section class="error_page section-padding" data-pgc-save-partial="partials/section-404-area.html" data-pg-collapsed>
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
-            <img src="img/not_found.jpg" alt=""/>
+          <div class="col-sm-6 text-center">
+            <img src="img/404.png" alt="" width="340"/>
           </div>
           <div class="col-sm-6">
             <div class="error_tex">
-              <h1>404</h1>
-              <p>A página que você está procurando não está disponível.</p>
+              <h1 style="color: #000;">404</h1>
+              <p style="color: #000;">A página que você está procurando não está disponível.</p>
               <a href="index.html"><i class="icofont icofont-long-arrow-left"></i>INICIO</a>
             </div>
           </div>
