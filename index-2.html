@@ -72,7 +72,7 @@
   </head>
   <body id="body" class="homePage">
     <!-- ====START HEADER==== -->
-    <header data-pgc-section="Header">
+    <header data-pgc-section="Header" data-pg-collapsed>
       <div data-pgc-define="top-bar" data-pgc-define-name="Top Bar" class="header_top_area">
         <div class="container">
           <div class="row">
@@ -210,7 +210,7 @@
         </div>
       </div>
     </header>
-    <section class="header_paralux" data-pgc-define="header-paralux" data-pgc-define-name="Header Paralux">
+    <section class="header_paralux" data-pgc-define="header-paralux" data-pgc-define-name="Header Paralux" data-pg-collapsed>
       <div class="header_content">
         <div class="container">
           <div class="row">
@@ -225,7 +225,7 @@
                   </nav>
                 </div>
                 <div class="scroll_button">
-                  <h6> <a href="#scroll_about">SCROLL HERE <i class="icofont icofont-scroll-long-down"></i> </a> </h6>
+                  <h6> <a href="#scroll_about">CLIQUE AQUI <i class="icofont icofont-scroll-long-down"></i></a> </h6>
                 </div>
               </div>
             </div>
@@ -233,7 +233,7 @@
         </div>
       </div>
     </section>
-    <section class="about_area" id="scroll_about" data-pgc-define="scroll-about" data-pgc-define-name="About">
+    <section class="about_area" id="scroll_about" data-pgc-define="scroll-about" data-pgc-define-name="About" data-pg-collapsed>
       <div class="info_area">
         <div class="container">
           <div class="row">
@@ -315,7 +315,7 @@
         </div>
       </div>
     </section>
-    <section class="promot_area" data-pgc-define="promot-area" data-pgc-define-name="Promotion Area">
+    <section class="promot_area" data-pgc-define="promot-area" data-pgc-define-name="Promotion Area" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-8">
@@ -332,7 +332,7 @@
         </div>
       </div>
     </section>
-    <section class="our_service section-padding" data-pgc-define="our-service" data-pgc-define-name="Our Service">
+    <section class="our_service section-padding" data-pgc-define="our-service" data-pgc-define-name="Our Service" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -357,20 +357,14 @@
           </div>
           <div class="col-sm-6" data-pg-collapsed>
             <div class="single_service">
-              <h4>Consultoria Empresarial</h4>
-              <p>A consultoria empresarial é focada em além do preventivo quando existem problemas. Verificar meios efetivos de solução em conjunto dos clientes revisão dos contratos e medidas junto a departamentos para a melhora de todos os métodos e andamentos dentro da empresa.</p>
-            </div>
-          </div>
-          <div class="col-sm-6" data-pg-collapsed>
-            <div class="single_service">
               <h4>Ações trabalhista</h4>
               <p>Com forte experiência nesta área, atuamos na defesa tanto de reclamantes que precisam e buscam seus direitos, como também nas ações em que as empresas reclamadas sofrem e precisam de auxílio mediante a iminência de uma condenação.</p>
             </div>
           </div>
           <div class="col-sm-6" data-pg-collapsed>
             <div class="single_service">
-              <h4>Mediação e Arbitragem</h4>
-              <p>Atua na resolução de conflitos de interesses e busca acabar com ideia do enfrentamento, buscando através da figura do mediador soluções para as partes envolvidas.</p>
+              <h4>Consultoria Empresarial</h4>
+              <p>A consultoria empresarial é focada em além do preventivo quando existem problemas. Verificar meios efetivos de solução em conjunto dos clientes revisão dos contratos e medidas junto a departamentos para a melhora de todos os métodos e andamentos dentro da empresa.</p>
             </div>
           </div>
           <div class="col-sm-6" data-pg-collapsed>
@@ -379,10 +373,16 @@
               <p>Visando as obrigações e direitos que regem as relações familiares estamos aptos a auxiliar nossos clientes desde ações de divórcio, ação de guarda de filhos,direito homoafetivo, dissolução de união estável e até busca e apreensão de menores.</p>
             </div>
           </div>
+          <div class="col-sm-6" data-pg-collapsed>
+            <div class="single_service">
+              <h4>Mediação e Arbitragem</h4>
+              <p>Atua na resolução de conflitos de interesses e busca acabar com ideia do enfrentamento, buscando através da figura do mediador soluções para as partes envolvidas.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section class="our_proect section-padding" data-pgc-define="our-project" data-pgc-define-name="Our Project">
+    <section class="our_proect section-padding" data-pgc-define="our-project" data-pgc-define-name="Our Project" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -462,8 +462,8 @@
         </div>
       </div>
     </section>
-    <section class="our_team section-padding" data-pgc-define="our-team" data-pgc-define-name="Our Team">
-      <div class="container">
+    <section class="our_team section-padding" data-pgc-define="our-team" data-pgc-define-name="Our Team" data-pg-collapsed>
+      <div class="container" data-pg-collapsed>
         <div class="row">
           <div class="col-sm-12">
             <div class="section_title">
@@ -501,9 +501,9 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-3" data-pg-collapsed>
+          <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="single_prject">
-              <figure class="team_member">
+              <figure class="team_member" data-pg-collapsed>
                 <img src="img/natalia_verdi.jpg" alt="Dra Natalia Verdi"/>
                 <figcaption>
                   <p>Advogada, Mestre em Gerontologia pela PUCSP, Especialista em Direito da Medicina pela Universidade de Coimbra, Especialista em Direito Médico, Odontológico e Hospitalar pela Escola Paulista de Direito.</p>
@@ -523,7 +523,7 @@
                   </ul>
                 </figcaption>
               </figure>
-              <div class="member_des">
+              <div class="member_des" data-pg-collapsed>
                 <h4>Natália verdi</h4>
                 <p>Direito Médico</p>
               </div>
@@ -588,7 +588,7 @@
         </div>
       </div>
     </section>
-    <section class="our_client section-padding" data-pgc-define="our-client" data-pgc-define-name="Our Client">
+    <section class="our_client section-padding" data-pgc-define="our-client" data-pgc-define-name="Our Client" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
@@ -664,7 +664,7 @@
         </div>
       </div>
     </section>
-    <section class="call_back section-padding" data-pgc-define="call-back" data-pgc-define-name="Call Back">
+    <section class="call_back section-padding" data-pgc-define="call-back" data-pgc-define-name="Call Back" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -712,19 +712,19 @@
         </div>
       </div>
     </section>
-    <section class="promot_area2" data-pgc-define="proot-area2" data-pgc-define-name="Promotion Area 2">
+    <section class="promot_area2" data-pgc-define="proot-area2" data-pgc-define-name="Promotion Area 2" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="pro2_text">
-              <h3>Temos mais de duas <span>décadas</span> de experiência. Você sempre obterá a <span>melhor</span> orientação.</h3>
+              <h3>Temos mais de duas <span>décadas</span> de experiência. Você sempre obtem a <span>melhor</span> orientação.</h3>
               <p>Somos uma sociedade de advogados que atua nas mais diversas Áreas de Direito.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="blog_area section-padding" data-pgc-define="blog-area" data-pgc-define-name="Blog Area">
+    <section class="blog_area section-padding" data-pgc-define="blog-area" data-pgc-define-name="Blog Area" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -777,7 +777,7 @@
         </div>
       </div>
     </section>
-    <div class="partner_area" data-pgc-define="partner-area" data-pgc-define-name="Partner" data-pgc-save-partial="partials/section/partner-area.html" data-pgc-save-partial-operation="none">
+    <div class="partner_area" data-pgc-define="partner-area" data-pgc-define-name="Partner" data-pgc-save-partial="partials/section/partner-area.html" data-pgc-save-partial-operation="none" data-pg-collapsed>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -822,7 +822,7 @@
         </div>
       </div>
     </div>
-    <section id="footermap" class="map_area" data-pgc-define="map-area" data-pgc-define-name="Map">
+    <section id="footermap" class="map_area" data-pgc-define="map-area" data-pgc-define-name="Map" data-pg-collapsed>
       <div class="container-fluid">
         <div class="row">
           <div id="map"></div>
@@ -855,7 +855,7 @@
     <!-- ====MAP AREA START==== -->
     <!-- ====MAP AREA END==== -->
     <!-- ====Footer AREA START==== -->
-    <footer class="footer_area" data-pgc-section="Footer" data-pgc-define="footer_area" data-pgc-define-name="Footer">
+    <footer class="footer_area" data-pgc-section="Footer" data-pgc-define="footer_area" data-pgc-define-name="Footer" data-pg-collapsed>
       <div class="container">
         <div class="row" data-pgc-optional="footer-row-1">
           <div class="col-sm-12">
