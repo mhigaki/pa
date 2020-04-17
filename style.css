@@ -215,7 +215,7 @@ textarea {
 
 p {
   line-height: 25px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 
 }
@@ -741,7 +741,7 @@ a.th_bt:hover {
 4. About Us Css
 ----------------------------------------------------------- */
 .about_area {
-  background-position: right bottom;
+  background-position: center center;
   background-repeat: no-repeat;
   position: relative;
 
@@ -929,7 +929,7 @@ li.info:last-child::after {
 .promo_text>p {
   color: #e9e9e9;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 21px;
   margin-bottom: 0;
@@ -975,7 +975,7 @@ li.info:last-child::after {
 
 .single_service>p {
   color: #8e8e8e;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 21px;
   padding-left: 20px;
   position: relative;
@@ -1117,8 +1117,8 @@ ul.project_nav>li i {
 ----------------------------------------------------------- */
 .member_des {
   background: #2272AC;
-  padding: 17px 22px;
   margin-top: 10px;
+  padding: 15px;
 
 }
 
@@ -1161,14 +1161,14 @@ figure.team_member>figcaption {
   position: absolute;
   top: 5%;
   width: 100%;
-  padding: 30px 15px 30px 55px;
+  padding: 30px 25px 30px 55px;
   -webkit-transform: scale(0);
   transform: scale(0);
 
 }
 
 figure.team_member::after {
-  border-top: 1px solid #2272AC;
+  /* border-top: 1px solid #2272AC */
   content: "";
   height: 3px;
   left: 0;
@@ -1365,7 +1365,7 @@ figure.team_member:hover img {
 .clint_text>p {
   color: #fff;
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 20px;
   margin-top: 0;
@@ -1577,7 +1577,7 @@ h4.date_time time {
 .pro2_text>p {
   color: #e4e4e4;
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 300;
   margin: 0 auto;
   width: 63%;
@@ -3453,7 +3453,7 @@ blockquote p {
   font-size: 150px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
-  color: #fff;
+  color: #000;
 
 }
 
@@ -3464,7 +3464,7 @@ blockquote p {
 
 .error_tex>p {
   font-size: 18px;
-  color: #fff;
+  color: #000;
   font-weight: 400;
   margin-top: 34px;
 
@@ -3558,12 +3558,12 @@ blockquote p {
 
   ul.project_nav {
     right: 15px;
-    top: -97px;
+    top: -160px;
 
   }
 
   figure.team_member>figcaption {
-    padding: 25px 10px 10px 20px;
+    padding: 25px 20px 10px;
 
   }
 
@@ -3780,7 +3780,7 @@ blockquote p {
 
   ul.project_nav {
     right: 15px;
-    top: -97px;
+    top: -134px;
 
   }
 
@@ -4477,3 +4477,10 @@ blockquote p {
   text-align: justify;
 
 }
+
+#404.breadcrumb_area {
+  background-image: url('https://images.unsplash.com/photo-1581263518256-ba4a28ed5517?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+
+}
+
+
