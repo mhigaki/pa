@@ -141,7 +141,7 @@
 
     // --------- Google Map init ----------  //
     var googleMapSelector = $('#map'),
-        myCenter = new google.maps.LatLng(40.789886, -74.056700);
+        myCenter = new google.maps.LatLng(-46.620730, -23.602121);
 
     function initialize() {
         var mapProp = {
