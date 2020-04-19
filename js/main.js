@@ -13,7 +13,7 @@
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top + 2 + 'px'
-        }, 1500, 'easeInOutCubic');
+        }, 2000, 'easeInOutCubic');
         event.preventDefault();
     });
 
