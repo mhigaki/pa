@@ -77,34 +77,34 @@
 				<div class="container ">
 					<div class="row ">
 						<div class="col-sm-3">
-							<div class=" logo" data-pgc="single_header_logo">
-								<a href="index.html"> <img src="img/logo-azul.png" alt=""/> </a>
+							<div class=" logo" data-pg-collapsed data-pgc="single_header_logo">
+								<a href="index.html"> <img src="img/logo-azul.png" alt="Logo PA Consultoria"/> </a>
 							</div>
 						</div>
 						<div class="col-sm-9">
-							<div class="header_top" data-pgc="single_header_top_bar">
+							<div class="header_top" data-pg-collapsed data-pgc="single_header_top_bar">
 								<ul class="top_contact">
 									<li>
 										<i class="icofont icofont-phone"></i>
 										<a href="tel:551124002835">(11) 2400-2835</a>
 									</li>
 									<li>
-										<a href="mailto:secretaria@paconsultoria.adv.br"> <i class="icofont icofont-envelope"></i> secretaria@paconsultoria.adv.br</a>
+										<a href="mailto:contato@paconsultoria.adv.br"> <i class="icofont icofont-envelope"></i> contato@paconsultoria.adv.br</a>
 									</li>
 									<li class="active">
-										<a href="https://www.facebook.com/paconsultoriasp/"> <i class="icofont icofont-social-facebook "></i> </a>
-									</li>
-									<li class="hide">
-										<a href="#"> <i class="icofont icofont-social-twitter "></i> </a>
+										<a href="https://www.facebook.com/paconsultoriasp/" target="_blank"> <i class="icofont icofont-social-facebook "></i> </a>
 									</li>
 									<li>
-										<a href="https://www.linkedin.com/in/pa-consultoria-a38826187"> <i class="icofont icofont-brand-linkedin "></i> </a>
+										<a href="#" target="_blank"> <i class="icofont icofont-social-twitter "></i> </a>
 									</li>
 									<li>
-										<a href="https://instagram.com/consultoriapa?igshid=9hmb4ztc5afa"> <i class="icofont icofont-social-instagram"></i> </a>
+										<a href="https://www.linkedin.com/in/pa-consultoria-a38826187" target="_blank"> <i class="icofont icofont-brand-linkedin "></i> </a>
 									</li>
 									<li>
-										<a href="#"> <i class="hide icofont icofont-search-alt-2"></i> </a>
+										<a href="https://instagram.com/consultoriapa?igshid=9hmb4ztc5afa" target="_blank"> <i class="icofont icofont-social-instagram"></i> </a>
+									</li>
+									<li style="display: none;">
+										<a href="#"> <i class="icofont icofont-search-alt-2"></i> </a>
 									</li>
 								</ul>
 							</div>
@@ -341,18 +341,19 @@
 					<div class="col-sm-3">
 						<div class="footer_widget">
 							<h4>PA CONSULTORIA</h4>
-							<p>Nosso compromisso é prestar serviços jurídicos com a máxima excelência.
-              Para nós o sucesso de nossos clientes é o nosso sucesso!
-              Nossa equipe multidisciplinar permite uma assessoria pautada na solução e prevenção dos problemas</p>
+							<p>Nossa Consultoria é desenvolvida para cada cliente atendendo às necessidades de cada um com profissionais altamente qualificados.</p>
 							<ul class="bottom_social">
 								<li class="active">
-									<a href="https://www.facebook.com/paconsultoriasp/"> <i class="icofont icofont-social-facebook"></i></a>
+									<a href="https://www.facebook.com/paconsultoriasp/" target="_blank"> <i class="icofont icofont-social-facebook"></i></a>
 								</li>
 								<li>
-									<a href="https://www.linkedin.com/in/pa-consultoria-a38826187"> <i class="icofont icofont-brand-linkedin"></i></a>
+									<a href="https://www.linkedin.com/in/pa-consultoria-a38826187" target="_blank"> <i class="icofont icofont-brand-linkedin"></i></a>
 								</li>
 								<li>
-									<a href="https://instagram.com/consultoriapa?igshid=9hmb4ztc5afa"> <i class="icofont icofont-social-instagram"></i></a>
+									<a href="https://instagram.com/consultoriapa?igshid=9hmb4ztc5afa" target="_blank"> <i class="icofont icofont-social-instagram"></i></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"> <i class="icofont icofont-social-twitter"></i></a>
 								</li>
 							</ul>
 						</div>
@@ -362,19 +363,19 @@
 							<h4>NOSSOS SERVIÇOS</h4>
 							<ul class="importent_link">
 								<li>
-									<a href="#">Ações trabalhista</a>
+									<a href="mediacao.html">Mediação e Arbitragem</a>
 								</li>
 								<li>
-									<a href="#">Direito da Saúde</a>
+									<a href="direito-imobiliario.html">Direito Imobiliário</a>
 								</li>
 								<li>
-									<a href="#">Direito Imobiliário</a>
+									<a href="direito-trabalho.html">Ações trabalhista</a>
 								</li>
 								<li>
-									<a href="#">Família e Sucessões</a>
+									<a href="direito-preventivo.html">Direito Preventivo</a>
 								</li>
 								<li>
-									<a href="#">Mediação e Arbitragem</a>
+									<a href="direito-familia.html">Família e Sucessões</a>
 								</li>
 							</ul>
 						</div>
@@ -382,9 +383,9 @@
 					<div class="col-sm-3">
 						<div class="footer_widget">
 							<h4>NEWSLETTER</h4>
-							<form>
-								<input type="email" placeholder="Infomre seu e-mail"/>
-								<button type="submit" value="Submit">
+							<form id="new_subscriber" action="https://paconsultoria.ipzmarketing.com/f/BWOSlp-ct60" method="post">
+								<input type="email" placeholder="Infomre seu e-mail" id="subscriber_email" name="subscriber[email]" class="string"/>
+								<button type="submit" value="Submit" name="commit">
 									<i class="ft_m icofont icofont-ui-message"></i>
 								</button>
 							</form>
@@ -405,7 +406,7 @@
 								</li>
 								<li>
 									<i class="icofont icofont-ui-message"></i>
-									<a href="mailto:secretaria@paconsultoria.adv.br">secretaria@paconsultoria.adv.br</a>
+									<a href="mailto:contato@paconsultoria.adv.br">contato@paconsultoria.adv.br</a>
 								</li>
 								<li>
 									<i class="icofont icofont-clock-time"></i> Seg - Sex | 9:00 - 18:00

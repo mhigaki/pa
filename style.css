@@ -1526,7 +1526,7 @@ figure.blog_item::after {
 ----------------------------------------------------------- */
 #footermap {
 	position: relative;
-	margin-bottom: -300px;
+	margin-bottom: -305px;
 	z-index: -1;
 }
 
