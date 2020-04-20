@@ -3088,7 +3088,7 @@ blockquote p {
 	}
 
 	.homePage .about_area::after,
-	area::after {
+	a::after {
 		right: calc(50% - 485px);
 	}
 
@@ -3284,7 +3284,7 @@ blockquote p {
 	}
 
 	.homePage .about_area::after,
-	area::after {
+	a::after {
 		right: calc(50% - 384px);
 		width: 30%;
 	}
@@ -3322,7 +3322,7 @@ blockquote p {
 	}
 
 	.blog_text>p,
-	a {
+	 {
 		display: none;
 	}
 
@@ -3352,7 +3352,7 @@ blockquote p {
 	}
 
 	.about_page .col-sm-6:nth-child(1) .single_prject,
-	.col-sm-6:nth-child(2) .single_prject {
+	l-sm-6:nth-child(2) .single_prject {
 		margin-top: 0;
 	}
 
@@ -3414,7 +3414,7 @@ blockquote p {
 	}
 
 	.auther_details>p,
-	enter>p {
+	er>p {
 		line-height: 21px;
 	}
 
@@ -3445,7 +3445,7 @@ blockquote p {
 	}
 
 	.header_top,
-	a.free_consul,
+	ree_consul,
 	 {
 		display: none;
 	}
@@ -3535,9 +3535,9 @@ blockquote p {
 	}
 
 	.counter_area .single_counter:nth-child(1),
-	ea .single_counter:nth-child(2),
-	e .col-sm-3:nth-child(1) .single_service,
-	col-xs-12:nth-child(1) .single_prject {
+	.single_counter:nth-child(2),
+	col-sm-3:nth-child(1) .single_service,
+	-xs-12:nth-child(1) .single_prject {
 		margin-top: 0;
 	}
 
@@ -3587,7 +3587,7 @@ blockquote p {
 	}
 
 	.call_back select,
-	nput input {
+	t input {
 		width: 100%;
 	}
 
@@ -3609,7 +3609,7 @@ blockquote p {
 	}
 
 	.blog_text>p,
-	a {
+	 {
 		display: none;
 	}
 
@@ -3637,7 +3637,7 @@ blockquote p {
 
 	/* about page */
 	.about_page .about_area,
-	ice_area {
+	_area {
 		background: none;
 	}
 
@@ -3674,8 +3674,8 @@ blockquote p {
 	}
 
 	.about_page .col-sm-6 .single_counter:nth-child(1),
-	.col-sm-6 .single_counter:nth-child(2),
-	.col-sm-6 .single_counter:nth-child(3) {
+	l-sm-6 .single_counter:nth-child(2),
+	l-sm-6 .single_counter:nth-child(3) {
 		margin-top: 30px;
 	}
 
@@ -3687,7 +3687,7 @@ blockquote p {
 
 	/* Service page */
 	.heightlight_details,
-	vice_page .client_says {
+	e_page .client_says {
 		width: 100%;
 	}
 
@@ -3905,6 +3905,11 @@ blockquote p {
 
 .paralux_text h5.text-left {
 	color: #ffffff;
+}
+
+.error {
+	color: #CF0000;
+	display: none;
 }
 
 

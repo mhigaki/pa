@@ -435,12 +435,19 @@
 					<div class="col-sm-3">
 						<div class="footer_widget">
 							<h4>NEWSLETTER</h4>
-							<form id="new_subscriber" action="https://paconsultoria.ipzmarketing.com/f/BWOSlp-ct60" method="post">
-								<input type="email" placeholder="Infomre seu e-mail" id="subscriber_email" name="subscriber[email]" class="string"/>
-								<button type="submit" value="Submit" name="commit">
+							<!-- <form id="new_subscriber" action="https://paconsultoria.ipzmarketing.com/f/BWOSlp-ct60" method="post">
+	<input type="email" placeholder="Infomre seu e-mail" id="subscriber_email" name="subscriber[email]" class="string"/>
+	<button type="submit" value="Submit" name="commit">
+		<i class="ft_m icofont icofont-ui-message"></i>
+	</button>
+</form> -->
+							<form id="subscribe">
+								<input type="email" placeholder="Infomre seu e-mail" id="nlmail" name="email"/>
+								<button type="submit" id="success-subscribe">
 									<i class="ft_m icofont icofont-ui-message"></i>
 								</button>
 							</form>
+							<div id="err-subscribe" class="error centered">Please provide valid email address.</div>
 							<p>Cadastre-se ao nosso newsletter e fique sempre atento aos nossos boletins!</p>
 						</div>
 					</div>
@@ -468,7 +475,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="footer_bottom">
+			<div class="footer_bottom" data-pg-collapsed>
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6">
