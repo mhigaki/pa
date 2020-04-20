@@ -718,7 +718,7 @@ a.th_bt:hover {
 .info_text>p,
 .info_text>p a {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 700;
 	line-height: 22px;
 	margin: 0;
@@ -2963,7 +2963,7 @@ blockquote p {
 }
 
 .contact_page .info_icon i::after {
-	border-right: 1px solid #eeeeee;
+	/* border-right: 1px solid #eeeeee */
 	content: "";
 	height: 20px;
 	left: 40px;
