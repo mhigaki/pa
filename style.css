@@ -688,7 +688,7 @@ a.th_bt:hover {
 	height: 92px;
 	background: #ffd76a;
 	top: -26px;
-	right: 16px;
+	right: 20px;
 }
 
 .info {
@@ -3234,7 +3234,7 @@ blockquote p {
 	}
 
 	.info::after {
-		right: 18px;
+		right: 10px;
 	}
 
 	.team_member {

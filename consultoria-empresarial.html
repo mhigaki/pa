@@ -5,14 +5,17 @@
 <!--[if IE 8 ]>    <html lang="en" class="ie8">    <![endif]-->
 <!--[if IE 9 ]>    <html lang="en" class="ie9">    <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="pt_BR">
+<html lang="pt-BR">
 	<!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>PA Consultoria :: Home</title>
+		<title>PA Consultoria :: Consultoria Empresarial</title>
 		<!-- ====Enable Mobile Device Zoom==== -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A PA Consultoria possui profissionais altamente qualificados que proporcionam a seus clientes a excelência, a confiabilidade e segurança na prestação de serviços, nos mais diversos ramos do Direito.">
+		<meta name="keywords" content="consultoria juridica, arbitragem, mediação, consultoria de advogados, consultoria imobiliaria, direito penal, direito medico, direito preventivo, direito criminal, direito do consumidor, direito do trabalho">
+		<meta name="author" content="MNH">
 		<!-- ====Poppins ==== -->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 		<!-- ====Open ==== -->
@@ -38,17 +41,17 @@
 		<!-- ====Custom css==== -->
 		<link rel="stylesheet" href="style.css">
 		<!-- ====Favicons==== -->
-		<link rel="apple-touch-icon-precomposed" href="img/favicon.png">
-		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-          <script src="js/html5shiv.min.js"></script>
-          <script src="js/respond.min.js"></script>
-        <![endif]-->
-		<meta name="author" content="MNH">
-		<meta name="description" content="A PA Consultoria possui profissionais altamente qualificados que proporcionam a seus clientes a excelência, a confiabilidade e segurança na prestação de serviços, nos mais diversos ramos do Direito.">
-		<meta name="keywords" content="consultoria juridica, arbitragem, mediação, consultoria de advogados, consultoria imobiliaria, direito penal, direito medico, direito preventivo, direito criminal, direito do consumidor, direito do trabalho">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png"/>
+		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png"/>
+		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png"/>
+		<link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png"/>
+		<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png"/>
+		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png"/>
+		<link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png"/>
+		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png"/>
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png"/>
+		<!-- ====Global site tags==== -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161526352-1"></script>
 		<script>
     window.dataLayer = window.dataLayer || [];
@@ -60,6 +63,12 @@
 
     gtag('config', 'UA-161526352-1');
   </script>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+          <script src="js/html5shiv.min.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
 	</head>
 	<body id="body" class="portfolio_page inner_page">
 		<!-- ====START HEADER==== -->
@@ -68,12 +77,12 @@
 				<div class="container ">
 					<div class="row ">
 						<div class="col-sm-3">
-							<div class=" logo" data-pgc-define="single_header_logo" data-pg-collapsed>
+							<div class=" logo" data-pg-collapsed data-pgc="single_header_logo">
 								<a href="index.html"> <img src="img/logo-azul.png" alt="Logo PA Consultoria"/> </a>
 							</div>
 						</div>
 						<div class="col-sm-9">
-							<div class="header_top" data-pgc-define="single_header_top_bar" data-pgc-define-name="Top Bar 1" data-pgc-section="Header" data-pg-collapsed>
+							<div class="header_top" data-pg-collapsed data-pgc="single_header_top_bar">
 								<ul class="top_contact">
 									<li>
 										<i class="icofont icofont-phone"></i>
@@ -99,7 +108,7 @@
 									</li>
 								</ul>
 							</div>
-							<div class="mainnmenu" data-pgc-section="Header" data-pgc-define="single_header_main_menu" data-pgc-define-name="Main Menu 2" data-pgc-edit="menus[class]" data-pgc-edit-types="single_header_main_menu">
+							<div class="mainnmenu" data-pgc="single_header_main_menu" data-pgc-no-update data-pgc-save-partial="partials/main_menu_area_atuacao.html" data-pgc-save-partial-operation="load">
 								<nav>
 									<ul class="menu">
 										<li data-pg-collapsed>
@@ -226,11 +235,11 @@
 		</header>
 		<!-- ====HEADER END==== -->
 		<!-- ====START BREADCRUMB AREA==== -->
-		<div class="breadcrumb_area" data-pgc-define="breadcrumb_area" data-pgc-define-name="Breadcrumb" data-pgc-define-auto-update="false" data-pgc-section="Header">
+		<div class="breadcrumb_area" style="background-image:url('https://images.unsplash.com/photo-1486490686828-196042a38646?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12">
-						<h1>Área de atuação</h1>
+						<h1>área de atuação</h1>
 						<ul>
 							<li>
 								<a href="index.html">Home</a>
@@ -240,7 +249,7 @@
 								<a href="area-de-atuacao.html">Área de Atuação</a>
 							</li>
 							<li>/</li>
-							<li class="active">single portfolio</li>
+							<li class="active">consultoria empresarial</li>
 						</ul>
 					</div>
 				</div>
@@ -248,25 +257,38 @@
 		</div>
 		<!-- ====END BREADCRUMB AREA==== -->
 		<!-- ====START PORTFOLIO CONTENT AREA==== -->
-		<div class="Portfoliopage_content section-padding" data-pgc-define="area_content" data-pgc-define-name="Section Content" data-pgc-define-auto-update="false">
+		<div class="Portfoliopage_content section-padding">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-sm-6">
 						<div class="project_details">
-							<h3>Project details</h3>
-							<p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoret dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut. Duis autem vel eum
-              iriure dolor hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praes luptatum zzril delenit augue duis dolore te feugait.</p>
+							<h3 class="text-justify">consultoria empresarial</h3>
+							<p>A consultoria jurídica empresarial é um braço do direito preventivo e vai além, verifica meios efetivos de solução em conjunto com os clientes promovendo revisão dos contratos sugerindo medidas junto aos departamentos para otimização de métodos e processos dentro da empresa.<br/>Tendo esta assessoria de forma mensal o empresário se resguarda de possíveis problemas e imprevistos, com a vantagem de ter profissionais especializados sempre que precisar, sendo devidamente orientado nas mais diversas situações e áreas do direito.<br/>Orientamos na admissão de funcionários, questões trabalhistas, auxiliamos na elaboração e análise de contratos, questões societária, tributária e cível proporcionando segurança e tranquilidade na tomada de decisões.</p>
+							<ul class="hide pro_des">
+								<li>
+									<p>clients</p>
+									<span>Jeremy House</span>
+								</li>
+								<li>
+									<p>CATEGORIES</p>
+									<span>Jeremy House</span>
+								</li>
+								<li>
+									<p>COMPLETED</p>
+									<span>Jeremy House</span>
+								</li>
+							</ul>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="projectman">
 							<figure>
-								<img src="img/projectman.jpg" alt=""/>
+								<img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjIwOTIyfQ" alt="Consultoria Empresarial"/>
 							</figure>
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="hide row">
 					<div class="col-sm-12">
 						<h4 class="det_bottom">result</h4>
 						<p class="det_para">Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla mcorper suscipit lobortis nisl ut aliquip
@@ -277,7 +299,7 @@
 		</div>
 		<!-- ====END PORTFOLIO CONTENT AREA==== -->
 		<!-- ====OUR PROJECT STAR==== -->
-		<div class="single_project_slider section-padding" data-pgc-define="single_portfolio_slider" data-pgc-define-name="Portfolio Slider">
+		<div class="single_project_slider section-padding" data-pgc="single_portfolio_slider">
 			<div class="pro_slider_box">
 				<div class="container">
 					<div class="row">
@@ -473,7 +495,7 @@
 		<!-- ====jQuery Latest version==== -->
 		<script src="js/vendor/jquery-1.12.0.min.js"></script>
 		<!-- ====Google Maps API==== -->
-		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
 		<!-- ====Bootstrap JS==== -->
 		<script src="js/bootstrap.min.js"></script>
 		<!-- ====jQuery Counterup==== -->
