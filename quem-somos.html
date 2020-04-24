@@ -77,7 +77,7 @@
 				<div class="container ">
 					<div class="row ">
 						<div class="col-sm-3">
-							<div class=" logo" data-pgc="single_header_logo">
+							<div class=" logo" style="text-align: center;" data-pgc="single_header_logo">
 								<a href="index.html"> <img src="img/logo-azul.png" alt="Logo PA Consultoria"/> </a>
 							</div>
 						</div>
@@ -229,7 +229,7 @@
 		</header>
 		<!-- ====HEADER END==== -->
 		<!-- START BREADCRUMB AREA -->
-		<div class="breadcrumb_area" data-pgc="breadcrumb_area" style=" background-attachment: local; background-size: auto;background-image:url('https://images.unsplash.com/photo-1473186505569-9c61870c11f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=1600&h=200&fit=crop');">
+		<div class="about breadcrumb_area" data-pgc="breadcrumb_area">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12">
@@ -239,9 +239,8 @@
 								<a href="index.html">Home</a>
 							</li>
 							<li>/</li>
-							<li>
-								<a href="#">Empresa</a>
-							</li>
+							<li>Empresa
+</li>
 							<li>/</li>
 							<li class="active">quem somos</li>
 						</ul>
@@ -282,7 +281,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="promot_area" data-pg-collapsed data-pgc="promot-area">
+		<section class="promot_area" data-pgc="promot-area">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-sm-8">
@@ -299,7 +298,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="our_service section-padding" data-pg-collapsed data-pgc="our-service">
+		<section class="our_service section-padding" data-pgc="our-service">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
@@ -324,6 +323,18 @@
 					</div>
 					<div class="col-sm-6" data-pg-collapsed>
 						<div class="single_service">
+							<h4>Ações trabalhista</h4>
+							<p>Com forte experiência nesta área, atuamos na defesa tanto de reclamantes que precisam e buscam seus direitos, como também nas ações em que as empresas reclamadas sofrem e precisam de auxílio mediante a iminência de uma condenação.</p>
+						</div>
+					</div>
+					<div class="col-sm-6" data-pg-collapsed>
+						<div class="single_service">
+							<h4>Direito da Saúde</h4>
+							<p>Efetuamos pedido de medidas efetivas de atendimento, pedidos de indenização por danos morais e outras medidas visando sempre amparar o cliente para garantir o direito ao atendimento médico devido.<br>Atua na resolução de conflitos de interesses e busca acabar com a idéia do enfrentamento, buscando através da figura do mediador soluções para as partes envolvidas.</p>
+						</div>
+					</div>
+					<div class="col-sm-6" data-pg-collapsed>
+						<div class="single_service">
 							<h4>Assessoria Imobiliária</h4>
 							<p>Assessoria Imobiliária, onde administramos imóveis com o devido controle para melhor segurança jurídica das partes e mediação entre conflitos que possam existir provenientes da relação imobiliária em geral.</p>
 						</div>
@@ -334,22 +345,10 @@
 							<p>Visando as obrigações e direitos que regem as relações familiares estamos aptos a auxiliar nossos clientes desde ações de divórcio, ação de guarda de filhos, Direito homoafetivo, dissolução de união estável e até busca e apreensão de menores.</p>
 						</div>
 					</div>
-					<div class="col-sm-6" data-pg-collapsed>
-						<div class="single_service">
-							<h4>Direito da Saúde</h4>
-							<p>Efetuamos pedido de medidas efetivas de atendimento, pedidos de indenização por danos morais e outras medidas visando sempre amparar o cliente para garantir o direito ao atendimento médico devido. Atua na resolução de conflitos de interesses e busca acabar com a idéia do enfrentamento, buscando através da figura do mediador soluções para as partes envolvidas.</p>
-						</div>
-					</div>
-					<div class="col-sm-6" data-pg-collapsed>
-						<div class="single_service">
-							<h4>Ações trabalhista</h4>
-							<p>Com forte experiência nesta área, atuamos na defesa tanto de reclamantes que precisam e buscam seus direitos, como também nas ações em que as empresas reclamadas sofrem e precisam de auxílio mediante a iminência de uma condenação.</p>
-						</div>
-					</div>
 				</div>
 			</div>
 		</section>
-		<section class="promot_area2" data-pg-collapsed data-pgc="proot-area2">
+		<section class="promot_area2" data-pgc="proot-area2">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
@@ -480,11 +479,11 @@
 		<footer class="footer_area" data-pgc="footer_area">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-3">
+					<div data-pg-collapsed class="col-sm-3">
 						<div class="footer_widget">
 							<h4>PA CONSULTORIA</h4>
 							<p>Nossa Consultoria é desenvolvida para cada cliente atendendo às necessidades de cada um com profissionais altamente qualificados.</p>
-							<ul class="bottom_social">
+							<ul class="bottom_social" data-pg-collapsed>
 								<li class="active">
 									<a href="https://www.facebook.com/paconsultoriasp/" target="_blank"> <i class="icofont icofont-social-facebook"></i></a>
 								</li>
@@ -500,12 +499,15 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div data-pg-collapsed class="col-sm-3">
 						<div class="footer_widget">
 							<h4>NOSSOS SERVIÇOS</h4>
-							<ul class="importent_link">
+							<ul class="importent_link" data-pg-collapsed>
 								<li>
-									<a href="mediacao.html">Mediação e Arbitragem</a>
+									<a href="mediacao.html">Mediação</a>
+								</li>
+								<li>
+									<a href="arbitragem.html">Arbitragem</a>
 								</li>
 								<li>
 									<a href="direito-imobiliario.html">Direito Imobiliário</a>
@@ -524,27 +526,15 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="footer_widget">
-							<h4>NEWSLETTER</h4>
-							<form id="new_subscriber" action="https://paconsultoria.ipzmarketing.com/f/BWOSlp-ct60" method="post">
-								<input type="email" placeholder="Infomre seu e-mail" id="subscriber_email" name="subscriber[email]" class="string"/>
-								<button type="submit" value="Submit" name="commit">
-									<i class="ft_m icofont icofont-ui-message"></i>
-								</button>
-							</form>
-							<p>Cadastre-se ao nosso newsletter e fique sempre atento aos nossos boletins!</p>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="footer_widget">
 							<h4>CONTATE-NOS</h4>
-							<ul class="ft_conta">
+							<ul class="ft_conta" data-pg-collapsed>
 								<li>
 									<i class="icofont icofont-social-google-map"></i>
-									<span>R. Santa Cruz, 2105 – 11º, Sl. 1117 - Vila Mariana, SP, 04121-002</span>
+									<span>R. Santa Cruz, 2105, 11º, Sl 1117, Vila Mariana, SP, 04121-002.</span>
 								</li>
 								<li>
 									<i class="icofont icofont-phone"></i>
-									<a href="tel:551124002835">(11) 2400-2835</a>
+									<a href="tel:551124002835">+55 (11) 2400-2835</a>
 								</li>
 								<li>
 									<i class="icofont icofont-ui-message"></i>
@@ -556,19 +546,31 @@
 							</ul>
 						</div>
 					</div>
+					<div data-pg-collapsed class="col-sm-3">
+						<div class="footer_widget">
+							<h4>NEWSLETTER</h4>
+							<form id="new_subscriber" action="https://paconsultoria.ipzmarketing.com/f/BWOSlp-ct60" method="post">
+								<input type="email" placeholder="Infomre seu e-mail" id="subscriber_email" name="subscriber[email]" class="string"/>
+								<button type="submit" value="Submit" name="commit">
+									<i class="ft_m icofont icofont-ui-message"></i>
+								</button>
+							</form>
+							<p>Cadastre-se ao nosso newsletter e fique sempre atento aos nossos boletins informativos!</p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="footer_bottom" data-pg-collapsed>
+			<div class="footer_bottom">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6">
 							<div class="ft_bottom">
-								<p>© Copyright ©2019 - PA Consultoria, All Rights Reserved</p>
+								<p>© Copyright ©2019 - PA Consultoria, All Rights Reserved.</p>
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="ft_bottom">
-								<p class="text-right">Desenvolvido por <a href="http://higatech.net" target="_blank">MNH</a> </p>
+								<p class="text-right">Desenvolvido por <a href="http://higatech.net" target="_blank">MNH</a></p>
 							</div>
 						</div>
 					</div>

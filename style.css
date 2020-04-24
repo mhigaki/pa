@@ -1587,9 +1587,11 @@ footer.footer_area::after {
 }
 
 ul.importent_link li a {
-	line-height: 27px;
+	line-height: 25px;
 	color: #e2e2e2;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
 }
 
 .footer_widget>p {
@@ -1599,8 +1601,6 @@ ul.importent_link li a {
 	line-height: 21px;
 	margin-bottom: 27px;
 	font-family: 'Poppins', sans-serif;
-
-	/* text-align: justify */
 }
 
 .footer_widget>h4 {
@@ -1618,10 +1618,11 @@ ul.importent_link li a {
 }
 
 ul.ft_conta li {
-	line-height: 37px;
+	line-height: 40px;
 	font-size: 12px;
 	font-weight: 300;
 	font-family: 'Poppins', sans-serif;
+	color: #e2e2e2;
 }
 
 .bottom_social li:hover a i {
@@ -1861,7 +1862,7 @@ ul.top_contact>li:first-child a,
 	left: 0;
 	position: absolute;
 	top: 0;
-	width: 50%;
+	width: 60%;
 }
 
 .breadcrumb_area h1 {
@@ -2111,6 +2112,13 @@ ul.top_contact>li:first-child a,
 	margin-top: 30px;
 }
 
+.atuacaopage_heading>h4 a {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #1b1b1b;
+}
+
 .servicepage_heading>h4 a {
 	font-family: "Open Sans", sans-serif;
 	font-size: 16px;
@@ -2282,7 +2290,7 @@ ul.top_contact>li:first-child a,
 }
 
 .portfolio_page .servicepage_photo figcaption {
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(34, 114, 172, 0.68);
 	content: "";
 	height: 100%;
 	left: 0;
@@ -2306,6 +2314,11 @@ ul.top_contact>li:first-child a,
 
 .portfolio_page .servicepage_details {
 	margin-top: 32px;
+}
+
+.portfolio_page .atuacaopage_heading>h4 a {
+	font-size: 18px;
+	text-transform: uppercase;
 }
 
 .portfolio_page .servicepage_heading>h4 a {
@@ -3088,7 +3101,7 @@ blockquote p {
 	}
 
 	.homePage .about_area::after,
-	a::after {
+	after {
 		right: calc(50% - 485px);
 	}
 
@@ -3284,7 +3297,7 @@ blockquote p {
 	}
 
 	.homePage .about_area::after,
-	a::after {
+	after {
 		right: calc(50% - 384px);
 		width: 30%;
 	}
@@ -3352,7 +3365,7 @@ blockquote p {
 	}
 
 	.about_page .col-sm-6:nth-child(1) .single_prject,
-	l-sm-6:nth-child(2) .single_prject {
+	m-6:nth-child(2) .single_prject {
 		margin-top: 0;
 	}
 
@@ -3414,7 +3427,7 @@ blockquote p {
 	}
 
 	.auther_details>p,
-	er>p {
+	p {
 		line-height: 21px;
 	}
 
@@ -3445,7 +3458,7 @@ blockquote p {
 	}
 
 	.header_top,
-	ree_consul,
+	_consul,
 	 {
 		display: none;
 	}
@@ -3535,9 +3548,9 @@ blockquote p {
 	}
 
 	.counter_area .single_counter:nth-child(1),
-	.single_counter:nth-child(2),
-	col-sm-3:nth-child(1) .single_service,
-	-xs-12:nth-child(1) .single_prject {
+	ngle_counter:nth-child(2),
+	-sm-3:nth-child(1) .single_service,
+	-12:nth-child(1) .single_prject {
 		margin-top: 0;
 	}
 
@@ -3587,7 +3600,7 @@ blockquote p {
 	}
 
 	.call_back select,
-	t input {
+	nput {
 		width: 100%;
 	}
 
@@ -3637,7 +3650,7 @@ blockquote p {
 
 	/* about page */
 	.about_page .about_area,
-	_area {
+	ea {
 		background: none;
 	}
 
@@ -3674,8 +3687,8 @@ blockquote p {
 	}
 
 	.about_page .col-sm-6 .single_counter:nth-child(1),
-	l-sm-6 .single_counter:nth-child(2),
-	l-sm-6 .single_counter:nth-child(3) {
+	m-6 .single_counter:nth-child(2),
+	m-6 .single_counter:nth-child(3) {
 		margin-top: 30px;
 	}
 
@@ -3687,7 +3700,7 @@ blockquote p {
 
 	/* Service page */
 	.heightlight_details,
-	e_page .client_says {
+	age .client_says {
 		width: 100%;
 	}
 
@@ -3889,10 +3902,6 @@ blockquote p {
 	padding: 20px;
 }
 
-.breadcrumb_404 {
-	background-image: url('img/bkg_404.jpeg');
-}
-
 .servicepage_heading:hover {
 	margin-top: 20px;
 	padding: 17px 20px 8px;
@@ -3908,6 +3917,82 @@ blockquote p {
 }
 
 .breadcrumb_area.partners {
-	background: url('https://images.unsplash.com/photo-1496115965489-21be7e6e59a0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+	background: url('img/breadcrumb-partners.jpeg');
+	background-position: center bottom;
+	background-attachment: fixed;
+	background-size: auto;
+}
+
+.breadcrumb_area.arbitragem {
+	background: url('img/breadcrumb_arbitragem');
+	background-attachment: scroll;
 	background-position: center center;
+	background-size: cover;
+}
+
+.breadcrumb_area.page_not_found {
+	background: url('img/bkg_404.jpeg');
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+.breadcrumb_area.mediacao {
+	background: url('img/breadcrumb_mediacao');
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: center center;
+}
+
+.breadcrumb_area.about {
+	background-attachment: local;
+	background-size: auto;
+	background-image: url('https://images.unsplash.com/photo-1473186505569-9c61870c11f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=1600&h=200&fit=crop');
+}
+
+.breadcrumb_area.parceiros {
+	background-image: url('https://images.unsplash.com/flagged/photo-1564767609342-620cb19b2357?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+}
+
+.breadcrumb_area.direito_trabalho {
+	background-image: url('https://images.unsplash.com/photo-1486490686828-196042a38646?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+}
+
+.breadcrumb_area.direito_preventivo {
+	background-image: url('https://images.unsplash.com/photo-1585909695677-2b0492f96e3b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+}
+
+.breadcrumb_area.direito_medico {
+	background-image: url('https://images.unsplash.com/photo-1516841273335-e39b37888115?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+}
+
+.breadcrumb_area.direito_imobiliario {
+	background-image: url('https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+}
+
+.breadcrumb_area.direito_familia {
+	background-image: url('https://images.unsplash.com/photo-1486490686828-196042a38646?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+}
+
+.breadcrumb_area.direito_criminal {
+	background-image: url('https://images.unsplash.com/photo-1560575193-c2c9e886aefe?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+}
+
+.breadcrumb_area.direito_consumidor {
+	background-image: url('https://images.unsplash.com/photo-1496115965489-21be7e6e59a0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+}
+
+.breadcrumb_area.artigos {
+	background-image: url('https://images.unsplash.com/36/fVSwTG05QIaE9FN7tLQ5_IMG_1122.jpg?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+}
+
+.breadcrumb_area.area_de_atuacao {
+	background: url('https://images.unsplash.com/photo-1541794927-b8c4bd6df829?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.atuacaopage_heading {
+	margin-top: 20px;
+	padding: 17px 20px 8px;
 }
