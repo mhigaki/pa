@@ -2087,13 +2087,13 @@ ul.top_contact>li:first-child a,
 ----------------------------------------------------------- */
 .servicepage_heading {
 	margin-top: 20px;
-	padding: 17px 20px 8px;
+	padding: 15px 20px 8px;
 	border-color: rgba(34, 114, 172, 0.48);
 	border-top: 1px solid rgba(34, 114, 172, 0.48);
 	border-bottom: 1px none rgba(34, 114, 172, 0.48);
 	border-left: 1px solid rgba(34, 114, 172, 0.48);
 	border-right: 1px none rgba(34, 114, 172, 0.48);
-	height: 240px;
+	height: 220px;
 }
 
 .portfolio_page .col-sm-4:nth-child(1) .servicepage_details,
