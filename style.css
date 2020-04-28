@@ -3982,7 +3982,10 @@ blockquote p {
 }
 
 .breadcrumb_area.artigos {
-	background-image: url('https://images.unsplash.com/36/fVSwTG05QIaE9FN7tLQ5_IMG_1122.jpg?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+	background: url('https://images.unsplash.com/36/fVSwTG05QIaE9FN7tLQ5_IMG_1122.jpg?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: cover;
 }
 
 .breadcrumb_area.area_de_atuacao {
