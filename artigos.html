@@ -256,7 +256,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-sm-9">
-						<div class="single_post">
+						<div class="single_post" data-pg-collapsed>
 							<figure class="post_img">
 								<img src="https://images.unsplash.com/photo-1521790797524-b2497295b8a0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ" alt=""/>
 								<h4> <span>nov</span>
@@ -296,7 +296,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="single_post">
+						<div class="single_post" data-pg-collapsed>
 							<figure class="post_img">
 								<img alt="" src="https://images.unsplash.com/photo-1559054109-82d938dac629?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ"/>
 								<h4><span>Set</span>
@@ -336,7 +336,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="single_post">
+						<div class="single_post" data-pg-collapsed>
 							<figure class="post_img">
 								<img src="https://images.unsplash.com/photo-1519494140681-8b17d830a3e9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ" alt=""/>
 								<h4> <span>Ago</span>08</h4>
@@ -375,7 +375,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="page_no" data-pgc-define="page_no" data-pgc-define-name="Page Number">
+						<div class="page_no" data-pgc-define="page_no" data-pgc-define-name="Page Number" data-pg-collapsed>
 							<nav>
 								<ul class="pagination">
 									<li class="page-item">
@@ -390,8 +390,8 @@
 									<li class="page-item">
 										<a href="#!" class="page-link">3</a>
 									</li>
-									<li class="paginationjs-next J-paginationjs-next" data-num="2" title="Next page">
-										<a href="" class="waves-effect"><i class="icofont icofont-long-arrow-right"></i></a>
+									<li data-num="2" title="Next page">
+										<a href="" class="waves-effect"><i class="icofont icofont-long-arrow-right"></i><span class="sr-only">Next</span></a>
 									</li>
 								</ul>
 							</nav>
@@ -602,26 +602,6 @@
 		<script src="js/camera.min.js"></script>
 		<!-- ====jQuery VenoBox==== -->
 		<script src="js/venobox.min.js"></script>
-		<script type="text/template" id="template-demo2">
-    <!-- <div class="demo-section clearfix"> -->
-        <!-- <div class="demo-section-title"></div> -->
-        <div class="inner-left preview">
-            <div class="single_post"></div>
-        </div>
-        <div class="inner-right code">
-<pre><code>$('#demo').pagination({
-    dataSource: [1, 2, 3, 4, 5, 6, 7, ... , 35],
-    pageSize: 5,
-    pageNumber: 3,
-    callback: function(data, pagination) {
-        // template method of yourself
-        var html = template(data);
-        single_post.html(html);
-    }
-})</code></pre>
-        </div>
-    </div>
-</script>
 		<!--Opacity & Other IE fix for older browser-->
 		<!--[if lte IE 8]>
             <script type="text/javascript" src="js/ie-opacity-polyfill.js"></script>
