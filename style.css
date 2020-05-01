@@ -4006,3 +4006,10 @@ blockquote p {
     margin-top: 20px;
     padding: 17px 20px 8px;
 }
+
+.breadcrumb_area.consultoria_empresarial {
+    background-image: url('https://images.unsplash.com/photo-1467664631004-58beab1ece0d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
