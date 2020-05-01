@@ -1866,7 +1866,7 @@ ul.top_contact>li:first-child a,
 }
 
 .breadcrumb_area h1 {
-    color: #171717;
+    color: #2272AC;
     font-family: 'Poppins', sans-serif;
     font-size: 34px;
     font-weight: 700;
@@ -3940,8 +3940,9 @@ blockquote p {
 .breadcrumb_area.mediacao {
     background: url('img/breadcrumb_mediacao');
     background-attachment: scroll;
-    background-size: cover;
+    background-size: auto;
     background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .breadcrumb_area.about {
@@ -3975,11 +3976,16 @@ blockquote p {
 }
 
 .breadcrumb_area.direito_criminal {
-    background-image: url('https://images.unsplash.com/photo-1560575193-c2c9e886aefe?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+    background-image: url('https://images.unsplash.com/photo-1564993719576-7b00be6317cd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
 
 .breadcrumb_area.direito_consumidor {
     background-image: url('https://images.unsplash.com/photo-1496115965489-21be7e6e59a0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+    background-attachment: fixed;
+    background-size: auto;
 }
 
 .breadcrumb_area.artigos {
