@@ -8,6 +8,43 @@
 <html lang="pt-BR">
   <!--<![endif]-->
   <head>
+    <!-- Anti-flicker snippet -->
+    <style>
+    .async-hide {
+      opacity: 0 !important
+    }
+  </style>
+    <script>
+    (function(a, s, y, n, c, h, i, d, e) {
+      s.className += ' ' + y;
+      h.start = 1 * new Date;
+      h.end = i = function() {
+        s.className = s.className.replace(RegExp(' ?' + y), '')
+      };
+      (a[n] = a[n] || []).hide = h;
+      setTimeout(function() {
+        i();
+        h.end = null
+      }, c);
+      h.timeout = c;
+    })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
+      'OPT-WF66M5L': true
+    });
+  </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161526352-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-161526352-1', {
+      'optimize_id': 'OPT-WF66M5L'
+    });
+  </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>PA Consultoria :: Consultoria Empresarial</title>
@@ -269,7 +306,10 @@
           <div class="col-xs-12 col-sm-6">
             <div class="project_details">
               <h3 class="text-justify">consultoria empresarial</h3>
-              <p>A consultoria jurídica empresarial é um braço do direito preventivo e vai além, verifica meios efetivos de solução em conjunto com os clientes promovendo revisão dos contratos sugerindo medidas junto aos departamentos para otimização de métodos e processos dentro da empresa.<br/>Tendo esta assessoria de forma mensal o empresário se resguarda de possíveis problemas e imprevistos, com a vantagem de ter profissionais especializados sempre que precisar, sendo devidamente orientado nas mais diversas situações e áreas do direito.<br/>Orientamos na admissão de funcionários, questões trabalhistas, auxiliamos na elaboração e análise de contratos, questões societária, tributária e cível proporcionando segurança e tranquilidade na tomada de decisões.</p>
+              <p>A consultoria jurídica empresarial é um braço do direito preventivo e vai além, verifica meios efetivos de solução em conjunto com os clientes promovendo revisão dos contratos sugerindo medidas junto aos departamentos para otimização
+              de métodos e processos dentro da empresa.<br/>Tendo esta assessoria de forma mensal o empresário se resguarda de possíveis problemas e imprevistos, com a vantagem de ter profissionais especializados sempre que precisar, sendo
+              devidamente orientado nas mais diversas situações e áreas do direito.<br/>Orientamos na admissão de funcionários, questões trabalhistas, auxiliamos na elaboração e análise de contratos, questões societária, tributária e cível
+              proporcionando segurança e tranquilidade na tomada de decisões.</p>
               <ul class="hide pro_des">
                 <li>
                   <p>clients</p>

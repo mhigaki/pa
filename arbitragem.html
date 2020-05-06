@@ -8,6 +8,43 @@
 <html lang="pt-BR">
   <!--<![endif]-->
   <head>
+    <!-- Anti-flicker snippet -->
+    <style>
+    .async-hide {
+      opacity: 0 !important
+    }
+  </style>
+    <script>
+    (function(a, s, y, n, c, h, i, d, e) {
+      s.className += ' ' + y;
+      h.start = 1 * new Date;
+      h.end = i = function() {
+        s.className = s.className.replace(RegExp(' ?' + y), '')
+      };
+      (a[n] = a[n] || []).hide = h;
+      setTimeout(function() {
+        i();
+        h.end = null
+      }, c);
+      h.timeout = c;
+    })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
+      'OPT-WF66M5L': true
+    });
+  </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161526352-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-161526352-1', {
+      'optimize_id': 'OPT-WF66M5L'
+    });
+  </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>PA Consultoria :: Arbitragem</title>
@@ -269,7 +306,9 @@
           <div class="col-xs-12 col-sm-6">
             <div class="project_details">
               <h3>Arbitragem</h3>
-              <p>A arbitragem é um processo mas realizado em câmaras arbitrais que atuam como Justiça Privada, tendo as suas determinações na Lei nº 9307/96 que teve sua revisão na Lei nº 13.129/2015.<br><br>Podem ser  solucionados através de arbitragem questões relativas a direitos que tenham valor econômico e que possam ser comercializados ou transacionados livremente por seus detentores.<br><br>Nosso escritório está preparado para dar todo o suporte para quem quer tanto utilizar este meio de solução de conflitos.</p>
+              <p>A arbitragem é um processo mas realizado em câmaras arbitrais que atuam como Justiça Privada, tendo as suas determinações na Lei nº 9307/96 que teve sua revisão na Lei nº 13.129/2015.<br><br>Podem ser solucionados através de arbitragem
+              questões relativas a direitos que tenham valor econômico e que possam ser comercializados ou transacionados livremente por seus detentores.<br><br>Nosso escritório está preparado para dar todo o suporte para quem quer tanto utilizar
+              este meio de solução de conflitos.</p>
               <ul class="hide pro_des">
                 <li>
                   <p>clients</p>
@@ -297,7 +336,9 @@
         <div class="row" style="display: none;">
           <div class="col-sm-12">
             <h4 class="det_bottom">Arbitragem</h4>
-            <p class="det_para">A arbitragem é um processo mas realizado em câmaras arbitrais que atuam como Justiça Privada, tendo as suas determinações na Lei nº 9307/96 que teve sua revisão na Lei nº 13.129/2015.<br><br>Podem ser  solucionados através de arbitragem questões relativas a direitos que tenham valor econômico e que possam ser comercializados ou transacionados livremente por seus detentores.<br><br>Nosso escritório está preparado para dar todo o suporte para quem quer tanto utilizar este meio de solução de conflitos.</p>
+            <p class="det_para">A arbitragem é um processo mas realizado em câmaras arbitrais que atuam como Justiça Privada, tendo as suas determinações na Lei nº 9307/96 que teve sua revisão na Lei nº 13.129/2015.<br><br>Podem ser solucionados
+            através de arbitragem questões relativas a direitos que tenham valor econômico e que possam ser comercializados ou transacionados livremente por seus detentores.<br><br>Nosso escritório está preparado para dar todo o suporte para quem
+            quer tanto utilizar este meio de solução de conflitos.</p>
           </div>
         </div>
       </div>

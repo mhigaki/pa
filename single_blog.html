@@ -9,6 +9,45 @@
 <!--<![endif]-->
 
 <head>
+
+  <!-- Anti-flicker snippet -->
+  <style>
+    .async-hide {
+      opacity: 0 !important
+    }
+  </style>
+  <script>
+    (function(a, s, y, n, c, h, i, d, e) {
+      s.className += ' ' + y;
+      h.start = 1 * new Date;
+      h.end = i = function() {
+        s.className = s.className.replace(RegExp(' ?' + y), '')
+      };
+      (a[n] = a[n] || []).hide = h;
+      setTimeout(function() {
+        i();
+        h.end = null
+      }, c);
+      h.timeout = c;
+    })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
+      'OPT-WF66M5L': true
+    });
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161526352-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-161526352-1', {
+      'optimize_id': 'OPT-WF66M5L'
+    });
+  </script>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>PA Consultoria :: Nosso Blog</title>
@@ -52,18 +91,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
   <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png" />
-  <!-- ====Global site tags==== -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161526352-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-161526352-1');
-  </script>
+  
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
