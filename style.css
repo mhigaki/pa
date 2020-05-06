@@ -3983,9 +3983,11 @@ blockquote p {
 }
 
 .breadcrumb_area.direito_consumidor {
-    background-image: url('https://images.unsplash.com/photo-1496115965489-21be7e6e59a0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
-    background-attachment: fixed;
+    background: url('img/bread_cons.jpeg');
     background-size: auto;
+    background-position: right center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .breadcrumb_area.artigos {
