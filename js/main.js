@@ -163,12 +163,12 @@
     //     google.maps.event.addDomListener(window, 'load', initialize);
     // }
 
-//    $('.footer_area .scroll_button i').on('click', function () {
-//        $('html, body').animate({
-//            scrollTop: 0
-//        }, 4000);
-//        return false;
-//    });
+   $('.footer_area .scroll_button i').on('click', function () {
+       $('html, body').animate({
+           scrollTop: 0
+       }, 4000);
+       return false;
+   });
 
     /*====== camera slider for Home-2 ======*/
     isMobile ? windowHeight = 648 : null;

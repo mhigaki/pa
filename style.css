@@ -345,7 +345,7 @@ nav {
 .menu li a {
     color: #1c1b1b;
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     padding: 28px 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -384,8 +384,8 @@ nav {
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     text-align: left;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .menu li:hover>.sub_menu {
@@ -3918,10 +3918,7 @@ blockquote p {
 }
 
 .breadcrumb_area.partners {
-    background: url('img/breadcrumb-partners.jpeg');
-    background-position: center bottom;
-    background-attachment: fixed;
-    background-size: auto;
+    background: url('https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=1280&h=210&fit=crop');
 }
 
 .breadcrumb_area.arbitragem {
@@ -3964,7 +3961,10 @@ blockquote p {
 }
 
 .breadcrumb_area.direito_medico {
-    background-image: url('https://images.unsplash.com/photo-1516841273335-e39b37888115?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+    background: url('img/breadcrumb_direito_saude.jpg');
+    background-position: center top;
+    background-attachment: local;
+    background-size: cover;
 }
 
 .breadcrumb_area.direito_imobiliario {
@@ -4014,4 +4014,11 @@ blockquote p {
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
+}
+
+.compliance {
+    background: url('https://i1.wp.com/www.megajuridico.com/wp-content/uploads/2019/04/imagem-destacada78999.jpg?fit=1280%2C720&ssl=1');
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
 }
