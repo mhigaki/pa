@@ -441,7 +441,7 @@ nav {
     height: 100vh;
     position: relative;
     background-size: cover;
-    background: url(img/paralux.jpg);
+    background-image: url('img/paralux.jpg');
 }
 
 .header_content {
@@ -498,7 +498,7 @@ nav {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     margin: 17px 0 27px;
-    width: 72%;
+    width: 75%;
 }
 
 .paralux_content .scroll_button {
@@ -718,12 +718,12 @@ a.th_bt:hover {
 .info_text>p,
 .info_text>p a {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 22px;
     margin: 0;
     color: #333;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 li.info:last-child::after {
@@ -775,7 +775,6 @@ li.info:last-child::after {
     line-height: 25px;
     width: 50%;
     padding-left: 30px;
-    text-align: justify;
 }
 
 .about_text nav.th_bt a span {
@@ -857,7 +856,6 @@ li.info:last-child::after {
     line-height: 21px;
     padding-left: 20px;
     position: relative;
-    text-align: justify;
     width: 90%;
 }
 
@@ -1054,7 +1052,6 @@ figure.team_member::before {
     font-size: 12px;
     line-height: 18px;
     font-weight: 300;
-    text-align: justify;
 }
 
 .team_member p::before {
@@ -1183,7 +1180,6 @@ figure.team_member:hover img {
     border-right-color: transparent;
     padding: 9px 30px 22px;
     font-weight: 300;
-    text-align: justify;
 }
 
 .clint_text {
@@ -3244,7 +3240,7 @@ blockquote p {
     }
 
     .paralux_text h1 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .info::after {
@@ -3459,8 +3455,8 @@ blockquote p {
     }
 
     .header_top,
-    nsul,
-     {
+    .mainnmenu a.free_consul,
+    .paralux_text p {
         display: none;
     }
 
@@ -3873,7 +3869,6 @@ blockquote p {
     columns: 2;
     column-gap: 50px;
     column-rule: 1px solid #dddddd;
-    text-align: justify;
 }
 
 #404.breadcrumb_area {
@@ -3899,7 +3894,8 @@ blockquote p {
     font-family: 'Open Sans', sans-serif;
     line-height: 35px;
     font-weight: 300;
-    text-align: justify;
+
+    /* text-align: justify */
     padding: 20px;
 }
 
