@@ -22,7 +22,7 @@
     project_slider.owlCarousel({
         loop: true,
         margin: 0,
-        autoplay: false,
+        autoplay: true,
         dots: false,
         responsive: {
             0: {
@@ -77,7 +77,7 @@
     partner_slider.owlCarousel({
         loop: true,
         margin: 0,
-        autoplay: false,
+        autoplay: true,
         dots: false,
         responsive: {
             0: {
@@ -139,36 +139,12 @@
         pro_sing_slider.trigger('prev.owl.carousel');
     });
 
-    /*
-    // --------- Google Map init ----------  //
-    // var googleMapSelector = $('#map'),
-    //     myCenter = new google.maps.LatLng(-46.620730, -23.602121);
-    //
-    // function initialize() {
-    //     var mapProp = {
-    //         center: myCenter,
-    //         zoom: 15,
-    //         scrollwheel: false,
-    //         mapTypeId: google.maps.MapTypeId.ROADMAP
-    //     };
-    //     var map = new google.maps.Map(document.getElementById("map"), mapProp);
-    //     var marker = new google.maps.Marker({
-    //         position: myCenter,
-    //         animation: google.maps.Animation.BOUNCE,
-    //         icon: 'img/google-pin.png'
-    //     });
-    //     marker.setMap(map);
-    // }
-    // if (googleMapSelector.length) {
-    //     google.maps.event.addDomListener(window, 'load', initialize);
-    // }
-
-   $('.footer_area .scroll_button i').on('click', function () {
-       $('html, body').animate({
-           scrollTop: 0
-       }, 4000);
-       return false;
-   });
+   // $('.footer_area .scroll_button i').on('click', function () {
+   //     $('html, body').animate({
+   //         scrollTop: 0
+   //     }, 4000);
+   //     return false;
+   // });
 
     /*====== camera slider for Home-2 ======*/
     isMobile ? windowHeight = 648 : null;
