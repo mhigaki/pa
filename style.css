@@ -436,12 +436,12 @@ nav {
 ----------------------------------------------------------- */
 .header_paralux {
     background-attachment: fixed;
+    background-image: url("img/paralux.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     margin-top: -122px;
     height: 100vh;
     position: relative;
-    background-size: cover;
-    background-image: url('img/paralux.jpg');
 }
 
 .header_content {
@@ -3506,8 +3506,7 @@ blockquote p {
 
     .header_paralux {
         margin-top: -137px;
-        background-position: right top;
-        background-image: url('img/paralux.jpeg');
+        background-position: center bottom;
     }
 
     .paralux_content {
