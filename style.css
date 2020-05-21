@@ -856,7 +856,8 @@ li.info:last-child::after {
     line-height: 21px;
     padding-left: 20px;
     position: relative;
-    width: 90%;
+    width: 95%;
+    text-align: justify;
 }
 
 .single_service>p::after {
@@ -1019,7 +1020,7 @@ figure.team_member>figcaption {
     position: absolute;
     top: 5%;
     width: 100%;
-    padding: 30px 25px 30px 55px;
+    padding: 30px 25px;
     -webkit-transform: scale(0);
     transform: scale(0);
 }
@@ -1052,6 +1053,7 @@ figure.team_member::before {
     font-size: 12px;
     line-height: 18px;
     font-weight: 300;
+    text-align: justify;
 }
 
 .team_member p::before {
