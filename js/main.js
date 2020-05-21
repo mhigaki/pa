@@ -139,29 +139,6 @@
         pro_sing_slider.trigger('prev.owl.carousel');
     });
 
-    // --------- Google Map init ----------  //
-     var googleMapSelector = $('#map'),
-         myCenter = new google.maps.LatLng(-23.6021211, -46.6207306);
-
-     function initialize() {
-         var mapProp = {
-             center: myCenter,
-             zoom: 15,
-             scrollwheel: false,
-             mapTypeId: google.maps.MapTypeId.ROADMAP
-         };
-         var map = new google.maps.Map(document.getElementById("map"), mapProp);
-         var marker = new google.maps.Marker({
-             position: myCenter,
-             animation: google.maps.Animation.BOUNCE,
-             icon: 'img/google-pin.png'
-         });
-         marker.setMap(map);
-     }
-     if (googleMapSelector.length) {
-         google.maps.event.addDomListener(window, 'load', initialize);
-     }
-
  //    $('.footer_area .scroll_button i').on('click', function () {
  //        $('html, body').animate({
  //            scrollTop: 0
