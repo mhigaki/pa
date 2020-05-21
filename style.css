@@ -287,7 +287,7 @@ ul.top_contact>li:first-child a {
 2.3 Menu Css
 ----------------------------------------------------------- */
 .logo {
-    margin: -1px 0;
+    margin: -2px 0;
 }
 
 .mainnmenu {
@@ -3117,7 +3117,7 @@ blockquote p {
 
     .team_member p::before {
         font-size: 16px;
-        left: 5px;
+        left: 15px;
         top: 10px;
     }
 
@@ -3506,7 +3506,8 @@ blockquote p {
 
     .header_paralux {
         margin-top: -137px;
-        background-position: center bottom;
+        background: url('img/paralux.jpeg');
+        background-size: cover;
     }
 
     .paralux_content {

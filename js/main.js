@@ -116,7 +116,7 @@
   var team_slider = $('.team_slider');
   team_slider.owlCarousel({
     loop: true,
-    margin: 20,
+    margin: 10,
     autoplay: true,
     dots: false,
     responsive: {
