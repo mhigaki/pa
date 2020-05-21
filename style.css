@@ -3507,8 +3507,6 @@ blockquote p {
     .header_paralux {
         margin-top: -137px;
         background-image: url('img/paralux.jpg');
-        background-size: auto;
-        background-attachment: fixed;
         background-position: right top;
     }
 
