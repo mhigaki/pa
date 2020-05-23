@@ -709,7 +709,7 @@ a.th_bt:hover {
 
 .info_text {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 25px;
     padding-left: 10px;
     padding-right: 10px;
     vertical-align: middle;
@@ -3508,8 +3508,10 @@ blockquote p {
 
     .header_paralux {
         margin-top: -137px;
-        background: url('img/paralux.jpeg');
         background-size: cover;
+        background-image: url('img/paralux.jpeg');
+        background-position: right bottom;
+        background-attachment: fixed;
     }
 
     .paralux_content {
