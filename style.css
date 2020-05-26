@@ -1971,7 +1971,7 @@ ul.top_contact>li:first-child a,
 
 .about_page .about_area {
     background: rgba(2, 7, 39, 0) -webkit-linear-gradient(left, #fff 0%, #fff 50%, #2272AC 50%, #2272AC 100%) repeat scroll 0 0;
-    background: rgba(2, 7, 39, 0) linear-gradient(to right, #fff 0%, #fff 50%, #2272AC 50%, #2272AC 100%) repeat scroll 0 0;
+    background: rgba(2, 7, 39, 0) linear-gradient(to right, #fff 0%, #fff 50%, #2272ac 50%, #2272AC 100%) repeat scroll 0 0;
 }
 
 .about_page .single_counter h3,
@@ -1992,7 +1992,7 @@ ul.top_contact>li:first-child a,
 }
 
 .ab_bg {
-    background: rgba(0, 0, 0, 0) url("img/patricia_batata.png") no-repeat scroll left center / cover;
+    background: rgba(0, 0, 0, 0) url("img/about_service_bg1.jpg") no-repeat scroll left center / cover;
     content: "";
     height: 100%;
     position: absolute;
@@ -2000,7 +2000,8 @@ ul.top_contact>li:first-child a,
     width: 50%;
     background-attachment: scroll;
     background-size: cover;
-    right: 0;
+    left: 0;
+    background-position: center center;
 }
 
 .ab_bg1 {
@@ -2668,7 +2669,7 @@ h6.post-title {
 }
 
 .projectman {
-    padding-top: 29px;
+    /* padding-top: 130px */
 }
 
 /* free conseltaion */
@@ -3507,8 +3508,6 @@ blockquote p {
 
     .header_paralux {
         margin-top: -137px;
-        background-image: url('img/paralux.jpeg');
-        background-position: right bottom;
     }
 
     .paralux_content {
@@ -3971,7 +3970,9 @@ blockquote p {
 }
 
 .breadcrumb_area.direito_familia {
-    background-image: url('https://images.unsplash.com/photo-1486490686828-196042a38646?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
+    background-size: auto;
+    background-image: url('https://images.unsplash.com/photo-1548705085-101177834f47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=1400&h=400&fit=crop');
+    background-position: right top;
 }
 
 .breadcrumb_area.direito_criminal {
