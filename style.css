@@ -4019,3 +4019,7 @@ blockquote p {
     background-attachment: scroll;
     background-position: center center;
 }
+
+.eventos {
+    background: url('https://images.unsplash.com/photo-1518607692857-bff9babd9d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=1920&h=400&fit=crop');
+}
