@@ -3915,75 +3915,29 @@ blockquote p {
     color: #ffffff;
 }
 
-.breadcrumb_area.partners {
-    background: url('https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=1280&h=210&fit=crop');
-}
-
-.breadcrumb_area.arbitragem {
-    background: url('img/breadcrumb_arbitragem');
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-}
-
-.breadcrumb_area.page_not_found {
-    background: url('img/bkg_404.jpeg');
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-.breadcrumb_area.mediacao {
-    background: url('img/breadcrumb_mediacao');
-    background-attachment: scroll;
-    background-size: auto;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.breadcrumb_area.about {
-    background: url('img/bread_about.jpg');
-    background-attachment: fixed;
-    background-position: initial;
-}
-
 .breadcrumb_area.parceiros {
     background-image: url('https://images.unsplash.com/flagged/photo-1564767609342-620cb19b2357?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
 }
 
-.breadcrumb_area.direito_trabalho {
-    background-image: url('https://images.unsplash.com/photo-1486490686828-196042a38646?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
-}
-
 .breadcrumb_area.direito_preventivo {
-    background-image: url('https://images.unsplash.com/photo-1585909695677-2b0492f96e3b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
-}
-
-.breadcrumb_area.direito_saude {
-    background: url('img/breadcrumb_direito_saude.jpg');
+    background: url('img/b_preventivo.jpg');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 .breadcrumb_area.direito_imobiliario {
-    background-image: url('https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
-}
-
-.breadcrumb_area.direito_familia {
-    background-size: auto;
-    background-image: url('https://images.unsplash.com/photo-1548705085-101177834f47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=1400&h=400&fit=crop');
-    background-position: right top;
-}
-
-.breadcrumb_area.direito_criminal {
-    background-image: url('https://images.unsplash.com/photo-1564993719576-7b00be6317cd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
-    background-attachment: scroll;
+    background: url('img/b_imobiliario.jpg');
     background-position: center center;
+    background-attachment: scroll;
     background-size: cover;
 }
 
 .breadcrumb_area.direito_consumidor {
-    background: url('img/bread_cons.jpeg');
-    background-size: auto;
-    background-position: right center;
-    background-attachment: fixed;
+    background: url('img/b_consumidor.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
     background-repeat: no-repeat;
 }
 
@@ -3994,32 +3948,116 @@ blockquote p {
     background-size: auto;
 }
 
-.breadcrumb_area.area_de_atuacao {
-    background: url('https://images.unsplash.com/photo-1541794927-b8c4bd6df829?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 .atuacaopage_heading {
     margin-top: 20px;
     padding: 17px 20px 8px;
 }
 
 .breadcrumb_area.consultoria_empresarial {
-    background-image: url('https://images.unsplash.com/photo-1467664631004-58beab1ece0d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
-    background-position: center center;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-.compliance {
-    background: url('https://i1.wp.com/www.megajuridico.com/wp-content/uploads/2019/04/imagem-destacada78999.jpg?fit=1280%2C720&ssl=1');
+    background: url('img/b_consultoria.jpg');
     background-size: cover;
     background-attachment: scroll;
     background-position: center center;
 }
 
-.eventos {
-    background: url('https://images.unsplash.com/photo-1518607692857-bff9babd9d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=1920&h=400&fit=crop');
+.boletins {
+    background: url('https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=1200&h=210&fit=crop');
+}
+
+.arbitragem.breadcrumb_area {
+    background: url('img/arbitragem.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.page_not_found.breadcrumb_area {
+    background: url('img/b_404.jpg');
+    background-attachment: local;
+    background-size: cover;
+    background-position: center center;
+}
+
+.area_de_atuacao.breadcrumb_area {
+    background: url('img/b_atuacao.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.compliance.breadcrumb_area {
+    background: url('img/b_compliance.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+.contato.breadcrumb_area {
+    background: url('img/b_contato.jpg');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.direito_criminal.breadcrumb_area {
+    background-attachment: scroll;
+    background-size: cover;
+    background: url('img/b_criminal.jpg');
+    background-position: center center;
+}
+
+.direito_familia.breadcrumb_area {
+    background: url('img/b_familia.jpg');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.saude.breadcrumb_area {
+    background: url('img/b_saude.jpg');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.trabalho.breadcrumb_area {
+    background: url('img/b_work.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.eventos.breadcrumb_area {
+    background: url('img/b_eventos.jpg');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.mediacao.breadcrumb_area {
+    background: url('img/b_mediacao.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.about.breadcrumb_area {
+    background: url('img/b_quem_somos.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.servicos.breadcrumb_area {
+    background: url('img/b_servicos.jpg');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.partners.breadcrumb_area {
+    background: url('img/b_partners.jpg');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
 }
