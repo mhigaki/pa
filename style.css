@@ -435,13 +435,13 @@ nav {
 3. Header Paralux Css
 ----------------------------------------------------------- */
 .header_paralux {
-    background-attachment: fixed;
-    background-image: url("img/paralux.jpg");
-    background-repeat: no-repeat;
     margin-top: -122px;
     height: 100vh;
     position: relative;
     background-position: center center;
+    background-repeat: no-repeat;
+    background: url("img/paralux.jpg");
+    background-attachment: scroll;
     background-size: cover;
 }
 
