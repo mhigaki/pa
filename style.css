@@ -3264,6 +3264,9 @@ blockquote p {
 
     .header_paralux {
         margin-top: -186px;
+        background-position: center center;
+        background-attachment: scroll;
+        background-size: cover;
     }
 
     .paralux_content {
@@ -3509,6 +3512,9 @@ blockquote p {
 
     .header_paralux {
         margin-top: -137px;
+        background-position: center center;
+        background-attachment: scroll;
+        background-size: cover;
     }
 
     .paralux_content {
