@@ -914,6 +914,7 @@ figure.project_photo figcaption {
 
 figure.project_photo figcaption h5 {
     margin-bottom: 0;
+    text-align: center;
 }
 
 figure.project_photo figcaption h5 a {
@@ -4015,7 +4016,7 @@ blockquote p {
 
 .direito_familia.breadcrumb_area {
     background: url('img/b_familia.jpg');
-    background-position: center center;
+    background-position: center bottom;
     background-attachment: scroll;
     background-size: cover;
 }
