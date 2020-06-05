@@ -1709,7 +1709,7 @@ Home Page 2 Css
 
 .home_2 .logo,
 .inner_page .logo {
-    margin: 18px 0;
+    margin: 17px 0;
 }
 
 .home_2 .mainnmenu {
@@ -2220,6 +2220,7 @@ ul.top_contact>li:first-child a,
 .service_content_detail>p {
     color: #8e8e8e;
     line-height: 25px;
+    text-align: justify;
 }
 
 .heightlight_details {
@@ -2956,6 +2957,9 @@ blockquote p {
 
 .message_area {
     background-image: url("img/message_bg.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 #map {
@@ -3032,10 +3036,11 @@ blockquote p {
 }
 
 .error_tex>p {
-    font-size: 18px;
+    font-size: 24px;
     color: #000;
     font-weight: 400;
     margin-top: 34px;
+    line-height: 30px;
 }
 
 .error_tex>a {
@@ -3968,12 +3973,8 @@ blockquote p {
     background-position: center center;
 }
 
-.boletins {
-    background: url('https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=1200&h=210&fit=crop');
-}
-
 .arbitragem.breadcrumb_area {
-    background: url('img/arbitragem.jpg');
+    background: url('img/b_arbitragem.jpg');
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
@@ -4029,15 +4030,15 @@ blockquote p {
 }
 
 .trabalho.breadcrumb_area {
-    background: url('img/b_work.jpg');
-    background-position: center center;
+    background: url('img/b_trabalho.jpg');
+    background-position: right bottom;
     background-size: cover;
     background-attachment: scroll;
 }
 
 .eventos.breadcrumb_area {
     background: url('img/b_eventos.jpg');
-    background-position: center center;
+    background-position: right top;
     background-attachment: scroll;
     background-size: cover;
 }
@@ -4068,4 +4069,15 @@ blockquote p {
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
+}
+
+.boletins.breadcrumb_area {
+    background: url('img/b_boletins.jpg');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.homePage .mainnmenu {
+    text-align: right;
 }
