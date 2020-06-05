@@ -454,7 +454,7 @@ nav {
 
 .paralux_content {
     color: #fff;
-    width: 77.8%;
+    width: 77.6%;
     padding: 120px 0;
     position: relative;
 }
@@ -667,7 +667,7 @@ a.th_bt:hover {
 .info_bg {
     padding: 57px 0;
     position: relative;
-    width: 73.5%;
+    width: 73.6%;
 }
 
 .info_bg::after {
@@ -1443,7 +1443,7 @@ figure.blog_item::after {
     font-size: 12px;
     font-weight: 300;
     line-height: 14px;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -1462,7 +1462,7 @@ figure.blog_item::after {
 .blog_text>p {
     line-height: 20px;
     color: #ffffff;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .blog_text>a {
@@ -1508,7 +1508,7 @@ figure.blog_item::after {
 .single_partner>figure {
     background: rgba(255, 255, 255, 0.02) none repeat scroll 0 0;
     text-align: center;
-    width: 88%;
+    width: 98%;
 }
 
 .bottom_social>li {
@@ -3146,7 +3146,7 @@ blockquote p {
     }
 
     .blog_text {
-        top: 88px;
+        top: 48px;
     }
 
     .footer_widget>form>input {
@@ -3947,11 +3947,10 @@ blockquote p {
 }
 
 .breadcrumb_area.direito_consumidor {
-    background: url('img/b_consumidor.jpg');
-    background-size: cover;
-    background-position: center center;
+    background: url('img/b_consumidor1.jpg');
+    background-size: auto;
     background-attachment: scroll;
-    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .breadcrumb_area.artigos {
