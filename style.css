@@ -4012,13 +4012,13 @@ blockquote p {
     background-attachment: scroll;
     background-size: cover;
     background: url('img/b_criminal.jpg');
-    background-position: center center;
+    background-position: right center;
 }
 
 .direito_familia.breadcrumb_area {
-    background: url('img/b_familia.jpg');
-    background-position: center bottom;
-    background-attachment: scroll;
+    background: url('img/b_familia.jpeg');
+    background-position: center center;
+    background-attachment: local;
     background-size: cover;
 }
 
