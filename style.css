@@ -2350,6 +2350,7 @@ h4.s_heading {
     padding-bottom: 30px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
+    direction: ltr;
 }
 
 ul.pro_des {
