@@ -7,47 +7,53 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="pt-BR">
   <!--<![endif]-->
+
   <head>
     <!-- Anti-flicker snippet -->
-    <style>.async-hide { opacity: 0 !important; }</style>
+    <style>
+      .async-hide {
+        opacity: 0 !important;
+      }
+    </style>
     <script>
-    (function(a, s, y, n, c, h, i, d, e) {
-      s.className += ' ' + y;
-      h.start = 1 * new Date;
-      h.end = i = function() {
-        s.className = s.className.replace(RegExp(' ?' + y), '')
-      };
-      (a[n] = a[n] || []).hide = h;
-      setTimeout(function() {
-        i();
-        h.end = null
-      }, c);
-      h.timeout = c;
-    })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
-      'OPT-WF66M5L': true
-    });
-  </script>
+      (function(a, s, y, n, c, h, i, d, e) {
+        s.className += ' ' + y;
+        h.start = 1 * new Date;
+        h.end = i = function() {
+          s.className = s.className.replace(RegExp(' ?' + y), '')
+        };
+        (a[n] = a[n] || []).hide = h;
+        setTimeout(function() {
+          i();
+          h.end = null
+        }, c);
+        h.timeout = c;
+      })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
+        'OPT-WF66M5L': true
+      });
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161526352-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-    gtag('config', 'UA-161526352-1', {
-      'optimize_id': 'OPT-WF66M5L'
-    });
-  </script>
+      gtag('config', 'UA-161526352-1', {
+        'optimize_id': 'OPT-WF66M5L'
+      });
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>PA Consultoria :: Boletim Agosto 2019</title>
     <!-- ====Enable Mobile Device Zoom==== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A PA Consultoria possui profissionais altamente qualificados que proporcionam a seus clientes a excelência, a confiabilidade e segurança na prestação de serviços, nos mais diversos ramos do Direito.">
-    <meta name="keywords" content="compliance, consultoria juridica, arbitragem, mediação, consultoria de advogados, consultoria imobiliaria, direito penal, direito da saude, direito preventivo, direito criminal, direito do consumidor, direito do trabalho">
+    <meta name="keywords"
+      content="compliance, consultoria juridica, arbitragem, mediação, consultoria de advogados, consultoria imobiliaria, direito penal, direito da saude, direito preventivo, direito criminal, direito do consumidor, direito do trabalho">
     <meta name="author" content="MNH">
     <!-- ====Poppins | Open ==== -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -72,16 +78,16 @@
     <!-- ====Custom css==== -->
     <link rel="stylesheet" href="style.css">
     <!-- ====Favicons==== -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png"/>
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png"/>
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png"/>
-    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png"/>
-    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png"/>
-    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png"/>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -89,6 +95,7 @@
           <script src="js/respond.min.js"></script>
         <![endif]-->
   </head>
+
   <body id="body" class="inner_page single_boletim_page">
     <!-- ====START HEADER==== -->
     <header data-pg-collapsed>
@@ -97,7 +104,7 @@
           <div class="row">
             <div class="col-sm-3">
               <div class=" logo" data-pg-collapsed>
-                <a href="index.html" target="_self"> <img src="img/logo_azul.png" alt="Logo PA Consultoria"/> </a>
+                <a href="index.html" target="_self"> <img src="img/logo_azul.png" alt="Logo PA Consultoria" /> </a>
               </div>
             </div>
             <div class="col-sm-9">
@@ -270,18 +277,18 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-12 col-xs-12">
-            <h3 class="left"><br/>2019<br/>SETEMBRO</h3>
+            <h3 class="left"><br />2019<br />SETEMBRO</h3>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12">
             <h1>BOLETIM INFORMATIVO</h1>
           </div>
           <div class="col-md-3 col-sm-12 col-xs-12">
-            <h3 class="right">Publicação<br/>oficial da<br/>PA Consultoria</h3>
+            <h3 class="right">Publicação<br />oficial da<br />PA Consultoria</h3>
           </div>
         </div>
       </div>
       <div class="bkg">
-</div>
+      </div>
     </div>
     <!-- ====END BREADCRUMB AREA==== -->
     <!-- ====START SERVICE AREA==== -->
@@ -298,9 +305,9 @@
               </div>
               <div class="service_content_detail">
                 <p class="bol lead">Nosso escritório tem grandes profissionais em cada ramo do Direito para atender com excelência a todos que nos procuram.<br><br>Hoje nosso&nbsp;boletim&nbsp;dá destaque ao Direito de
-                Família.<br><br>A <b>Dra.&nbsp;Bianca de Sá Duarte Nogueira</b>, uma de nossas parceiras que é especialista na área do Direito Família traz uma grande contribuição para conhecimento de todos.<br><br>Nossos clientes cada vez mais nos
-                procuram na busca de soluções de seus conflitos na área do Direito Família e hoje segue uma das dúvidas mais frequentes. <br><br>Nosso escritório está capacitado para resolver este e outras questões!<br><br>Qualquer dúvida entre em
-                contato conosco!</p>
+                  Família.<br><br>A <b>Dra.&nbsp;Bianca de Sá Duarte Nogueira</b>, uma de nossas parceiras que é especialista na área do Direito Família traz uma grande contribuição para conhecimento de todos.<br><br>Nossos clientes cada vez mais nos
+                  procuram na busca de soluções de seus conflitos na área do Direito Família e hoje segue uma das dúvidas mais frequentes. <br><br>Nosso escritório está capacitado para resolver este e outras questões!<br><br>Qualquer dúvida entre em
+                  contato conosco!</p>
               </div>
               <div class="popover-title text-primary">
                 <h3>A QUE É ALIENAÇÃO PARENTAL? VAMOS ENTENDER?</h3>
@@ -309,21 +316,21 @@
               <div class="client_says">
                 <div class="ab_client">
                   <p style="columns: 2; column-gap: 50px; padding-top: 10px;" class="text-justify">O informativo deste mês trás um problema antigo existente na sociedade, no qual vem se destacando com preocupação perante a sociedade
-                  de adequar o Direito que visa proteger, e coibir no tema abordado, a interferência induzida dos genitores, avós e guardiões na formação psicológica da criança ou adolescente para que repudie o genitor que não está incumbido da
-                  guarda ou vigilância do incapaz, desejando com isso a dissolução do vínculo entre ambos.<br><br>Alienação Parental é forma de abuso psicológico em que a criança ou adolescente vai aos poucos reprimindo sua afeição por um dos pais,
-                  podendo chegar a odiá-lo e rejeitá-lo.<br><br>Pode se sentir na obrigação de ficar a favor de um e contra o outro, o que prejudica o desenvolvimento do seu bem estar emocional, as situações mais comuns de alienação parental
-                  são:<br><br>* Dificultar visitas;<br>* Chantagem;<br>* Manipulação;<br>* Influenciar a criança ou adolescente contra o pai ou a mãe;<br>* Omitir informações sobre o filho e por fim apresentar falsas denuncia para dificultar a
-                  convivência familiar.<br><br>A Alienação Parental é considerada uma síndrome pode gerar inúmeros conflitos emocionais em suas vitimas, transtorno de identidade e de imagem, baixo rendimento escolar, depressão, fuga e rebeldia,
-                  sentimentos de culpa, comportamentos hostis, isolamento, dupla personalidade e até o suicídio.<br><br>Com isso, o Poder Legislativo viu-se obrigado a tomar providências quanto a esse problema enfrentado frequentemente nas famílias
-                  brasileiras, introduzindo no sistema jurídico a Lei de Alienação Parental nº 12.318 de 26 de agosto de 2010 que trouxe em seu ordenamento um conjunto de possibilidades especificas de regramento que visam coibir essa
-                  prática.<br><br>O conceito legal da Alienação Parental está previsto no Art. 2º da Lei nº 12. 318/2010 e devendo ser aplicada concomitantemente com o Art. 227 da Constituição Federal (CF), bem como com o artigo 3º do Estatuto da
-                  Criança e do Adolescente (ECA), uma vez que é dever da família assegurar à criança e ao adolescente, com absoluta prioridade, uma convivência harmoniosa e comunitária, além de coloca-los a salvo de toda a forma de negligência,
-                  discriminação, violência, crueldade e opressão.<br><br>Para resolver essa problemática à medida judicial cabível se dá por ação autônoma ou incidental, o processo terá tramitação prioritária e o juiz determinará as medidas
-                  provisórias necessárias previstas na lei para preservação da integridade psicológica da criança ou adolescente.<br><br>Tais medidas são advertir o alienador; ampliar o regime de convivência em favor do genitor alienado; estipular
-                  multa ao alienador; determinar acompanhamento psicológico e/ou biopsicossocial; determinar a alteração da guarda para guarda compartilhada ou sua inversão; determinar a fixação cautelar do domicilio da criança ou adolescente e
-                  declarar a suspensão da autoridade parental.<br><br>Importante ressaltar que o alienante poderá ser processado penalmente pela pratica de crime de denunciação caluniosa ou de comunicação falsa de delito ou contravenção.
-                  Sabemos que, o processo de divórcio é um momento de dor para todos os envolvidos, seus sentimentos de raiva e frustração estão presentes, portanto o melhor conselho é manter a calma e fazer com que esse processo seja enfrentado da
-                  melhor maneira possível por todas as partes, em especial a criança ou adolescente.</p>
+                    de adequar o Direito que visa proteger, e coibir no tema abordado, a interferência induzida dos genitores, avós e guardiões na formação psicológica da criança ou adolescente para que repudie o genitor que não está incumbido da
+                    guarda ou vigilância do incapaz, desejando com isso a dissolução do vínculo entre ambos.<br><br>Alienação Parental é forma de abuso psicológico em que a criança ou adolescente vai aos poucos reprimindo sua afeição por um dos pais,
+                    podendo chegar a odiá-lo e rejeitá-lo.<br><br>Pode se sentir na obrigação de ficar a favor de um e contra o outro, o que prejudica o desenvolvimento do seu bem estar emocional, as situações mais comuns de alienação parental
+                    são:<br><br>* Dificultar visitas;<br>* Chantagem;<br>* Manipulação;<br>* Influenciar a criança ou adolescente contra o pai ou a mãe;<br>* Omitir informações sobre o filho e por fim apresentar falsas denuncia para dificultar a
+                    convivência familiar.<br><br>A Alienação Parental é considerada uma síndrome pode gerar inúmeros conflitos emocionais em suas vitimas, transtorno de identidade e de imagem, baixo rendimento escolar, depressão, fuga e rebeldia,
+                    sentimentos de culpa, comportamentos hostis, isolamento, dupla personalidade e até o suicídio.<br><br>Com isso, o Poder Legislativo viu-se obrigado a tomar providências quanto a esse problema enfrentado frequentemente nas famílias
+                    brasileiras, introduzindo no sistema jurídico a Lei de Alienação Parental nº 12.318 de 26 de agosto de 2010 que trouxe em seu ordenamento um conjunto de possibilidades especificas de regramento que visam coibir essa
+                    prática.<br><br>O conceito legal da Alienação Parental está previsto no Art. 2º da Lei nº 12. 318/2010 e devendo ser aplicada concomitantemente com o Art. 227 da Constituição Federal (CF), bem como com o artigo 3º do Estatuto da
+                    Criança e do Adolescente (ECA), uma vez que é dever da família assegurar à criança e ao adolescente, com absoluta prioridade, uma convivência harmoniosa e comunitária, além de coloca-los a salvo de toda a forma de negligência,
+                    discriminação, violência, crueldade e opressão.<br><br>Para resolver essa problemática à medida judicial cabível se dá por ação autônoma ou incidental, o processo terá tramitação prioritária e o juiz determinará as medidas
+                    provisórias necessárias previstas na lei para preservação da integridade psicológica da criança ou adolescente.<br><br>Tais medidas são advertir o alienador; ampliar o regime de convivência em favor do genitor alienado; estipular
+                    multa ao alienador; determinar acompanhamento psicológico e/ou biopsicossocial; determinar a alteração da guarda para guarda compartilhada ou sua inversão; determinar a fixação cautelar do domicilio da criança ou adolescente e
+                    declarar a suspensão da autoridade parental.<br><br>Importante ressaltar que o alienante poderá ser processado penalmente pela pratica de crime de denunciação caluniosa ou de comunicação falsa de delito ou contravenção.
+                    Sabemos que, o processo de divórcio é um momento de dor para todos os envolvidos, seus sentimentos de raiva e frustração estão presentes, portanto o melhor conselho é manter a calma e fazer com que esse processo seja enfrentado da
+                    melhor maneira possível por todas as partes, em especial a criança ou adolescente.</p>
                   <h6><span><b>FONTE</b></span>: Bianca de Sá Duarte Nogueira texto exclusivo para o&nbsp;Boletim&nbsp;Informativo&nbsp;da PA Consultoria</h6>
                 </div>
               </div>
@@ -335,27 +342,35 @@
                 <h3>BOLETINS ANTERIORES</h3>
                 <div class="download">
                   <i class="icofont icofont-hand-right"></i>
-                  <a href="pdf/Novembro.pdf"> <p>Novembro.pdf</p> </a>
+                  <a href="pdf/Novembro.pdf">
+                    <p>Novembro.pdf</p>
+                  </a>
                 </div>
                 <div class="download">
                   <i class="icofont icofont-hand-right"></i>
-                  <a href="pdf/setembro_2019.pdf"> <p>Setembro.pdf</p> </a>
+                  <a href="pdf/setembro_2019.pdf">
+                    <p>Setembro.pdf</p>
+                  </a>
                 </div>
                 <div class="download">
                   <i class="icofont icofont-hand-right"></i>
-                  <a href="pdf/agosto_2019.pdf"> <p>Agosto.pdf</p> </a>
+                  <a href="pdf/agosto_2019.pdf">
+                    <p>Agosto.pdf</p>
+                  </a>
                 </div>
                 <div class="download">
                   <i class="icofont icofont-hand-right"></i>
-                  <a href="pdf/junho_2019.pdf"> <p>Junho.pdf</p> </a>
+                  <a href="pdf/junho_2019.pdf">
+                    <p>Junho.pdf</p>
+                  </a>
                 </div>
               </div>
               <div class="sidebar-about">
                 <h4>Nosso escritório e sua missão</h4>
                 <p class="lead">Nosso propósito é compromisso de prestar serviços jurídicos com a máxima excelência.<br>Para nós o sucesso de nossos clientes é o nosso sucesso!<br><br>Nossa consultoria é desenvolvida para cada cliente atendendo ás
-                necessidade de cada um com profissionais altamente qualificados.<br><br>Mas a informação e esclarecimentos de dúvidas jurídicas também é uma de nossas vertentes, todo mês estaremos trazendo a vocês assuntos interessantes.</p>
+                  necessidade de cada um com profissionais altamente qualificados.<br><br>Mas a informação e esclarecimentos de dúvidas jurídicas também é uma de nossas vertentes, todo mês estaremos trazendo a vocês assuntos interessantes.</p>
                 <div class="download">
-</div>
+                </div>
               </div>
             </div>
           </div>
@@ -438,7 +453,7 @@
             <div class="footer_widget">
               <h4>NEWSLETTER</h4>
               <form id="new_subscriber" action="https://paconsultoria.ipzmarketing.com/f/BWOSlp-ct60" method="post">
-                <input type="email" placeholder="Informe seu e-mail" id="subscriber_email" name="subscriber[email]" class="string"/>
+                <input type="email" placeholder="Informe seu e-mail" id="subscriber_email" name="subscriber[email]" class="string" />
                 <button type="submit" value="Submit" name="commit">
                   <i class="ft_m icofont icofont-ui-message"></i>
                 </button>
@@ -494,4 +509,5 @@
     <!-- ====jQuery main script==== -->
     <script src="js/main.js" data-pg-collapsed></script>
   </body>
+
 </html>
