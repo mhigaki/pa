@@ -1,7 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-	<url>
-		<loc>http://paconsultoria.adv.br/site/</loc>
-		<xhtml:link rel="alternate" hreflang="pt-br" href="http://paconsultoria.adv.br/site/" />
-	</url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://paconsultoria.adv.br/site/</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/index.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/quem_somos.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/parceiros.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/areas_que_atuamos.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/compliance.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/direito_imobiliario.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/direito_preventivo.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/direito_criminal.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/direito_saude.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/direito_consumidor.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/direito_trabalho.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/mediacao.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/direito_familia.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/arbitragem.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/consultoria_empresarial.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/boletins.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/eventos.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/contato.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/bol_11_2019.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/bol_09_2019.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/bol_08_2019.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/404.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/boletins-1.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/pdf/Novembro.pdf</loc>
+  <lastmod>2020-05-30T01:51:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/pdf/setembro_2019.pdf</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/pdf/agosto_2019.pdf</loc>
+  <lastmod>2020-05-30T01:51:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/pdf/junho_2019.pdf</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://paconsultoria.adv.br/site/bol_06_2019.html</loc>
+  <lastmod>2020-06-11T09:50:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
