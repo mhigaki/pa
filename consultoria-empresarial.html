@@ -8,40 +8,46 @@
 <html lang="pt-BR">
   <!--<![endif]-->
   <head>
-    <style>.async-hide { opacity: 0 !important; }</style>
+    <!-- Anti-flicker snippet -->
+    <style>
+      .async-hide {
+        opacity: 0 !important;
+      }
+    </style>
     <script>
-    (function(a, s, y, n, c, h, i, d, e) {
-      s.className += ' ' + y;
-      h.start = 1 * new Date;
-      h.end = i = function() {
-        s.className = s.className.replace(RegExp(' ?' + y), '')
-      };
-      (a[n] = a[n] || []).hide = h;
-      setTimeout(function() {
-        i();
-        h.end = null
-      }, c);
-      h.timeout = c;
-    })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
-      'OPT-WF66M5L': true
-    });
-  </script>
+      (function(a, s, y, n, c, h, i, d, e) {
+        s.className += ' ' + y;
+        h.start = 1 * new Date;
+        h.end = i = function() {
+          s.className = s.className.replace(RegExp(' ?' + y), '')
+        };
+        (a[n] = a[n] || []).hide = h;
+        setTimeout(function() {
+          i();
+          h.end = null
+        }, c);
+        h.timeout = c;
+      })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
+        'OPT-WF66M5L': true
+      });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161526352-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-    gtag('config', 'UA-161526352-1', {
-      'optimize_id': 'OPT-WF66M5L'
-    });
-  </script>
+      gtag('config', 'UA-161526352-1', {
+        'optimize_id': 'OPT-WF66M5L'
+      });
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>PA Consultoria :: Direito Criminal</title>
+    <title>PA Consultoria :: Consultoria Empresarial</title>
     <!-- ====Enable Mobile Device Zoom==== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Nós da PA Consultoria proporcinamos a seus clientes a excelência, a confiabilidade e segurança na prestação de serviços, nos mais diversos ramos do Direito.">
@@ -83,9 +89,9 @@
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-            <script src="js/html5shiv.min.js"></script>
-            <script src="js/respond.min.js"></script>
-          <![endif]-->
+          <script src="js/html5shiv.min.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
   </head>
   <body id="body" class="portfolio_page inner_page">
     <!-- ====START HEADER==== -->
@@ -129,13 +135,13 @@
                 <nav>
                   <ul class="menu">
                     <li>
-                      <a href="index.html" target="_self">Inicio</a>
+                      <a href="index.html" target="_self">Home</a>
                     </li>
                     <li>
                       <a target="_self">empresa</a>
                       <ul class="sub_menu">
                         <li>
-                          <a href="quem_somos.html" target="_self">quem somos</a>
+                          <a href="quem-somos.html" target="_self">quem somos</a>
                         </li>
                         <li>
                           <a href="parceiros.html" target="_self">parceiros</a>
@@ -143,48 +149,48 @@
                       </ul>
                     </li>
                     <li class="active">
-                      <a href="areas_que_atuamos.html" target="_self">áreas que atuamos</a>
+                      <a href="areas-que-atuamos.html" target="_self">áreas que atuamos</a>
                       <ul class="sub_menu">
                         <li>
                           <a href="compliance.html" target="_self">compliance</a>
                         </li>
                         <li>
-                          <a href="direito_imobiliario.html" target="_self">Direito Imobiliário</a>
+                          <a href="direito-imobiliario.html" target="_self">Direito Imobiliário</a>
                         </li>
                         <li>
-                          <a href="direito_preventivo.html" target="_self">Direito Preventivo</a>
+                          <a href="direito-preventivo.html" target="_self">Direito Preventivo</a>
                         </li>
                         <li>
-                          <a href="direito_criminal.html" target="_self">Direito Criminal</a>
+                          <a href="direito-criminal.html" target="_self">Direito Criminal</a>
                         </li>
                         <li>
-                          <a href="direito_saude.html" target="_self">Direito da Saúde</a>
+                          <a href="direito-da-saude.html" target="_self">Direito da Saúde</a>
                         </li>
                         <li>
-                          <a href="direito_consumidor.html" target="_self">Direito do Consumidor</a>
+                          <a href="direito-do-consumidor.html" target="_self">Direito do Consumidor</a>
                         </li>
                         <li>
-                          <a href="direito_trabalho.html" target="_self">Direito do Trabalho</a>
+                          <a href="direito-do-trabalho.html" target="_self">Direito do Trabalho</a>
                         </li>
                         <li>
                           <a href="mediacao.html" target="_self">Mediação</a>
                         </li>
                         <li>
-                          <a href="direito_familia.html" target="_self">Direito de Família & Sucessões</a>
+                          <a href="direito-de-familia.html" target="_self">Direito de Família & Sucessões</a>
                         </li>
                         <li>
                           <a href="arbitragem.html" target="_self">Arbitragem</a>
                         </li>
                         <li>
-                          <a href="consultoria_empresarial.html" target="_self">Consultoria Empresarial</a>
+                          <a href="consultoria-empresarial.html" target="_self">Consultoria Empresarial</a>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="boletins.html" target="_self">boletins</a>
+                      <a href="boletins.html">boletins</a>
                     </li>
                     <li>
-                      <a href="eventos.html" target="_self">eventos</a>
+                      <a href="eventos.html">eventos</a>
                     </li>
                     <li>
                       <a href="contato.html" target="_self">contato</a>
@@ -194,13 +200,13 @@
                 <nav class="mb_menu hidden">
                   <ul class="menu_for_mobile">
                     <li>
-                      <a href="index.html" target="_self">Inicio</a>
+                      <a href="index.html" target="_self">Home</a>
                     </li>
                     <li>
                       <a target="_self">empresa</a>
                       <ul class="sub_menu">
                         <li>
-                          <a href="quem_somos.html" target="_self">quem somos</a>
+                          <a href="quem-somos.html" target="_self">quem somos</a>
                         </li>
                         <li>
                           <a href="parceiros.html" target="_self">parceiros</a>
@@ -208,40 +214,40 @@
                       </ul>
                     </li>
                     <li>
-                      <a href="areas_que_atuamos.html" target="_self">áreas que atuamos</a>
+                      <a href="areas-que-atuamos.html" target="_self">áreas que atuamos</a>
                       <ul class="sub_menu">
                         <li>
                           <a href="compliance.html" target="_self">compliance</a>
                         </li>
                         <li>
-                          <a href="direito_imobiliario.html" target="_self">Direito Imobiliário</a>
+                          <a href="direito-imobiliario.html" target="_self">Direito Imobiliário</a>
                         </li>
                         <li>
-                          <a href="direito_preventivo.html" target="_self">Direito Preventivo</a>
+                          <a href="direito-preventivo.html" target="_self">Direito Preventivo</a>
                         </li>
                         <li>
-                          <a href="direito_criminal.html" target="_self">Direito Criminal</a>
+                          <a href="direito-criminal.html" target="_self">Direito Criminal</a>
                         </li>
                         <li>
-                          <a href="direito_saude.html" target="_self">Direito da Saúde</a>
+                          <a href="direito-da-saude.html" target="_self">Direito da Saúde</a>
                         </li>
                         <li>
-                          <a href="direito_consumidor.html" target="_self">Direito do Consumidor</a>
+                          <a href="direito-do-consumidor.html" target="_self">Direito do Consumidor</a>
                         </li>
                         <li>
-                          <a href="direito_trabalho.html" target="_self">Direito do Trabalho</a>
+                          <a href="direito-do-trabalho.html" target="_self">Direito do Trabalho</a>
                         </li>
                         <li>
                           <a href="mediacao.html" target="_self">Mediação</a>
                         </li>
                         <li>
-                          <a href="direito_familia.html" target="_self">Direito de Família & Sucessões</a>
+                          <a href="direito-de-familia.html" target="_self">Direito de Família & Sucessões</a>
                         </li>
                         <li>
                           <a href="arbitragem.html" target="_self">Arbitragem</a>
                         </li>
                         <li>
-                          <a href="consultoria_empresarial.html" target="_self">Consultoria Empresarial</a>
+                          <a href="consultoria-empresarial.html" target="_self">Consultoria Empresarial</a>
                         </li>
                       </ul>
                     </li>
@@ -264,7 +270,7 @@
     </header>
     <!-- ====HEADER END==== -->
     <!-- ====START BREADCRUMB AREA==== -->
-    <div class="breadcrumb_area direito_criminal">
+    <div class="breadcrumb_area consultoria_empresarial">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12">
@@ -275,10 +281,10 @@
               </li>
               <li>/</li>
               <li>
-                <a href="areas_que_atuamos.html">áreas que atuamos</a>
+                <a href="areas-que-atuamos.html">áreas que atuamos</a>
               </li>
               <li>/</li>
-              <li class="active">direito criminal</li>
+              <li class="active">consultoria empresarial</li>
             </ul>
           </div>
         </div>
@@ -291,15 +297,17 @@
         <div class="row">
           <div class="col-xs-12 col-sm-6">
             <div class="project_details">
-              <h3>Direito Criminal</h3>
-              <p>Nosso escritório atua no direito de uma defesa ampla, justa e eficaz agindo com respeito e dedicação em direção aos princípios constitucionais que protegem seus clientes, sejam eles celeridade nos processos, ampla defesa ou devido
-              processo legal, atuando com acompanhamento em Delegacias, Fóruns, Pesquisas e Defesas Criminais, proporcionando assim um atendimento personalizado.</p>
+              <h3 class="text-justify">consultoria empresarial</h3>
+              <p>A consultoria jurídica empresarial é um braço do direito preventivo e vai além, verifica meios efetivos de solução em conjunto com os clientes promovendo revisão dos contratos sugerindo medidas junto aos departamentos para otimização
+                de métodos e processos dentro da empresa.<br/>Tendo esta assessoria de forma mensal o empresário se resguarda de possíveis problemas e imprevistos, com a vantagem de ter profissionais especializados sempre que precisar, sendo
+                devidamente orientado nas mais diversas situações e áreas do direito.<br/>Orientamos na admissão de funcionários, questões trabalhistas, auxiliamos na elaboração e análise de contratos, questões societária, tributária e cível
+                proporcionando segurança e tranquilidade na tomada de decisões.</p>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="projectman">
               <figure>
-                <img src="img/direito-criminal-530.jpg" alt="Direito Criminal"/>
+                <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=530&h=416&fit=crop" alt="Consultoria Empresarial"/>
               </figure>
             </div>
           </div>
@@ -314,7 +322,7 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="pro_sing_slider">
-                <div class="single_prject" data-pg-collapsed>
+                <div class="single_prject">
                   <figure class="project_photo">
                     <img src="img/arbitragem_568.jpg" alt="Arbitragem"/>
                     <figcaption>
@@ -323,7 +331,7 @@
                     </figcaption>
                   </figure>
                 </div>
-                <div class="single_prject" data-pg-collapsed>
+                <div class="single_prject">
                   <figure class="project_photo">
                     <img src="img/compliance_568.jpg" alt="Compliance"/>
                     <figcaption>
@@ -332,79 +340,79 @@
                     </figcaption>
                   </figure>
                 </div>
-                <div class="single_prject" data-pg-collapsed>
+                <div class="single_prject">
                   <figure class="project_photo">
                     <img src="img/familia_568.jpg" alt="Direito de Familia e Sucessão"/>
                     <figcaption>
-                      <h5><a href="direito_familia.html">Direito de Familia e Sucessão</a></h5>
+                      <h5><a href="direito-de-familia.html">Direito de Familia e Sucessão</a></h5>
                       <i class="icofont icofont-link"></i>
                     </figcaption>
                   </figure>
                 </div>
-                <div class="single_prject" data-pg-collapsed>
+                <div class="single_prject">
                   <figure class="project_photo">
                     <img src="img/empresarial_568.jpg" alt="Consultoria Empresarial"/>
                     <figcaption>
-                      <h5><a href="consultoria_empresarial.html">Consultoria Empresarial</a></h5>
+                      <h5><a href="consultoria-empresarial.html">Consultoria Empresarial</a></h5>
                       <i class="icofont icofont-link"></i>
                     </figcaption>
                   </figure>
                 </div>
-                <div class="single_prject" data-pg-collapsed>
+                <div class="single_prject">
                   <figure class="project_photo">
                     <img src="img/criminal_568.jpg" alt="Direito Criminal"/>
                     <figcaption>
-                      <h5><a href="direito_criminal.html">Direito Criminal</a></h5>
+                      <h5><a href="direito-criminal.html">Direito Criminal</a></h5>
                       <i class="icofont icofont-link"></i>
                     </figcaption>
                   </figure>
                 </div>
-                <div class="single_prject" data-pg-collapsed>
+                <div class="single_prject">
                   <figure class="project_photo">
                     <img src="img/consumidor_568.jpg" alt="Direito do Consumidor"/>
                     <figcaption>
-                      <h5><a href="direito_consumidor.html">Direito do Consumidor</a></h5>
+                      <h5><a href="direito-do-consumidor.html">Direito do Consumidor</a></h5>
                       <i class="icofont icofont-link"></i>
                     </figcaption>
                   </figure>
                 </div>
-                <div class="single_prject" data-pg-collapsed>
+                <div class="single_prject">
                   <figure class="project_photo">
                     <img src="img/preventivo_568.jpg" alt="Direito Preventivo"/>
                     <figcaption>
-                      <h5><a href="direito_preventivo.html">Direito Preventivo</a></h5>
+                      <h5><a href="direito-imobiliario.html">Direito Preventivo</a></h5>
                       <i class="icofont icofont-link"></i>
                     </figcaption>
                   </figure>
                 </div>
-                <div class="single_prject" data-pg-collapsed>
+                <div class="single_prject">
                   <figure class="project_photo">
                     <img src="img/saude_568.jpg" alt="Direito da Saúde"/>
                     <figcaption>
-                      <h5><a href="direito_saude.html">Direito da Saúde</a></h5>
+                      <h5><a href="direito-da-saude.html">Direito da Saúde</a></h5>
                       <i class="icofont icofont-link"></i>
                     </figcaption>
                   </figure>
                 </div>
-                <div class="single_prject" data-pg-collapsed>
+                <div class="single_prject">
                   <figure class="project_photo">
                     <img src="img/imobiliario_568.jpg" alt="Direito Imobiliario"/>
                     <figcaption>
-                      <h5><a href="direito_imobiliario.html">Direito Imobiliário</a></h5>
+                      <h5><a href="direito-imobiliario.html">Direito Imobiliário</a></h5>
                       <i class="icofont icofont-link"></i>
                     </figcaption>
                   </figure>
                 </div>
-                <div class="single_prject" data-pg-collapsed>
+                <div class="single_prject">
                   <figure class="project_photo">
                     <img src="img/trabalho_568.jpg" alt="Direito do Trabalho"/>
                     <figcaption>
-                      <h5><a href="direito_trabalho.html">Direito do Trabalho</a></h5>
+                      <h5><a href="direito-do-trabalho.html">Direito do Trabalho</a></h5>
                       <i class="icofont icofont-link"></i>
                     </figcaption>
                   </figure>
                 </div>
-                <div class="single_prject" data-pg-collapsed>
+                <div class="single_prject">
                   <figure class="project_photo">
                     <img src="img/mediacao_568.jpg" alt="Mediação"/>
                     <figcaption>
@@ -463,16 +471,16 @@
                   <a href="arbitragem.html">Arbitragem</a>
                 </li>
                 <li>
-                  <a href="direito_imobiliario.html">Direito Imobiliário</a>
+                  <a href="direito-imobiliario.html">Direito Imobiliário</a>
                 </li>
                 <li>
-                  <a href="direito_trabalho.html">Ações trabalhista</a>
+                  <a href="direito-do-trabalho.html">Ações trabalhista</a>
                 </li>
                 <li>
-                  <a href="direito_preventivo.html">Direito Preventivo</a>
+                  <a href="direito-imobiliario.html">Direito Preventivo</a>
                 </li>
                 <li>
-                  <a href="direito_familia.html">Família e Sucessões</a>
+                  <a href="direito-de-familia.html">Família e Sucessões</a>
                 </li>
               </ul>
             </div>
