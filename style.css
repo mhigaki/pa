@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .floatleft {
     float: left;
 }
@@ -3987,4 +3988,8 @@ blockquote p {
 
 .homePage .mainnmenu {
     text-align: right;
+}
+
+.our_client .section_title h6 {
+    color: #fbf6f6;
 }
