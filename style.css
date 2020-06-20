@@ -1037,7 +1037,7 @@ figure.team_member::before {
 }
 
 .team_member p::before {
-    content: "";
+    content: "ï±";
     font-family: "icofont";
     font-size: 28px;
     left: 22px;
