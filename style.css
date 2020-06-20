@@ -235,7 +235,7 @@ ul.top_contact>li:first-child a {
   background: #021b27;
   content: "";
   height: 100%;
-  left: calc(50%+570px);
+  left: calc(50% + 570px);
   overflow-y: hidden;
   position: absolute;
   top: 0;
@@ -2378,7 +2378,7 @@ ul.pro_sing_nav li i {
   height: 175px;
   position: absolute;
   right: 0;
-  bottom: calc(50%+48px);
+  bottom: calc(50% + 48px);
   width: 1px
 }
 
