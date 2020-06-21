@@ -8,24 +8,6 @@
 <html lang="pt-BR">
   <!--<![endif]-->
   <head>
-    <!-- Google Tag Manager -->
-    <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-N2PRH4K');
-  </script>
-    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>PA Consultoria :: Home</title>
@@ -35,7 +17,13 @@
     <meta name="description" content="Nós da PA Consultoria proporcinamos a seus clientes a excelência, a confiabilidade e segurança na prestação de serviços, nos mais diversos ramos do Direito.">
     <meta name="keywords" content="compliance, consultoria juridica, arbitragem, mediação, consultoria de advogados, consultoria imobiliaria, direito penal, direito da saude, direito preventivo, direito criminal, direito do consumidor, direito do trabalho, trabalhista, cível, advogado vila mariana, advogado ipiranga, imóveis, reclamações trabalhistas , direito de família, pensão alimenticia, divórcio e separação, guarda dos filhos menores,  pacto antenupcial, condomínio, danos materiais, danos morais, adoção, guarda compartilhada, guarda de pets, direito lgbt, mudança de nome, consultoria, litigioso">
     <meta name="author" content="MNH">
+    <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://paconsultoria.adv.br/site/"/>
+    <link rel="dns-prefetch" href="maps.googleapis.com" crossorigin="">
+    <link rel="dns-prefetch" href="//www.gstatic.com" crossorigin="">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" crossorigin="">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" crossorigin="">
+    <link rel="dns-prefetch" href="//www.google-analytics.com" crossorigin="">
     <!-- ====Poppins | Open ==== -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <!-- ====Open Sans==== -->
@@ -57,7 +45,10 @@
     <!-- ====Owl carousel 2 css==== -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <!-- ====Custom css==== -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <link rel="stylesheet" href="style.css">
+    </noscript>
     <!-- ====Favicons==== -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png"/>
@@ -75,6 +66,24 @@
             <script src="js/html5shiv.min.js"></script>
             <script src="js/respond.min.js"></script>
           <![endif]-->
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N2PRH4K');
+  </script>
+    <!-- End Google Tag Manager -->
   </head>
   <body id="body" class="homePage">
     <!-- Google Tag Manager (noscript) -->
@@ -975,7 +984,7 @@
     <!-- ====jQuery Latest version==== -->
     <script src="js/vendor/jquery-1.12.0.min.js"></script>
     <!-- ====Bootstrap JS==== -->
-    <script src="js/bootstrap.min.js"></script>
+    <script defer="" src="js/bootstrap.min.js"></script>
     <!-- ====jQuery Counterup==== -->
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
