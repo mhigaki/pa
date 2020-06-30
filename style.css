@@ -3062,7 +3062,7 @@ blockquote p {
 
 .breadcrumb_area.direito_consumidor {
   background: url("img/b_consumidor1.jpg");
-  background-size: auto;
+  background-size: cover;
   background-attachment: scroll;
   background-position: center center; }
 
