@@ -2893,7 +2893,7 @@ blockquote p {
 }
 
 .contact_page .info_bg {
-    padding: 0;
+    padding: 0
 }
 
 .contact_page .info_text>p {
@@ -2912,12 +2912,12 @@ blockquote p {
 }
 
 .contact_page .info_bg {
-    width: 100%;
+    width: 100%
 }
 
 .contact_page .info_text {
-    border-right: 0;
-    padding-left: 10px;
+    border-right: none;
+    padding-left: 34px;
 }
 
 .contact_page .info_icon i {
@@ -2926,6 +2926,7 @@ blockquote p {
 }
 
 .contact_page .info_icon i::after {
+    border-right: 1px solid #eeeeee;
     content: "";
     height: 20px;
     left: 40px;
