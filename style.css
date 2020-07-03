@@ -2509,7 +2509,7 @@ blockquote p {
   background: rgba(2, 7, 39, 0) -webkit-gradient(linear, left top, right top, color-stop(0, #fff), color-stop(50%, #fff), color-stop(50%, #2272ac), to(#2272ac)) repeat scroll 0 0;
   background: rgba(2, 7, 39, 0) linear-gradient(to right, #fff 0, #fff 50%, #2272ac 50%, #2272ac 100%) repeat scroll 0 0; }
 
-.error_tex > h1 {
+.error_tex > h2 {
   font-size: 150px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
