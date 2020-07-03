@@ -13,10 +13,6 @@
   float: right;
   margin-left: 15px; }
 
-.aligncenter {
-  display: block;
-  margin: 0 auto 15px; }
-
 figure {
   position: relative;
   margin: 0; }
@@ -226,7 +222,8 @@ ul.top_contact > li:first-child a {
   width: calc(50% - 570px); }
 
 .logo {
-  margin: 1px 0; }
+  margin: 1px 0;
+  text-align: center; }
 
 .mainnmenu {
   background: #2272ac; }
