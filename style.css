@@ -1870,7 +1870,8 @@ ul.top_contact > li:first-child a {
   vertical-align: top;
   padding: 20px;
   margin-right: -4px;
-  padding-left: 20px; }
+  padding-left: 20px;
+  width: 50%; }
 
 .download {
   margin-bottom: 10px;
