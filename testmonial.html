@@ -28,8 +28,8 @@
  <!-- ====Enable Mobile Device Zoom==== -->
  <meta name="author" content="MNH">
  <meta name="robots" content="index, follow">
- <meta name="google-site-verification" content="T8aA71Qe-MRjaSnWRWRf6J7Vt66ic-bvtznuiaABoaY"/>
- <link rel="canonical" href="https://paconsultoria.adv.br/site/"/>
+ <meta name="google-site-verification" content="T8aA71Qe-MRjaSnWRWRf6J7Vt66ic-bvtznuiaABoaY" />
+ <link rel="canonical" href="https://paconsultoria.adv.br/site/" />
  <link rel="dns-prefetch" href="//www.googletagmanager.com" crossorigin="">
  <link rel="dns-prefetch" href="//maps.googleapis.com" crossorigin="">
  <link rel="dns-prefetch" href="//www.gstatic.com" crossorigin="">
@@ -37,7 +37,7 @@
  <link rel="dns-prefetch" href="//fonts.googleapis.com" crossorigin="">
  <link rel="dns-prefetch" href="//www.google-analytics.com" crossorigin="">
  <!-- ====Poppins | Open ==== -->
- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+ <link rel="stylesheet" href="css/poppins-font.css">
  <!-- ====Open Sans==== -->
  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,400italic,700italic,300,300italic' rel='stylesheet' type='text/css'>
  <!-- ====Bootstrap css==== -->
@@ -59,16 +59,16 @@
  <!-- ====Custom css==== -->
  <link rel="stylesheet" href="style.css">
  <!-- ====Favicons==== -->
- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
- <link rel="apple-touch-icon" href="img/apple-touch-icon.png"/>
- <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png"/>
- <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png"/>
- <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png"/>
- <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png"/>
- <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png"/>
- <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png"/>
- <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png"/>
- <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png"/>
+ <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+ <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+ <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+ <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+ <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+ <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+ <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+ <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+ <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+ <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png" />
  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
  <!--[if lt IE 9]> <script src="js/html5shiv.min.js"></script> <script src="js/respond.min.js"></script> <![endif]-->
@@ -76,48 +76,54 @@
 
 <body id="body" class="testmonial_page inner_page">
  <!-- ====START HEADER==== -->
- <header>
+ <header data-pgc="sct-header" data-pgc-dummy="hello">
   <div class="manu_area hidden-xs">
    <div class="container ">
     <div class="row ">
      <div class="col-sm-3">
-      <div class=" logo">
-       <a href="index.html"> <img src="img/logo_azul.png" alt="Logo PA Consultoria"/> </a>
+      <div class=" logo" data-pgc="logo-az">
+       <a href="index.html" data-pgc-field="logo-2-link"> <img src="img/logo_azul.png" alt="Logo PA Consultoria" data-pgc-field="logo-2" /> </a>
       </div>
      </div>
      <div class="col-sm-9">
-      <div class="header_top">
+      <div class="header_top" data-pgc="top-bar-2">
        <ul class="top_contact">
         <li>
-         <i class="icofont icofont-phone"></i>
-         <a href="tel:+551124002835">+55 (11) 2400-2835</a>
+         <i class="icofont icofont-phone " data-pgc-field="top-bar-icon"></i>
+         <a href="tel:+551124002835" data-pgc-field="top-bar-link">+55 (11) 2400-2835</a>
         </li>
         <li>
-         <a href="mailto:contato@paconsultoria.adv.br"> <i class="icofont icofont-envelope"></i>
-          contato@paconsultoria.adv.br</a>
+         <a href="mailto:contato@paconsultoria.adv.br " data-pgc-field="top-bar-link"> <i class="icofont icofont-envelope " data-pgc-field="top-bar-icon"></i>
+          contato@paconsultoria.adv.br </a>
         </li>
         <li class="active">
-         <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpaconsultoria.adv.br%2Fsite%2F&amp;src=sdkpreparse" target="_blank"> <i class="icofont icofont-social-facebook "></i> </a>
+         <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpaconsultoria.adv.br%2Fsite%2F&src=sdkpreparse" data-pgc-field="top-bar-link" target="_blank" rel="noreferrer noopener"> <i class="icofont icofont-social-facebook "
+            data-pgc-field="top-bar-icon"></i> </a>
         </li>
         <li>
-         <a href="#" target="_blank"> <i class="icofont icofont-social-twitter "></i> </a>
+         <a href="https://twitter.com/home?status=https://paconsultoria.adv.br/site/ A PA Consultoria possui profissionais altamente qualificados que proporcionam a seus clientes a excelência, a confiabilidade e segurança na prestação de serviços, nos mais diversos ramos do Direito."
+           data-pgc-field="top-bar-link" target="_blank" rel="noreferrer noopener"> <i class="icofont icofont-social-twitter " data-pgc-field="top-bar-icon"></i> </a>
         </li>
         <li>
-         <a href="https://www.linkedin.com/in/pa-consultoria-a38826187" target="_blank"> <i class="icofont icofont-brand-linkedin "></i> </a>
+         <a href="https://www.linkedin.com/in/pa-consultoria-a38826187" data-pgc-field="top-bar-link" target="_blank" rel="noreferrer noopener"> <i class="icofont icofont-brand-linkedin " data-pgc-field="top-bar-icon"></i> </a>
         </li>
         <li>
-         <a href="https://instagram.com/consultoriapa?igshid=9hmb4ztc5afa" target="_blank"> <i class="icofont icofont-social-instagram"></i> </a>
+         <a href="https://instagram.com/consultoriapa?igshid=9hmb4ztc5afa" data-pgc-field="top-bar-link" target="_blank" rel="noreferrer noopener"> <i class="icofont icofont-social-instagram" data-pgc-field="top-bar-icon"></i> </a>
+        </li>
+        <li>
+         <a href="https://api.whatsapp.com/send?phone=5511941101331&text=PA%20Consultoria%20%2D%20Fale%20Conosco" data-pgc-field="top-bar-link" rel="nofollow noreferrer"> <i class="icofont icofont-search-alt-2 icofont-social-whatsapp"
+            data-pgc-field="top-bar-icon"></i> </a>
         </li>
        </ul>
       </div>
       <div class="mainnmenu">
        <nav>
-        <ul class="menu">
-         <li>
+        <ul class="menu" data-pgc="menu-main">
+         <li data-pgc-field="Home">
           <a href="index.html">Home</a>
          </li>
-         <li class="disabled">
-          <a>empresa</a>
+         <li class="class disabled" data-pgc-field="empresa">
+          <a href="#!">empresa</a>
           <ul class="sub_menu">
            <li>
             <a href="quem-somos.html">quem somos</a>
@@ -127,7 +133,7 @@
            </li>
           </ul>
          </li>
-         <li>
+         <li data-pgc-field="atuacao">
           <a href="areas-que-atuamos.html">áreas que atuamos</a>
           <ul class="sub_menu">
            <li>
@@ -165,19 +171,19 @@
            </li>
           </ul>
          </li>
-         <li>
+         <li data-pgc-field="boletins">
           <a href="boletins.html">boletins</a>
          </li>
-         <li>
+         <li data-pgc-field="eventos">
           <a href="eventos.html">eventos</a>
          </li>
-         <li>
+         <li data-pgc-field="contato">
           <a href="contato.html">contato</a>
          </li>
         </ul>
        </nav>
        <nav class="mb_menu hidden">
-        <ul class="menu_for_mobile">
+        <ul class="menu_for_mobile" data-pgc="menu-mb">
          <li>
           <a href="index.html">Home</a>
          </li>
@@ -249,19 +255,19 @@
  </header>
  <!-- ====HEADER END==== -->
  <!-- ====START BREADCRUMB AREA==== -->
- <div class="breadcrumb_area">
+ <div class="breadcrumb_area" data-pgc-field="breadcrumb-area" data-pgc="breadcrumb_area" data-pgc-dummy="hello">
   <div class="container">
    <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12">
-     <h1>testimonial</h1>
+     <h1 data-pgc-field="breadcrumb-tittle">testimonial</h1>
      <ul>
-      <li>
+      <li data-pgc-field="breadcrumb-item-1">
        <a href="index.html">Home</a>
       </li>
       <li>/</li>
-      <li class="active">pages</li>
+      <li class="active" data-pgc-field="breadcrumb-item-2">pages</li>
       <li>/</li>
-      <li class="active">testimonial</li>
+      <li class="active" data-pgc-field="breadcrumb-item-3">testimonial</li>
      </ul>
     </div>
    </div>
@@ -277,7 +283,7 @@
       <div class="ab_client">
        <i class="icofont icofont-quote-left"></i>
        <p>Vel illum dolore eu feugiat nulla facilisis at ver eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-       <img src="img/client_3.jpg" alt=""/>
+       <img src="img/client_3.jpg" alt="" />
        <div class="tes_client">
         <h6> <strong>Mr. Peterson</strong> </h6>
         <span>
@@ -291,7 +297,7 @@
       <div class="ab_client">
        <i class="icofont icofont-quote-left"></i>
        <p>Vel illum dolore eu feugiat nulla facilisis at ver eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-       <img src="img/client_4.jpg" alt=""/>
+       <img src="img/client_4.jpg" alt="" />
        <div class="tes_client">
         <h6> <strong>Mr. Peterson</strong> </h6>
         <span>
@@ -305,7 +311,7 @@
       <div class="ab_client">
        <i class="icofont icofont-quote-left"></i>
        <p>Vel illum dolore eu feugiat nulla facilisis at ver eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-       <img src="img/client_5.jpg" alt=""/>
+       <img src="img/client_5.jpg" alt="" />
        <div class="tes_client">
         <h6> <strong>Mr. Peterson</strong> </h6>
         <span>
@@ -319,7 +325,7 @@
       <div class="ab_client">
        <i class="icofont icofont-quote-left"></i>
        <p>Vel illum dolore eu feugiat nulla facilisis at ver eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-       <img src="img/client_6.jpg" alt=""/>
+       <img src="img/client_6.jpg" alt="" />
        <div class="tes_client">
         <h6> <strong>Mr. Peterson</strong> </h6>
         <span>
@@ -333,7 +339,7 @@
       <div class="ab_client">
        <i class="icofont icofont-quote-left"></i>
        <p>Vel illum dolore eu feugiat nulla facilisis at ver eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-       <img src="img/client_7.jpg" alt=""/>
+       <img src="img/client_7.jpg" alt="" />
        <div class="tes_client">
         <h6> <strong>Mr. Peterson</strong> </h6>
         <span>
@@ -347,7 +353,7 @@
       <div class="ab_client">
        <i class="icofont icofont-quote-left"></i>
        <p>Vel illum dolore eu feugiat nulla facilisis at ver eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-       <img src="img/client_8.jpg" alt=""/>
+       <img src="img/client_8.jpg" alt="" />
        <div class="tes_client">
         <h6> <strong>Mr. Peterson</strong> </h6>
         <span>
@@ -362,108 +368,107 @@
  <!-- ====END TESTMONIAL AREA==== -->
  <!-- ====START FOOTER AREA==== -->
  <footer class="footer_area" data-pgc="footer-area">
-      <div class="container">
-        
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="footer_widget">
-              <h4>PA CONSULTORIA</h4>
-              <p>Nossa Consultoria é desenvolvida para cada cliente atendendo às necessidades de cada um com profissionais altamente qualificados.</p>
-              <ul class="bottom_social">
-                <li class="active">
-                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpaconsultoria.adv.br%2Fsite%2F&src=sdkpreparse" target="_blank" rel="noreferrer noopener"> <i class="icofont icofont-social-facebook"></i> </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/pa-consultoria-a38826187" target="_blank" rel="noreferrer noopener"> <i class="icofont icofont-brand-linkedin"></i> </a>
-                </li>
-                <li>
-                  <a href="https://instagram.com/consultoriapa?igshid=9hmb4ztc5afa" target="_blank" rel="noreferrer noopener"> <i class="icofont icofont-social-instagram"></i> </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" rel="noreferrer noopener"> <i class="icofont icofont-social-twitter"></i> </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="footer_widget">
-              <h4>NOSSOS SERVIÇOS</h4>
-              <ul class="importent_link">
-                <li>
-                  <a href="mediacao.html" rel="tag"><i class="icofont icofont-long-arrow-right testi_next"></i>Mediação</a>
-                </li>
-                <li>
-                  <a href="arbitragem.html" rel="tag"><i class="icofont icofont-long-arrow-right testi_next"></i>Arbitragem</a>
-                </li>
-                <li>
-                  <a href="direito-imobiliario.html" rel="tag"><i class="icofont icofont-long-arrow-right testi_next"></i>Direito Imobiliário</a>
-                </li>
-                <li>
-                  <a href="direito-do-trabalho.html" rel="tag"><i class="icofont icofont-long-arrow-right testi_next"></i>Ações trabalhista</a>
-                </li>
-                <li>
-                  <a href="direito-imobiliario.html" rel="tag"> <i class="icofont icofont-long-arrow-right testi_next"></i>Direito Imobiliário </a>
-                </li>
-                <li>
-                  <a href="direito-de-familia.html" rel="tag"><i class="icofont icofont-long-arrow-right testi_next"></i>Família e Sucessões</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="footer_widget">
-              <h4>CONTATE-NOS</h4>
-              <ul class="ft_conta">
-                <li>
-                  <i class="icofont icofont-social-google-map"></i>
-                  <span>R. Santa Cruz, 2105, 11º, Sl 1117, Vila Mariana, SP, 04121-002.</span>
-                </li>
-                <li>
-                  <i class="icofont icofont-phone"></i>
-                  <a href="tel:+551124002835">+55 (11) 2400-2835</a>
-                </li>
-                <li>
-                  <i class="icofont icofont-ui-message"></i>
-                  <a href="mailto:contato@paconsultoria.adv.br">contato@paconsultoria.adv.br</a>
-                </li>
-                <li>
-                  <i class="icofont icofont-clock-time"></i>
-                  Seg - Sex | 9:00 - 18:00
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="footer_widget">
-              <h4>NEWSLETTER</h4>
-              <form id="new_subscriber" action="https://paconsultoria.ipzmarketing.com/f/BWOSlp-ct60" method="post">
-                <input type="email" placeholder="Informe seu e-mail" id="subscriber_email" name="subscriber[email]" class="string"/>
-                <button type="submit" value="Submit" name="commit">
-                  <i class="ft_m icofont icofont-ui-message"></i>
-                </button>
-              </form>
-              <p>Cadastre-se ao nosso newsletter e fique sempre atento aos nossos boletins informativos!</p>
-            </div>
-          </div>
-        </div>
+  <div class="container">
+   <div class="row">
+    <div class="col-sm-3">
+     <div class="footer_widget">
+      <h4>PA CONSULTORIA</h4>
+      <p>Nossa Consultoria é desenvolvida para cada cliente atendendo às necessidades de cada um com profissionais altamente qualificados.</p>
+      <ul class="bottom_social">
+       <li class="active">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpaconsultoria.adv.br%2Fsite%2F&src=sdkpreparse" target="_blank" rel="noreferrer noopener"> <i class="icofont icofont-social-facebook"></i> </a>
+       </li>
+       <li>
+        <a href="https://www.linkedin.com/in/pa-consultoria-a38826187" target="_blank" rel="noreferrer noopener"> <i class="icofont icofont-brand-linkedin"></i> </a>
+       </li>
+       <li>
+        <a href="https://instagram.com/consultoriapa?igshid=9hmb4ztc5afa" target="_blank" rel="noreferrer noopener"> <i class="icofont icofont-social-instagram"></i> </a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="noreferrer noopener"> <i class="icofont icofont-social-twitter"></i> </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="col-sm-3">
+     <div class="footer_widget">
+      <h4>NOSSOS SERVIÇOS</h4>
+      <ul class="importent_link">
+       <li>
+        <a href="mediacao.html" rel="tag"><i class="icofont icofont-long-arrow-right testi_next"></i>Mediação</a>
+       </li>
+       <li>
+        <a href="arbitragem.html" rel="tag"><i class="icofont icofont-long-arrow-right testi_next"></i>Arbitragem</a>
+       </li>
+       <li>
+        <a href="direito-imobiliario.html" rel="tag"><i class="icofont icofont-long-arrow-right testi_next"></i>Direito Imobiliário</a>
+       </li>
+       <li>
+        <a href="direito-do-trabalho.html" rel="tag"><i class="icofont icofont-long-arrow-right testi_next"></i>Ações trabalhista</a>
+       </li>
+       <li>
+        <a href="direito-imobiliario.html" rel="tag"> <i class="icofont icofont-long-arrow-right testi_next"></i>Direito Imobiliário </a>
+       </li>
+       <li>
+        <a href="direito-de-familia.html" rel="tag"><i class="icofont icofont-long-arrow-right testi_next"></i>Família e Sucessões</a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="col-sm-3">
+     <div class="footer_widget">
+      <h4>CONTATE-NOS</h4>
+      <ul class="ft_conta">
+       <li>
+        <i class="icofont icofont-social-google-map"></i>
+        <span>R. Santa Cruz, 2105, 11º, Sl 1117, Vila Mariana, SP, 04121-002.</span>
+       </li>
+       <li>
+        <i class="icofont icofont-phone"></i>
+        <a href="tel:+551124002835">+55 (11) 2400-2835</a>
+       </li>
+       <li>
+        <i class="icofont icofont-ui-message"></i>
+        <a href="mailto:contato@paconsultoria.adv.br">contato@paconsultoria.adv.br</a>
+       </li>
+       <li>
+        <i class="icofont icofont-clock-time"></i>
+        Seg - Sex | 9:00 - 18:00
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="col-sm-3">
+     <div class="footer_widget">
+      <h4>NEWSLETTER</h4>
+      <form id="new_subscriber" action="https://paconsultoria.ipzmarketing.com/f/BWOSlp-ct60" method="post">
+       <input type="email" placeholder="Informe seu e-mail" id="subscriber_email" name="subscriber[email]" class="string" />
+       <button type="submit" value="Submit" name="commit">
+        <i class="ft_m icofont icofont-ui-message"></i>
+       </button>
+      </form>
+      <p>Cadastre-se ao nosso newsletter e fique sempre atento aos nossos boletins informativos!</p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="footer_bottom">
+   <div class="container">
+    <div class="row">
+     <div class="col-sm-6">
+      <div class="ft_bottom">
+       <p>© Copyright ©2019 - PA Consultoria, All Rights Reserved.</p>
       </div>
-      <div class="footer_bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="ft_bottom">
-                <p>© Copyright ©2019 - PA Consultoria, All Rights Reserved.</p>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="ft_bottom">
-                <p class="text-right">Desenvolvido por <a href="http://higatech.net" target="_blank" rel="noreferrer noopener">MNH</a> </p>
-              </div>
-            </div>
-          </div>
-        </div>
+     </div>
+     <div class="col-sm-6">
+      <div class="ft_bottom">
+       <p class="text-right">Desenvolvido por <a href="http://higatech.net" target="_blank" rel="noreferrer noopener">MNH</a> </p>
       </div>
-    </footer>
+     </div>
+    </div>
+   </div>
+  </div>
+ </footer>
  <!-- ====END FOOTER AREA==== -->
  <!-- ====jQuery Latest version==== -->
  <script src="js/vendor/jquery-1.12.0.min.js"></script>

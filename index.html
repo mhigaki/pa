@@ -45,7 +45,7 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com" crossorigin="">
     <link rel="dns-prefetch" href="//www.google-analytics.com" crossorigin="">
     <!-- ====Poppins | Open ==== -->
-    <link rel="prefetch" as="style" onload="this.rel = 'stylesheet'" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap">
+    <link rel="stylesheet" href="css/poppins-font.css">
     <!-- ====Open Sans==== -->
     <link rel="prefetch" as="style" onload="this.rel = 'stylesheet'" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,400italic,700italic,300,300italic&display=swap">
     <!-- ====Bootstrap css==== -->
@@ -93,17 +93,22 @@
         <div class="container">
           <div class="row">
             <div class="col-md-7 col-md-offset-5">
-              <div class="header_top">
+              <div class="header_top" data-pgc="top-bar-1">
                 <ul class="top_contact">
                   <li>
                     <i class="icofont icofont-phone"></i>
-                    <a href="tel:+551124002835">+55 (11) 2400-2835</a>
+                    <a href="tel:+551124002835" data-pgc-field="top-bar-phone">+55 (11) 2400-2835</a>
                   </li>
                   <li>
-                    <a href="mailto:contato@paconsultoria.adv.br"> <i class="icofont icofont-envelope"></i>
-										contato@paconsultoria.adv.br</a>
+                    <a href="mailto:contato@paconsultoria.adv.br" data-pgc-field="top-bar-mail"> <i class="icofont icofont-envelope"></i>
+                      contato@paconsultoria.adv.br</a>
+                  </li>
+                  <li>
+                    <a href="https://api.whatsapp.com/send?phone=5511941101331&text=PA%20Consultoria%20%2D%20Fale%20Conosco" data-pgc-field="top-bar-mail"> <i class="icofont icofont-social-whatsapp"></i></a>
                   </li>
                 </ul>
+                <!--[Pinegrow components saved data - this data is no longer used in the component. We're saving it just in case. Clear this with Components -> Clear saved unused edits]<a href="tel:+551124002835" data-pgc-field="top-bar-phone">+55 (11) 2400-2835</a><a href="mailto:contato@paconsultoria.adv.br" data-pgc-field="top-bar-mail"> <i class="icofont icofont-envelope"></i>
+                      contato@paconsultoria.adv.br</a><a href="https://api.whatsapp.com/send?phone=5511941101331&text=PA%20Consultoria%20%2D%20Fale%20Conosco" data-pgc-field="top-bar-mail"> <i class="icofont icofont-social-whatsapp"></i></a>-->
               </div>
             </div>
           </div>
@@ -113,18 +118,18 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-2">
-              <div class="logo">
-                <a href="index.html"> <img src="img/logo_branco.png" alt="Logo PA Consultoria" title="PA Consultoria" width="152" height="71"/> </a>
+              <div class="logo" data-pgc="logo-br">
+                <a href="index.html"> <img src="img/logo_branco.png" alt="Logo PA Consultoria"/> </a>
               </div>
             </div>
             <div class="col-sm-10">
               <div class="mainnmenu">
                 <nav class="hidden-xs">
-                  <ul class="menu">
-                    <li class="active">
+                  <ul class="menu" data-pgc="menu-main">
+                    <li data-pgc-field="Home" class="active">
                       <a href="./">Home</a>
                     </li>
-                    <li class="disabled">
+                    <li class="disabled" data-pgc-field="empresa">
                       <a href="#!">empresa</a>
                       <ul class="sub_menu">
                         <li>
@@ -135,7 +140,7 @@
                         </li>
                       </ul>
                     </li>
-                    <li>
+                    <li data-pgc-field="atuacao">
                       <a href="areas-que-atuamos.html">áreas que atuamos</a>
                       <ul class="sub_menu">
                         <li>
@@ -173,21 +178,21 @@
                         </li>
                       </ul>
                     </li>
-                    <li>
+                    <li data-pgc-field="boletins">
                       <a href="boletins.html">boletins</a>
                     </li>
-                    <li>
+                    <li data-pgc-field="eventos">
                       <a href="eventos.html">eventos</a>
                     </li>
-                    <li>
+                    <li data-pgc-field="contato">
                       <a href="contato.html">contato</a>
                     </li>
                   </ul>
                 </nav>
                 <nav class="mb_menu hidden">
-                  <ul class="menu_for_mobile">
+                  <ul class="menu_for_mobile" data-pgc="menu-mb">
                     <li>
-                      <a href="index.html">home</a>
+                      <a href="index.html">Home</a>
                     </li>
                     <li class="disabled">
                       <a>empresa</a>
@@ -207,34 +212,34 @@
                           <a href="compliance.html">compliance</a>
                         </li>
                         <li>
-                          <a href="direito-imobiliario.html">direito imobiliário</a>
+                          <a href="direito-imobiliario.html">Direito Imobiliário</a>
                         </li>
                         <li>
-                          <a href="direito-preventivo.html">direito preventivo</a>
+                          <a href="direito-preventivo.html">Direito Preventivo</a>
                         </li>
                         <li>
-                          <a href="direito-criminal.html">direito criminal</a>
+                          <a href="direito-criminal.html">Direito Criminal</a>
                         </li>
                         <li>
-                          <a href="direito-da-saude.html">direito da saúde</a>
+                          <a href="direito-da-saude.html">Direito da Saúde</a>
                         </li>
                         <li>
-                          <a href="direito-do-consumidor.html">direito do consumidor</a>
+                          <a href="direito-do-consumidor.html">Direito do Consumidor</a>
                         </li>
                         <li>
-                          <a href="direito-do-trabalho.html">direito do trabalho</a>
+                          <a href="direito-do-trabalho.html">Direito do Trabalho</a>
                         </li>
                         <li>
-                          <a href="mediacao.html">mediação</a>
+                          <a href="mediacao.html">Mediação</a>
                         </li>
                         <li>
-                          <a href="direito-de-familia.html">direito de família & sucessões</a>
+                          <a href="direito-de-familia.html">Direito de Família & Sucessões</a>
                         </li>
                         <li>
-                          <a href="arbitragem.html">arbitragem</a>
+                          <a href="arbitragem.html">Arbitragem</a>
                         </li>
                         <li>
-                          <a href="consultoria-empresarial.html">consultoria empresarial</a>
+                          <a href="consultoria-empresarial.html">Consultoria Empresarial</a>
                         </li>
                       </ul>
                     </li>
@@ -256,15 +261,15 @@
       </div>
     </header>
     <!-- ====START HEADER PARALUX==== -->
-    <section class="header_paralux">
+    <section class="header_paralux" data-pgc="header-paralux" data-pgc-dummy="hello">
       <div class="header_content">
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
               <div class="paralux_content">
                 <div class="paralux_text text-left">
-                  <h5 class="text-left">Você nas mãos de quem sabe</h5>
-                  <h1 class="fadeInLeft animated text-left">Cuidamos do <span>jurídico</span>
+                  <h5 class="text-left" data-pgc-field="h5-title">Você nas mãos de quem sabe</h5>
+                  <h1 class="fadeInLeft animated text-left" data-pgc-field="h1-paralux-text">Cuidamos do <span>jurídico</span>
 									para você</h1>
                   <p class="animated colorWh fadeInRight text-justify">Oferecemos soluções jurídicas de forma personalizada atendendo às necessidades de cada cliente com profissionais altamente qualificados.</p>
                   <nav class="cl-effect-2">
@@ -282,7 +287,7 @@
     </section>
     <!-- ====HEADER PARALUX END==== -->
     <!-- ====ABOUT US==== -->
-    <section class="about_area" id="scroll_about">
+    <section class="about_area" id="scroll_about" data-pgc="scroll-about">
       <div class="info_area">
         <div class="container">
           <div class="row">
@@ -330,9 +335,9 @@
                   <h2>SOBRE A PA CONSULTORIA</h2>
                 </div>
                 <div class="about_text">
-                  <p class="text-justify">Nosso compromisso é prestar serviços jurídicos com a máxima excelência.<br/>Para nós o sucesso de nossos clientes é o nosso sucesso!<br/>Nossa equipe multidisciplinar permite uma assessoria
-									pautada na solução
-									e prevenção dos problemas.</p>
+                  <p class="text-justify">Nosso compromisso é prestar serviços jurídicos com a máxima excelência.<br/>Para nós o sucesso de nossos clientes é o nosso sucesso!<br/>Nossa equipe multidisciplinar permite uma assessoria pautada na
+                    solução
+                    e prevenção dos problemas.</p>
                   <nav class="th_bt cl-effect-2">
                     <a href="quem-somos.html"> <span data-hover="saiba mais">saiba mais</span></a>
                   </nav>
@@ -344,7 +349,7 @@
       </div>
     </section>
     <!-- ====START PROMOT==== -->
-    <section class="promot_area">
+    <section class="promot_area" data-pgc="promot-area">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-8">
@@ -353,7 +358,7 @@
               <p>Contamos com uma equipe de profissionais altamente qualificada para melhor atendê-lo.</p>
             </div>
           </div>
-          <div class="col-md-6 col-sm-4 text-center">
+          <div class="col-md-6 text-right col-sm-4">
             <nav class="th_bt cl-effect-2">
               <a href="contato.html"> <span data-hover="saiba mais">saiba mais</span></a>
             </nav>
@@ -363,7 +368,7 @@
     </section>
     <!-- ====PROMOT AREA END==== -->
     <!-- ====OUR SERVICE STAR==== -->
-    <section class="our_service section-padding">
+    <section class="our_service section-padding" data-pgc="our-service">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -388,32 +393,29 @@
           </div>
           <div class="col-sm-6">
             <div class="single_service">
-              <h4>Ações trabalhista</h4>
-              <p>Com forte experiência nesta área, atuamos na defesa tanto de reclamantes que precisam e buscam seus direitos, como também nas ações em que as empresas reclamadas sofrem e precisam de auxílio mediante a iminência de uma
-							condenação. </p>
+              <h4>Assessoria Imobiliária</h4>
+              <p>Assessoria Imobiliária, onde administramos imóveis com o devido controle para melhor segurança jurídica das partes e mediação entre conflitos que possam existir provenientes da relação imobiliária em geral.</p>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="single_service">
               <h4>Direito da Saúde</h4>
-              <p>Agimos em questões judiciais e extrajudiciais relacionadas à saúde, contra Planos de Saúde, Hospitais e Laboratórios, e também em situações administrativas perante Conselhos de Classe. Orientamos e assessoramos a elaboração
-							de
-							Testamento Vital.</p>
+              <p>Agimos em questões judiciais e extrajudiciais relacionadas à saúde, contra Planos de Saúde, Hospitais e Laboratórios, e também em situações administrativas perante Conselhos de Classe. Orientamos e assessoramos a elaboração de
+                Testamento Vital.</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="single_service">
+              <h4>Ações trabalhista</h4>
+              <p>Com forte experiência nesta área, atuamos na defesa tanto de reclamantes que precisam e buscam seus direitos, como também nas ações em que as empresas reclamadas sofrem e precisam de auxílio mediante a iminência de uma condenação. </p>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="single_service">
               <h4>Família e Sucessões</h4>
-              <p>Temos vivência em ação de guarda de filhos (compartilhada ou unilateral), ação de alienação parental, investigação de paternidade, reconhecimento de filiação (biológica e socio afetiva), multiparentalidade, adoção,
-							alimentos e ações
-							revisionais,
-							casamento e pactos antenupciais, contrato de convivência, interdição, tutela e curatela, direito homoafetivo, separação e divórcio, dissolução de união estável.</p>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="single_service">
-              <h4>Assessoria Imobiliária</h4>
-              <p>Assessoria Imobiliária, onde administramos imóveis com o devido controle para melhor segurança jurídica das partes e mediação entre conflitos que possam existir provenientes da relação imobiliária em geral.</p>
+              <p>Temos vivência em ação de guarda de filhos (compartilhada ou unilateral), ação de alienação parental, investigação de paternidade, reconhecimento de filiação (biológica e socio afetiva), multiparentalidade, adoção, alimentos e ações
+                revisionais,
+                casamento e pactos antenupciais, contrato de convivência, interdição, tutela e curatela, direito homoafetivo, separação e divórcio, dissolução de união estável.</p>
             </div>
           </div>
         </div>
@@ -421,7 +423,7 @@
     </section>
     <!-- ====OUR SERVICE ENDR==== -->
     <!-- ====OUR PROJECT STAR==== -->
-    <section class="our_proect section-padding">
+    <section class="our_proect section-padding" data-pgc="our-project">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -433,100 +435,100 @@
         </div>
         <div class="row">
           <div class="col-sm-12">
-            <div class="project_slider">
-              <div class="single_prject">
+            <div class="project_slider owl-carousel owl-theme owl-loaded">
+              <div class="single_prject" data-pg-name="direito imobiliario">
                 <figure class="project_photo">
-                  <img src="img/direito-imobiliario-530.jpg" alt="Direito Imobiliario" width="530" height="416"/>
+                  <img src="img/direito-imobiliario-530.jpg" alt="Direito Imobiliario"/>
                   <figcaption>
                     <h5> <a href="direito-imobiliario.html">Direito Imobiliário</a> </h5>
                     <i class="icofont icofont-link"></i>
                   </figcaption>
                 </figure>
               </div>
-              <div class="single_prject">
+              <div class="single_prject" data-pg-name="direito preventivo">
                 <figure class="project_photo">
-                  <img src="img/direito-preventivo-530.jpg" alt="Direito Preventivo" width="530" height="416"/>
+                  <img src="img/direito-preventivo-530.jpg" alt="Direito Preventivo"/>
                   <figcaption>
                     <h5> <a href="direito-imobiliario.html">Direito Preventivo</a> </h5>
                     <i class="icofont icofont-link"></i>
                   </figcaption>
                 </figure>
               </div>
-              <div class="single_prject">
+              <div class="single_prject" data-pg-name="direito criminal">
                 <figure class="project_photo">
-                  <img src="img/direito-criminal-530.jpg" alt="Direito Criminal" width="530" height="416"/>
+                  <img src="img/direito-criminal-530.jpg" alt="Direito Criminal"/>
                   <figcaption>
                     <h5> <a href="direito-criminal.html">Direito Criminal</a> </h5>
                     <i class="icofont icofont-link"></i>
                   </figcaption>
                 </figure>
               </div>
-              <div class="single_prject">
+              <div class="single_prject" data-pg-name="compliance">
                 <figure class="project_photo">
-                  <img src="img/compliance-530.jpg" alt="Compliance" width="530" height="416"/>
+                  <img src="img/compliance-530.jpg" alt="Compliance"/>
                   <figcaption>
                     <h5> <a href="compliance.html">Compliance</a> </h5>
                     <i class="icofont icofont-link"></i>
                   </figcaption>
                 </figure>
               </div>
-              <div class="single_prject">
+              <div class="single_prject" data-pg-name="direito da saude">
                 <figure class="project_photo">
-                  <img src="img/direito-medico-530.jpg" alt="Direito da Saúde" width="530" height="416"/>
+                  <img src="img/direito-medico-530.jpg" alt="Direito da Saúde"/>
                   <figcaption>
                     <h5> <a href="direito-da-saude.html">Direito da Saúde</a> </h5>
                     <i class="icofont icofont-link"></i>
                   </figcaption>
                 </figure>
               </div>
-              <div class="single_prject">
+              <div class="single_prject" data-pg-name="direito do consumidor">
                 <figure class="project_photo">
-                  <img src="img/consumidor_530.jpg" alt="Direito do Consumidor" width="530" height="416"/>
+                  <img src="img/consumidor_530.jpg" alt="Direito do Consumidor"/>
                   <figcaption>
                     <h5> <a href="direito-do-consumidor.html">Direito do Consumidor</a> </h5>
                     <i class="icofont icofont-link"></i>
                   </figcaption>
                 </figure>
               </div>
-              <div class="single_prject">
+              <div class="single_prject" data-pg-name="direito do trabalho">
                 <figure class="project_photo">
-                  <img src="img/direito-trabalho-530.jpg" alt="Direito do Trabalho" width="530" height="416"/>
+                  <img src="img/direito-trabalho-530.jpg" alt="Direito do Trabalho"/>
                   <figcaption>
                     <h5> <a href="direito-do-trabalho.html">Direito do Trabalho</a> </h5>
                     <i class="icofont icofont-link"></i>
                   </figcaption>
                 </figure>
               </div>
-              <div class="single_prject">
+              <div class="single_prject" data-pg-name="familia e sucessoes">
                 <figure class="project_photo">
-                  <img src="img/familia_530.jpg" alt="Direito de Familia e Sucessão" width="530" height="416"/>
+                  <img src="img/familia_530.jpg" alt="Direito de Familia e Sucessão"/>
                   <figcaption>
                     <h5> <a href="direito-de-familia.html">Família e Sucessões</a> </h5>
                     <i class="icofont icofont-link"></i>
                   </figcaption>
                 </figure>
               </div>
-              <div class="single_prject">
+              <div class="single_prject" data-pg-name="arbitragem">
                 <figure class="project_photo">
-                  <img src="img/arbitragem_530.jpg" alt="Arbitragem" width="530" height="416"/>
+                  <img src="img/arbitragem_530.jpg" alt="Arbitragem"/>
                   <figcaption>
                     <h5> <a href="arbitragem.html">Arbitragem</a> </h5>
                     <i class="icofont icofont-link"></i>
                   </figcaption>
                 </figure>
               </div>
-              <div class="single_prject">
+              <div class="single_prject" data-pg-name="mediacao">
                 <figure class="project_photo">
-                  <img src="img/mediacao_530.jpg" alt="Mediação" width="530" height="416"/>
+                  <img src="img/mediacao_530.jpg" alt="Mediação"/>
                   <figcaption>
                     <h5> <a href="mediacao.html">Mediação</a> </h5>
                     <i class="icofont icofont-link"></i>
                   </figcaption>
                 </figure>
               </div>
-              <div class="single_prject">
+              <div class="single_prject" data-pg-name="consultoria empresarial">
                 <figure class="project_photo">
-                  <img src="img/empresarial_530.jpg" alt="Consultoria Empresarial" width="530" height="416"/>
+                  <img src="img/empresarial_530.jpg" alt="Consultoria Empresarial"/>
                   <figcaption>
                     <h5> <a href="consultoria-empresarial.html">Consultoria Empresarial</a> </h5>
                     <i class="icofont icofont-link"></i>
@@ -548,7 +550,7 @@
     </section>
     <!-- ====OUR PROJECT END==== -->
     <!-- ====OUR TEAM STAR==== -->
-    <section class="our_team section-padding">
+    <section class="our_team section-padding" data-pgc="our-team">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -613,10 +615,9 @@
                 <figure class="team_member">
                   <img src="img/camila_coelho.jpg" alt="Dra Camila Coelho"/>
                   <figcaption>
-                    <p>Contadora, graduada em Ciências Contábeis pela Unifai/PUC, Especialista em cálculo Trabalhista e Perícia Contábil. Assessora empresas de vários setores, inclusive restaurantes, confeccionando folha de pagamento,
-										cálculos de
-										impostos, fechamento
-										mensal e abertura de empresa.</p>
+                    <p>Contadora, graduada em Ciências Contábeis pela Unifai/PUC, Especialista em cálculo Trabalhista e Perícia Contábil. Assessora empresas de vários setores, inclusive restaurantes, confeccionando folha de pagamento, cálculos de
+                      impostos, fechamento
+                      mensal e abertura de empresa.</p>
                   </figcaption>
                 </figure>
                 <div class="member_des">
@@ -631,7 +632,7 @@
     </section>
     <!-- ====OUR TEAM END==== -->
     <!-- ====OUR TEAM STAR==== -->
-    <section class="our_client section-padding">
+    <section class="our_client section-padding" data-pgc="our-client">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
@@ -643,7 +644,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingOne">
                   <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-										Como saber se estou precisando de um Advogado? <span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span> </a> </h4>
+                      Como saber se estou precisando de um Advogado? <span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span> </a> </h4>
                 </div>
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                   <p class="panel-body text-justify">São diversas as razões e motivos para contratar um advogado ou escritório, e cada caso possui uma urgência distinta.</p>
@@ -651,28 +652,23 @@
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingTwo">
-                  <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">O que devo fazer para contratar um
-										advogado?<span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span></a> </h4>
+                  <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">O que devo fazer para contratar um advogado?<span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span></a> </h4>
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                  <p class="panel-body">A relação entre advogado e cliente é uma relação de confiança. Antes de contratar seu advogado, você deve procurar conhecê-lo, conversar com ele, expor seu caso, entender se pode haver conflito de
-									interesses. </p>
+                  <p class="panel-body">A relação entre advogado e cliente é uma relação de confiança. Antes de contratar seu advogado, você deve procurar conhecê-lo, conversar com ele, expor seu caso, entender se pode haver conflito de interesses. </p>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingThree">
-                  <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Como é a cobrança de
-										honorários?<span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span></a> </h4>
+                  <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Como é a cobrança de honorários?<span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span></a> </h4>
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                  <p class="panel-body">A cobrança de honorários é feita caso a caso. Existem várias formas para se mensurar honorários: por hora, em valor fixo por ação ou mensal, no êxito. Dependerá do tipo de caso e dos custos
-									envolvidos.</p>
+                  <p class="panel-body">A cobrança de honorários é feita caso a caso. Existem várias formas para se mensurar honorários: por hora, em valor fixo por ação ou mensal, no êxito. Dependerá do tipo de caso e dos custos envolvidos.</p>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingfour">
-                  <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">Como faço para contatar o
-										escritório?<span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span></a> </h4>
+                  <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">Como faço para contatar o escritório?<span class="icofont icofont-long-arrow-left floatleft close-icon"></span> <span class="icofont icofont-long-arrow-right floatleft open-icon"></span></a> </h4>
                 </div>
                 <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
                   <p class="panel-body">Você pode nos contatar por telefone, por e-mail, ou deixando um recado aqui no nosso site.</p>
@@ -682,7 +678,7 @@
           </div>
           <div class="col-sm-6 client_bg_padding">
             <div class="section_title">
-              <h6>o que eles dizem</h6>
+              <h6 style="color: #fbf6f6;">o que eles dizem</h6>
               <h2>ELES RECOMENDAM</h2>
             </div>
             <div class="client_slider">
@@ -691,7 +687,7 @@
                 <div class="clint_text">
                   <p>Os melhores profissionais da área que conheço.</p>
                   <h6> <strong>João Vitor</strong>
-									- Proprietário - Cat. A Oficina de Motos</h6>
+                    - Proprietário - Cat. A Oficina de Motos</h6>
                 </div>
               </div>
               <div class="client_says">
@@ -708,7 +704,7 @@
     </section>
     <!-- ====OUR TEAM END==== -->
     <!-- ====OUR CALL BACK==== -->
-    <section class="call_back section-padding">
+    <section class="call_back section-padding" data-pgc="call-back">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -752,8 +748,8 @@
               </div>
             </div>
             <h4 class="date_time"> <strong>
-							SEGUNDA - SEXTA</strong> <span>
-							/ </span> <time datetime="2008-02-14 20:00">
+                SEGUNDA - SEXTA</strong> <span>
+                / </span> <time datetime="2008-02-14 20:00">
                 9:00 - 18:00
 </time> </h4>
           </div>
@@ -762,14 +758,14 @@
     </section>
     <!-- ====OUR CAll END==== -->
     <!-- ====PROMOt2 START==== -->
-    <section class="promot_area2">
+    <section class="promot_area2" data-pgc="promot-area2">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="pro2_text">
               <h3>Temos mais de duas <span>décadas</span>
-							de experiência. Você sempre obtem a <span>melhor</span>
-							orientação.</h3>
+                de experiência. Você sempre obtem a <span>melhor</span>
+                orientação.</h3>
               <p>Somos uma sociedade de advogados que atua nas mais diversas Áreas de Direito.</p>
             </div>
           </div>
@@ -778,7 +774,7 @@
     </section>
     <!-- ====PROMOt2 START==== -->
     <!-- ====BLOG AREA START==== -->
-    <section class="blog_area section-padding">
+    <section class="blog_area section-padding" data-pgc="blog-area">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -792,7 +788,7 @@
           <div class="col-sm-4">
             <div class="single_blog">
               <figure class="blog_item">
-                <img src="img/consumidor_530.jpg" alt="Dicas para o consumidor"/>
+                <img src="https://images.unsplash.com/photo-1521566652839-697aa473761a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=360&h=215&fit=crop" alt="Dicas para o consumidor"/>
                 <div class="blog_text">
                   <h6>Novembro 01, 2019</h6>
                   <h4> <a href="bol-11-2019.html">DICAS PARA O CONSUMIDOR</a> </h4>
@@ -805,7 +801,7 @@
           <div class="col-sm-4">
             <div class="single_blog">
               <figure class="blog_item">
-                <img alt="questoes familiares" src="img/familia_530.jpg"/>
+                <img alt="questoes familiares" src="https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=360&h=215&fit=crop"/>
                 <div class="blog_text">
                   <h6>Setembro 11, 2019</h6>
                   <h4> <a href="bol-09-2019.html">A IMPORTÂNCIA DAS QUESTÕES FAMILIARES NO DIREITO</a> </h4>
@@ -818,7 +814,7 @@
           <div class="col-sm-4">
             <div class="single_blog">
               <figure class="blog_item">
-                <img src="img/direito-medico-530.jpg" alt="direito medico"/>
+                <img src="https://images.unsplash.com/photo-1519494140681-8b17d830a3e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=360&h=215&fit=crop" alt="direito medico"/>
                 <div class="blog_text">
                   <h6>Agosto 08, 2019</h6>
                   <h4> <a href="bol-08-2019.html">a importancia do direito médico</a> </h4>
@@ -839,32 +835,32 @@
           <div class="col-sm-12">
             <div class="partner_slider">
               <div class="single_partner" data-pg-name="ajuda animal">
-                <figure>
+                <figure data-pgc-field="partner-fig-1">
                   <a href="#"><img src="img/ajuda-animal.jpg" alt="logo ajuda animal" width="146" height="90" title="Ajuda Animal"/></a>
                 </figure>
               </div>
               <div class="single_partner" data-pg-name="simplifica assessoria">
-                <figure>
+                <figure data-pgc-field="partner-fig-2">
                   <a href="#"><img src="img/simplifica-assessoria.jpg" alt="logo simplifica assessoria" width="146" height="90" title="Simplifica Assessoria"/></a>
                 </figure>
               </div>
               <div class="single_partner" data-pg-name="ohana coelho">
-                <figure>
+                <figure data-pgc-field="partner-fig-3">
                   <a href="#"><img src="img/ohana-coelho-contabilidade.jpg" alt="logo ohana coelho contabilidade" width="146" height="90" title="Ohana Coelho Contabilidade"/></a>
                 </figure>
               </div>
               <div class="single_partner" data-pg-name="natalia verdi">
-                <figure>
+                <figure data-pgc-field="partner-fig-4">
                   <a href="#"><img src="img/natalia-verdi-advogada.jpg" alt="logo natalia verdi" width="146" height="90" title="Natalia Verdi Advogada"/></a>
                 </figure>
               </div>
               <div class="single_partner" data-pg-name="global compliance">
-                <figure>
+                <figure data-pgc-field="partner-fig-5">
                   <a href="#"><img src="img/global-compliance.jpg" alt="logo global compliance" width="146" height="90" title="Global Compliance"/></a>
                 </figure>
               </div>
               <div class="single_partner" data-pg-name="imaesp">
-                <figure>
+                <figure data-pgc-field="partner-fig-6">
                   <a href="#"><img src="img/imaesp.jpg" alt="logo imaesp" width="146" height="90" title="Imaesp"/></a>
                 </figure>
               </div>
@@ -872,10 +868,23 @@
           </div>
         </div>
       </div>
+      <!--[Pinegrow components saved data - this data is no longer used in the component. We're saving it just in case. Clear this with Components -> Clear saved unused edits]<figure data-pgc-field="partner-fig-1">
+    <a href="#"><img src="img/ajuda-animal.jpg" alt="logo ajuda animal" width="146" height="90" title="Ajuda Animal"/></a>
+</figure><figure data-pgc-field="partner-fig-2">
+    <a href="#"><img src="img/simplifica-assessoria.jpg" alt="logo simplifica assessoria" width="146" height="90" title="Simplifica Assessoria"/></a>
+</figure><figure data-pgc-field="partner-fig-3">
+    <a href="#"><img src="img/ohana-coelho-contabilidade.jpg" alt="logo ohana coelho contabilidade" width="146" height="90" title="Ohana Coelho Contabilidade"/></a>
+</figure><figure data-pgc-field="partner-fig-4">
+    <a href="#"><img src="img/natalia-verdi-advogada.jpg" alt="logo natalia verdi" width="146" height="90" title="Natalia Verdi Advogada"/></a>
+</figure><figure data-pgc-field="partner-fig-5">
+    <a href="#"><img src="img/global-compliance.jpg" alt="logo global compliance" width="146" height="90" title="Global Compliance"/></a>
+</figure><figure data-pgc-field="partner-fig-6">
+    <a href="#"><img src="img/imaesp.jpg" alt="logo imaesp" width="146" height="90" title="Imaesp"/></a>
+</figure>-->
     </div>
     <!-- ====PARTNER AREA END==== -->
     <!-- ====MAP AREA START==== -->
-    <div id="footermap">
+    <section id="footermap" class="map_area" data-pgc="map-area">
       <div class="container-fluid">
         <div class="row">
           <div id="map">
@@ -883,7 +892,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- ====MAP AREA END==== -->
     <!-- ====Footer AREA START==== -->
     <footer class="footer_area" data-pgc="footer-area">
