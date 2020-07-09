@@ -1176,7 +1176,7 @@ figure.blog_item {
   padding-right: 15px; }
 
 figure.blog_item::after {
-  background: rgba(2, 27, 29, 0.72);
+  background: rgba(2, 27, 29, 0.37);
   content: "";
   height: 100%;
   left: 0;
@@ -1200,7 +1200,7 @@ figure.blog_item::after {
   font-size: 12px;
   font-weight: 300;
   line-height: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   font-family: 'Poppins', sans-serif; }
 
 .blog_text > h5 i {
