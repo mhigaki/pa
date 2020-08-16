@@ -426,7 +426,7 @@ nav {
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
-    background: url("img/paralux.jpg");
+    background: url("assets/img/paralux.jpg");
     background-attachment: scroll;
     background-size: cover;
 }
@@ -641,7 +641,7 @@ a.th_bt:hover {
 
 .homePage .about_area::after,
 .home_2 .about_area::after {
-    background-image: url("img/about_bg1.png");
+    background-image: url('assets/img/about_bg1.png');
     background-position: right bottom;
     background-repeat: no-repeat;
     content: "";
@@ -775,7 +775,7 @@ li.info:last-child::after {
 .promot_area {
     padding: 50px 0 52px;
     position: relative;
-    background: url("img/promo_bg_1.jpg");
+    background: url("assets/img/promo_bg_1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -1324,7 +1324,7 @@ h4.date_time time {
 
 .promot_area2 {
     position: relative;
-    background: url("img/pro2_bg.jpg");
+    background: url("assets/img/pro2_bg.jpg");
     background-attachment: fixed;
     background-size: cover;
     padding: 75px 0;
@@ -1497,7 +1497,7 @@ figure.blog_item::after {
 }
 
 footer.footer_area {
-    background: transparent url("img/footer_bg.jpg") no-repeat fixed 0 0/cover;
+    background: transparent url("assets/img/footer_bg.jpg") no-repeat fixed 0 0/cover;
     position: relative;
 }
 
@@ -1801,7 +1801,7 @@ ul.top_contact>li:first-child a {
 }
 
 .breadcrumb_area {
-    background: url("img/promo_bg_1.jpg");
+    background: url("assets/img/promo_bg_1.jpg");
     background-attachment: fixed;
     background-size: cover;
     padding: 70px 0;
@@ -1958,7 +1958,7 @@ ul.top_contact>li:first-child a {
 }
 
 .ab_bg {
-    background: transparent url("img/about_service_bg1.jpg") no-repeat scroll left center/cover;
+    background: transparent url("assets/img/about_service_bg1.jpg") no-repeat scroll left center/cover;
     content: "";
     height: 100%;
     position: absolute;
@@ -1971,7 +1971,7 @@ ul.top_contact>li:first-child a {
 }
 
 .ab_bg1 {
-    background: transparent url("img/ale_tesci.png") no-repeat scroll right center/cover;
+    background: transparent url("assets/img/ale_tesci.png") no-repeat scroll right center/cover;
     content: "";
     position: absolute;
     top: 0;
@@ -2898,7 +2898,7 @@ blockquote p {
 }
 
 .message_area {
-    background-image: url("img/message_bg.jpg");
+    background-image: url("assets/img/message_bg.jpg");
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
@@ -3837,21 +3837,21 @@ blockquote p {
 }
 
 .breadcrumb_area.direito_preventivo {
-    background: url("img/b_preventivo.jpg");
+    background: url("assets/img/b_preventivo.jpg");
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
 }
 
 .breadcrumb_area.direito_imobiliario {
-    background: url("img/b_imobiliario.jpg");
+    background: url("assets/img/b_imobiliario.jpg");
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
 }
 
 .breadcrumb_area.direito_consumidor {
-    background: url("img/b_consumidor1.jpg");
+    background: url("assets/img/b_consumidor1.jpg");
     background-size: cover;
     background-attachment: scroll;
     background-position: center center;
@@ -3870,42 +3870,42 @@ blockquote p {
 }
 
 .breadcrumb_area.consultoria_empresarial {
-    background: url("img/b_consultoria.jpg");
+    background: url("assets/img/b_consultoria.jpg");
     background-size: cover;
     background-attachment: scroll;
     background-position: center center;
 }
 
 .arbitragem.breadcrumb_area {
-    background: url("img/b_arbitragem.jpg");
+    background: url("assets/img/b_arbitragem.jpg");
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
 }
 
 .page_not_found.breadcrumb_area {
-    background: url("img/b_404.jpg");
+    background: url("assets/img/b_404.jpg");
     background-attachment: local;
     background-size: cover;
     background-position: center center;
 }
 
 .area_de_atuacao.breadcrumb_area {
-    background: url("img/b_atuacao.jpg");
+    background: url("assets/img/b_atuacao.jpg");
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
 }
 
 .compliance.breadcrumb_area {
-    background: url("img/b_compliance.jpg");
+    background: url("assets/img/b_compliance.jpg");
     background-size: cover;
     background-attachment: scroll;
     background-position: center center;
 }
 
 .contato.breadcrumb_area {
-    background: url("img/b_contato.jpg");
+    background: url("assets/img/b_contato.jpg");
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
@@ -3914,68 +3914,68 @@ blockquote p {
 .direito_criminal.breadcrumb_area {
     background-attachment: scroll;
     background-size: cover;
-    background: url("img/b_criminal.jpg");
+    background: url("assets/img/b_criminal.jpg");
     background-position: right center;
 }
 
 .direito_familia.breadcrumb_area {
-    background: url("img/b_familia.jpeg");
+    background: url("assets/img/b_familia.jpeg");
     background-position: center center;
     background-attachment: local;
     background-size: cover;
 }
 
 .saude.breadcrumb_area {
-    background: url("img/b_saude.jpg");
+    background: url("assets/img/b_saude.jpg");
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
 }
 
 .trabalho.breadcrumb_area {
-    background: url("img/b_trabalho.jpg");
+    background: url("assets/img/b_trabalho.jpg");
     background-position: right bottom;
     background-size: cover;
     background-attachment: scroll;
 }
 
 .eventos.breadcrumb_area {
-    background: url("img/b_eventos.jpg");
+    background: url("assets/img/b_eventos.jpg");
     background-position: right top;
     background-attachment: scroll;
     background-size: cover;
 }
 
 .mediacao.breadcrumb_area {
-    background: url("img/b_mediacao.jpg");
+    background: url("assets/img/b_mediacao.jpg");
     background-position: center top;
     background-size: cover;
     background-attachment: scroll;
 }
 
 .about.breadcrumb_area {
-    background: url("img/b_quem_somos.jpg");
+    background: url("assets/img/b_quem_somos.jpg");
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
 }
 
 .servicos.breadcrumb_area {
-    background: url("img/b_servicos.jpg");
+    background: url("assets/img/b_servicos.jpg");
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
 }
 
 .partners.breadcrumb_area {
-    background: url("img/b_partners.jpg");
+    background: url("assets/img/b_partners.jpg");
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
 }
 
 .boletins.breadcrumb_area {
-    background: url("img/b_boletins.jpg");
+    background: url("assets/img/b_boletins.jpg");
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
