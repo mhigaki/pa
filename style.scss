@@ -1958,7 +1958,7 @@ ul.top_contact>li:first-child a {
 }
 
 .ab_bg {
-    background: transparent url("assets/img/about_service_bg1.jpg") no-repeat scroll left center/cover;
+    background: transparent url("assets/img/about_service_bg.jpg") no-repeat scroll left center/cover;
     content: "";
     height: 100%;
     position: absolute;
@@ -3987,4 +3987,11 @@ blockquote p {
 
 .our_client .section_title h6 {
     color: #fbf6f6;
+}
+
+.paginationjs {
+    line-height: 1.6;
+    font-family: Marmelad,"Lucida Grande",Arial,"Hiragino Sans GB",Georgia,sans-serif;
+    font-size: 14px;
+    box-sizing: initial;
 }
