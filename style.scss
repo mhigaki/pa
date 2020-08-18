@@ -1437,11 +1437,11 @@ figure.blog_item::after {
     background-color: #2272ac;
     border-radius: 4px;
     color: #fff;
-    display: block;
     height: 40px;
     line-height: 40px;
     text-align: center;
     width: 114px;
+    display: block;
 }
 
 .single_blog:hover .blog_text {
@@ -2180,6 +2180,7 @@ ul.top_contact>li:first-child a {
     color: #8e8e8e;
     line-height: 25px;
     text-align: justify;
+    padding-bottom: 2;
 }
 
 .heightlight_details {
@@ -2660,6 +2661,7 @@ h6.post-title {
 
 .page_no {
     text-align: center;
+    display: block;
 }
 
 .page_no .page-item a.page-link {
@@ -2871,7 +2873,7 @@ blockquote p {
 }
 
 .masonarypage .blog_text {
-    bottom: -146px;
+    bottom: -106px;
     height: auto;
     padding: 25px 20px;
     top: initial;
@@ -3135,7 +3137,7 @@ blockquote p {
     }
 
     .masonarypage .blog_text {
-        bottom: -143px;
+        bottom: -103px;
     }
 
     .contact_page .info_text {
@@ -3375,7 +3377,7 @@ blockquote p {
     }
 
     .masonarypage .blog_text {
-        bottom: -26px;
+        bottom: -36px;
     }
 
     .contact_map_area #map {
@@ -3989,9 +3991,10 @@ blockquote p {
     color: #fbf6f6;
 }
 
-.paginationjs {
-    line-height: 1.6;
-    font-family: Marmelad,"Lucida Grande",Arial,"Hiragino Sans GB",Georgia,sans-serif;
-    font-size: 14px;
-    box-sizing: initial;
+.page {
+    display: none;
+}
+
+.page-active {
+    display: block;
 }

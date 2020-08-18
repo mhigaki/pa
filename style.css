@@ -1222,11 +1222,11 @@ figure.blog_item::after {
   background-color: #2272ac;
   border-radius: 4px;
   color: #fff;
-  display: block;
   height: 40px;
   line-height: 40px;
   text-align: center;
-  width: 114px; }
+  width: 114px;
+  display: block; }
 
 .single_blog:hover .blog_text {
   top: 0; }
@@ -1849,7 +1849,8 @@ ul.top_contact > li:first-child a {
 .service_content_detail > p {
   color: #8e8e8e;
   line-height: 25px;
-  text-align: justify; }
+  text-align: justify;
+  padding-bottom: 2; }
 
 .heightlight_details {
   display: inline-block;
@@ -2252,7 +2253,8 @@ h6.post-title {
   font-size: 10px; }
 
 .page_no {
-  text-align: center; }
+  text-align: center;
+  display: block; }
 
 .page_no .page-item a.page-link {
   color: #2272ac;
@@ -2431,7 +2433,7 @@ blockquote p {
   top: initial; }
 
 .masonarypage .blog_text {
-  bottom: -146px;
+  bottom: -106px;
   height: auto;
   padding: 25px 20px;
   top: initial; }
@@ -2613,7 +2615,7 @@ blockquote p {
   .singleblog_page .blog_text {
     top: 59px; }
   .masonarypage .blog_text {
-    bottom: -143px; }
+    bottom: -103px; }
   .contact_page .info_text {
     padding-left: 26px;
     margin-right: 0; }
@@ -2747,7 +2749,7 @@ blockquote p {
     padding-left: 5px;
     padding-right: 5px; }
   .masonarypage .blog_text {
-    bottom: -26px; }
+    bottom: -36px; }
   .contact_map_area #map {
     height: 250px; } }
 
@@ -3177,9 +3179,8 @@ blockquote p {
 .our_client .section_title h6 {
   color: #fbf6f6; }
 
-.paginationjs {
-  line-height: 1.6;
-  font-family: Marmelad,"Lucida Grande",Arial,"Hiragino Sans GB",Georgia,sans-serif;
-  font-size: 14px;
-  -webkit-box-sizing: initial;
-          box-sizing: initial; }
+.page {
+  display: none; }
+
+.page-active {
+  display: block; }
