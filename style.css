@@ -247,7 +247,7 @@ nav {
   padding-left: 35px; }
 
 .menu > li:first-child > a::after {
-  border-left: 1px solid #ffe396;
+  border-left: 1px solid #ffffff;
   content: "";
   height: 27%;
   left: 45px;
