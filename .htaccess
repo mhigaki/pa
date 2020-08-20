@@ -5,7 +5,7 @@ RewriteCond %{HTTP_HOST} ^paconsultoria.adv.br[nc]
 RewriteRule ^(.*)$ http://www.paconsultoria.adv.br/$1 [r=301,nc]
 
 //Custom 404 errors
-ErrorDocument 404 404.html
+ErrorDocument 404 /empresa/404.html
 
 //Block bad bots
 RewriteEngine On
