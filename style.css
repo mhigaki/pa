@@ -2942,7 +2942,7 @@ blockquote p {
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .container {
-    width: 450px; }
+    width: 550px; }
   .single_counter {
     margin-right: 14px; }
   .project_slider.owl-carousel .owl-item img {
