@@ -31,8 +31,8 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-// $EmailTo = "contato@paconsultoria.adv.br";
-$EmailTo = "milton.higaki@gmail.com";
+$EmailTo = "contato@paconsultoria.adv.br";
+// $EmailTo = "milton.higaki@gmail.com";
 // $EmailTo = "reinaldo.plasma@gmail.com";
 $Subject = "Website - contato";
 
