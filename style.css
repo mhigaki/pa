@@ -854,6 +854,7 @@ figure.team_member > figcaption {
   transform: scale(0); }
 
 figure.team_member::after {
+  /* border-top: 3px solid #ffcb3d */
   content: "";
   height: 3px;
   left: 0;
@@ -863,11 +864,14 @@ figure.team_member::after {
   z-index: -1; }
 
 figure.team_member::before {
+  /* border-bottom: 3px solid #ffcb3d */
+  /* border-left: 3px solid #ffcb3d */
+  /* border-right: 3px solid #ffcb3d */
   content: "";
-  height: 96%;
+  height: 98%;
   left: 0;
   position: absolute;
-  top: 5%;
+  top: -3%;
   width: 100%; }
 
 .team_member p {
@@ -878,7 +882,7 @@ figure.team_member::before {
   text-align: justify; }
 
 .team_member p::before {
-  content: "ï±";
+  content: "";
   font-family: "icofont";
   font-size: 28px;
   left: 22px;
