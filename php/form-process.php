@@ -16,6 +16,13 @@ if (empty($_POST["email"])) {
     $email = $_POST["email"];
 }
 
+// TEL_NUMBER
+if (empty($_POST["tel_cel"])) {
+    $errorMSG .= "Telefone numbers is required ";
+} else {
+    $msg_subject = $_POST["tel_cel"];
+}
+
 // MSG SUBJECT
 if (empty($_POST["msg_subject"])) {
     $errorMSG .= "Subject is required ";
@@ -31,8 +38,8 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-$EmailTo = "contato@paconsultoria.adv.br";
-// $EmailTo = "milton.higaki@gmail.com";
+// $EmailTo = "contato@paconsultoria.adv.br";
+$EmailTo = "milton.higaki@gmail.com";
 // $EmailTo = "reinaldo.plasma@gmail.com";
 $Subject = "Website - contato";
 
@@ -43,6 +50,9 @@ $Body .= $name;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $email;
+$Body .= "\n";
+$Body .= "Telefone: ";
+$Body .= $tel_cel;
 $Body .= "\n";
 $Body .= "Subject: ";
 $Body .= $msg_subject;
