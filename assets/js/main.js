@@ -149,7 +149,7 @@
         items: 1
       },
       600: {
-        items: 3
+        items: 2
       },
       992: {
         items: 4
