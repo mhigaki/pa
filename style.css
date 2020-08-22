@@ -3184,8 +3184,23 @@ blockquote p {
 .our_client .section_title h6 {
   color: #fbf6f6; }
 
-.page {
-  display: none; }
+.boletim_content_detail_1 {
+  /* columns: 2 */
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  padding-top: 10px; }
 
-.page-active {
-  display: block; }
+.boletim_content p {
+  color: #8e8e8e;
+  line-height: 24px;
+  padding-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  direction: ltr; }
+
+.boletim_content_detail_1 h3 {
+  line-height: 30px; }
+
+.boletim_content_detail_1 h4 {
+  padding-bottom: 10px;
+  padding-top: 10px; }

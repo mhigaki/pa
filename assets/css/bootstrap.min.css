@@ -8278,3 +8278,10 @@ button.close {
         display: none !important;
     }
 }
+
+.boletim_content_detail {
+    color: #8e8e8e;
+    line-height: 25px;
+    text-align: justify;
+    padding-bottom: 2;
+}
