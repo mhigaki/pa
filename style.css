@@ -3185,7 +3185,8 @@ blockquote p {
   color: #fbf6f6; }
 
 .boletim_content_detail_1 {
-  /* columns: 2 */
+  -webkit-columns: 2;
+          columns: 2;
   -webkit-column-gap: 50px;
           column-gap: 50px;
   padding-top: 10px; }
