@@ -3033,12 +3033,14 @@ blockquote p {
   text-align: center;
   padding: 20px; }
 
-.sidebar-about p.lead {
+.sidebar-about p {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
-  line-height: 35px;
+  line-height: 25px;
   font-weight: 300;
-  padding: 20px; }
+  padding: 10px;
+  font-size: 20px;
+  text-align: justify; }
 
 .servicepage_heading:hover {
   margin-top: 20px;
