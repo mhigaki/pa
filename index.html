@@ -717,8 +717,8 @@ casamento e pactos antenupciais, contrato de convivência, interdição, tutela 
           <div class="col-sm-6">
             <div class="callback_input">
               <h4>Como podemos te ajudar?</h4>
-              <form action="#">
-                <select class="select_box">
+              <form id="contactForm" class="contact-form">
+                <select class="select_box" id="message">
                   <option>Direito Criminal</option>
                   <option>Direito Preventivo</option>
                   <option>Direito Imobiliário</option>
@@ -727,10 +727,10 @@ casamento e pactos antenupciais, contrato de convivência, interdição, tutela 
                   <option>Direito do Consumidor</option>
                   <option>Direito do Trabalho</option>
                 </select>
-                <input type="text" placeholder="Seu Nome"/>
-                <input type="email" placeholder="Email"/>
-                <input type="text" placeholder="Seu Telefone"/>
-                <button type="submit" name="Enviar">Enviar</button>
+                <input type="text" placeholder="Seu Nome" id="name"/>
+                <input type="email" placeholder="Email" id="email"/>
+                <input type="text" placeholder="Seu Telefone" id="msg_subject"/>
+                <button type="submit" name="contact_submit" id="submit">Enviar</button>
               </form>
             </div>
           </div>
