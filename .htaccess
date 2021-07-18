@@ -95,9 +95,3 @@ ErrorDocument 404 https://paconsultoria.adv.br/empresa/404.html
 </IfModule>
 
 #FIM - COMPACTAÇÃO + CSS/JS + CACHE DO NAVEGADOR
-
-#INICIO - REDIRECT 301 - INSTITUCIONAL
-Redirect 301 /empresa/parceiros/ https://paconsultoria.adv.br/empresa/parceiros.html
-Redirect 301 /empresa/quem-somos/ https://paconsultoria.adv.br/empresa/quem-somos.html
-Redirect 301 /empresa/parceiros/ https://paconsultoria.adv.br/empresa/parceiros.html
-Redirect 301 /area-que-atuamos/compliance/ https://paconsultoria.adv.br/area-que-atuamos/compliance.html
