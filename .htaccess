@@ -1,11 +1,19 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^/?(.*).(php|html|htm)$ /$1 [R=301,L]
 
+</IfModule>
 
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*[^/])$ /$1/ [L,R=301]
+
+</IfModule>
 
 # DO NOT REMOVE THIS LINE AND THE LINES BELLOW UPGRADE_INSECURE_REQUESTS:paconsultoria.adv.br
 Header always set Content-Security-Policy: upgrade-insecure-requests
 # DO NOT REMOVE THIS LINE AND THE LINES BELLOW UPGRADE_INSECURE_REQUESTS:paconsultoria.adv.br
-
-
 
 # DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:paconsultoria.adv.br
 RewriteEngine on
@@ -90,8 +98,6 @@ ErrorDocument 404 https://paconsultoria.adv.br/empresa/404.html
 
 #INICIO - REDIRECT 301 - INSTITUCIONAL
 Redirect 301 /empresa/parceiros/ https://paconsultoria.adv.br/empresa/parceiros.html
-Redirect 301 /boletins/ https://paconsultoria.adv.br/boletins.html
 Redirect 301 /empresa/quem-somos/ https://paconsultoria.adv.br/empresa/quem-somos.html
 Redirect 301 /empresa/parceiros/ https://paconsultoria.adv.br/empresa/parceiros.html
-Redirect 301 /area-que-atuamos/ https://paconsultoria.adv.br/areas-que-atuamos.html
 Redirect 301 /area-que-atuamos/compliance/ https://paconsultoria.adv.br/area-que-atuamos/compliance.html
