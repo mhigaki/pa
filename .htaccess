@@ -16,7 +16,7 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 <IfModule mod_rewrite.c>
 RewriteEngine on
-ErrorDocument 404 /empresa/404.html
+ErrorDocument 404 https://paconsultoria.adv.br/empresa/404.html
 
 </IfModule>
 
@@ -95,4 +95,3 @@ Redirect 301 /empresa/quem-somos/ https://paconsultoria.adv.br/empresa/quem-somo
 Redirect 301 /empresa/parceiros/ https://paconsultoria.adv.br/empresa/parceiros.html
 Redirect 301 /area-que-atuamos/ https://paconsultoria.adv.br/areas-que-atuamos.html
 Redirect 301 /area-que-atuamos/compliance/ https://paconsultoria.adv.br/area-que-atuamos/compliance.html
-Redirect 301 /empresa/404/ https://paconsultoria.adv.br/empresa/404.html
