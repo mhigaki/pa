@@ -116,8 +116,8 @@
               </div>               
               <div class="mainnmenu"> 
                 <nav> 
-                  <ul class="menu" data-pgc="menu-main"> 
-                    <li class="active" data-pgc-field="Home"> <a href="index.html" rel="canonical">Home</a>
+                  <ul class="menu" data-pgc="menu-main" data-pgc-no-update> 
+                    <li class data-pgc-field="Home"> <a href="index.html" rel="canonical">Home</a>
                     </li>                     
                     <li class="class disabled" data-pgc-field="empresa"> <a href="#!">empresa</a> 
                       <ul class="sub_menu"> 
@@ -157,7 +157,7 @@
                     </li>                     
                     <li data-pgc-field="eventos"> <a href="eventos">eventos</a>
                     </li>                     
-                    <li data-pgc-field="contato"> <a href="contato.html">contato</a>
+                    <li data-pgc-field="contato" class="active"> <a href="contato.html">contato</a>
                     </li>                     
                   </ul>                   
                 </nav>                 
@@ -215,7 +215,7 @@
     </header>     
     <!-- ====HEADER END==== -->     
     <!-- ====START BREADCRUMB AREA==== -->     
-    <div class="breadcrumb_area contato"> 
+    <div class="breadcrumb_area contato" data-pgc="breadcrumb" data-pgc-no-update> 
       <div class="container"> 
         <div class="row"> 
           <div class="col-xs-12 col-sm-12 col-md-12"> 
@@ -228,7 +228,7 @@
             </ul>             
           </div>           
         </div>         
-      </div>       
+      </div>
     </div>     
     <div class="message_area section-padding"> 
       <div class="container"> 
@@ -318,18 +318,29 @@
           </div>           
         </div>         
       </div>       
-    </div>     
-    <section class="contact_map_area"> 
-      <div id="ama"> 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.061671778117!2d-46.62073058548028!3d-23.602121068982896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5bb8dfa8490f%3A0xa99de7ae84d37f96!2sR.%20Santa%20Cruz%2C%202105%20-%20Vila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004121-002!5e0!3m2!1spt-BR!2sbr!4v1584552687029!5m2!1spt-BR!2sbr" width="100%" height="400" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>         
-      </div>       
-    </section>     
+    </div>          
     <!-- ====END CONTACT LOCATION AREA==== -->     
     <!-- ====START MESSAGE AREA==== -->     
     <!-- ====END MESSAGE AREA==== -->     
     <!-- ====START FOOTER AREA==== -->     
-    <footer class="footer_area"> 
+    <section id="footermap" class="map_area" data-pgc="map-area"> 
+      <div class="container-fluid"> 
+        <div class="row"> 
+          <div id="map"> 
+            <iframe title="Escritório PA Consultoria" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.061671778117!2d-46.62073058548028!3d-23.602121068982896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5bb8dfa8490f%3A0xa99de7ae84d37f96!2sR.%20Santa%20Cruz%2C%202105%20-%20Vila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004121-002!5e0!3m2!1spt-BR!2sbr!4v1584552687029!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" allowfullscreen="" aria-hidden="true" tabindex="0"></iframe>             
+          </div>           
+        </div>         
+      </div>       
+    </section>
+    <footer class="footer_area" data-pgc="footer-area"> 
       <div class="container"> 
+        <div class="row" data-pgc-field="footer-row-1"> 
+          <div class="col-sm-12"> 
+            <div class="scroll_button"> <i class="icofont icofont-scroll-long-up"></i> 
+              <p> <a>MAPA</a> </p> 
+            </div>             
+          </div>           
+        </div>         
         <div class="row"> 
           <div class="col-sm-3"> 
             <div class="footer_widget"> 
