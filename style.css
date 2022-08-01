@@ -1279,9 +1279,9 @@ footer.footer_area {
   background: transparent url("assets/img/footer_bg.jpg") no-repeat fixed 0 0/cover;
   position: relative; }
 
-.inner_page footer.footer_area {
-  padding-top: 100px; }
-
+/* .inner_page footer.footer_area {
+    padding-top: 100px;
+} */
 footer.footer_area::after {
   background: rgba(2, 27, 39, 0.93) none repeat scroll 0 0;
   content: "";
